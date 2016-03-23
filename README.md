@@ -5,12 +5,12 @@
 - [Reference Platform Home]()
    - Get started here with the Reference Software Platform
 - [RPB 16.03 Highlights]()
-   - Check out some of the highlights for our current release
+   - Highlights for the most current Reference Platform release
 - [Known Issues]()
-   - This list of current bugs and issues is being worked on
+   - Up-to-date list of bugs and issues
 - [Report a bug]()
-   - Learn how to properly report a Reference Platform bug here
+   - Learn how to report a Reference Platform bug
 - [Feedback and Support]()
    - Additional contact information
 - [Kernel Policy]()
-   - For rules on how to contribute
+   - Rules for Reference Platform contributions
