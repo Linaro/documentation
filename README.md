@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Reference Platform Home](Reference-Platform-Home/README.md)
+- [Reference Platform Home](Reference-Platform/README.md)
    - Get started here with the Reference Software Platform
 - [Linaro Home](Linaro/README.md)
-   - Highlights for the most current Reference Platform release
+   - Direct links to the latest versions of the most popular downloads from Linaro
