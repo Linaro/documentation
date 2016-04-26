@@ -41,14 +41,14 @@ Release notes https://git.linaro.org/lng/releases-instructions.git
 
 Repo https://git.linaro.org/kernel/linux-linaro-lng.git
 
-- Latest LSK kernel for which a preempt-rt patch set has been released, plus patches that have not yet been accepted upstream and are relevant to LNG [(linux-linaro-lng-4.1](http://releases.linaro.org/components/kernel/linux-linaro-lng/16.03/linux-linaro-lng-4.1.14-2016.03.tar.bz2))
+- Latest LSK kernel for which a preempt-rt patch set has been released, plus patches that have not yet been accepted upstream and are relevant to LNG ([linux-linaro-lng-4.1](http://releases.linaro.org/components/kernel/linux-linaro-lng/16.03/linux-linaro-lng-4.1.14-2016.03.tar.bz2))
 - Same as linux-linaro-lng-v4.1 but with the preempt-rt patches applied. ([linux-linaro-lng-preempt-rt-4.1](http://releases.linaro.org/components/kernel/linux-linaro-lng/16.03/linux-linaro-lng-preempt-rt-4.1.14-2016.03.tar.bz2))
 
 ***
 
 #### OpenDataPlane
 
-The OpenDataPlane API has three implementations supported directly by LNG
+The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
 - Reusing odp-linux-generic and adding packet_io acceleration via Netmap ([odp-netmap](https://git.linaro.org/lng/odp-netmap.git))
