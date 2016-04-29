@@ -8,7 +8,7 @@
    - How to contribute
 - [Android Open Source Project (AOSP)](AOSP/README.md)
    - How to contribute to both HiKey AOSP and other Linaro builds
-- [Debian Reference Platform Build](DebianRPB/README.md)
+- [Debian Reference Platform Build](Debian/README.md)
    - How to contribute
 - [OpenEmbedded/Yocto Reference Platform Build](OEYocto/README.md)
    - How to contribute
