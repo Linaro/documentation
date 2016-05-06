@@ -6,10 +6,10 @@ For more information about the Reference Software Platform project please watch 
 
 <p align="center">
   <b>Announcements</b><br>
-  <a href="#">[RPB 16.03 Highlights](https://github.com/linaro/documentation/wiki/RPB-16.03-Highlights)</a> |
-  <a href="#">[Known Issues](https://github.com/linaro/documentation/wiki/RPB-16.03-Known-Issues)</a> |
-  <a href="#">[Kernel Roadmap](https://github.com/linaro/documentation/wiki/RP-Kernel-Roadmap)</a> |
-  <a href="#">[RPB 16.06 Status](https://github.com/Linaro/documentation/wiki/RP-16.06-ReleaseStatus)</a>
+  <a href="#">[RPB 16.03 Highlights](Highlights.md)</a> |
+  <a href="#">[Known Issues](Known-Issues.md)</a> |
+  <a href="#">[Kernel Roadmap](Kernel-Roadmap.md)</a> |
+  <a href="#">[RPB 16.06 Status](RPB-future-status.md)</a>
   <br>
 
 ***
@@ -19,8 +19,8 @@ For more information about the Reference Software Platform project please watch 
 Choose Consumer Edition or Enterprise Edition to start setting up your instruction set. Download, build, and install your preferred Reference Platform operating system and/or components. Pre-built images and "build from source" options are available.
 
 #### Reference Software - Consumer Edition
-- [HiKey](https://github.com/linaro/documentation/wiki/Reference-Platform-HiKey-Home)
-- [DragonBoard™ 410c](https://github.com/linaro/documentation/wiki/Reference-Platform-DragonBoard™-410c-Home)
+- [HiKey](ConsumerEdition/HiKey/README.md)
+- [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
 
 #### Reference Software - Enterprise Edition
 - [D02](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-D02-Home)
@@ -35,9 +35,9 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 #### Resources
 
-- [Report a bug](https://github.com/linaro/documentation/wiki/Reference-Platform-bugs)
-- [Feedback and Support](https://github.com/linaro/documentation/wiki/Reference-Platform-Feedback-and-Support)
-- [Kernel Policy](https://github.com/linaro/documentation/wiki/RP-Kernel-Policy)
+- [Report a bug](Report-a-bug.md)
+- [Feedback and Support](Feedback-and-Support.md)
+- [Kernel Policy](KernelPolicy.md)
 
 ***
 
