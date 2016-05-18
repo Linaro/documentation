@@ -15,8 +15,6 @@ Welcome to the official documentation for Linaro and the Reference Software Plat
 
 ## Contribution Policy
 
-# Contribution Policy
-
 This guide is written by the 96Boards team at Linaro with community contributions and links to third-party content.
 
 All documentation in this repository is written by the 96Boards team at Linaro with community contributions and links to third-party content. 96Boards openly welcomes community contributions provided the following Contribution Policy is strictly followed.
