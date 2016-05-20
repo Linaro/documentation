@@ -1,6 +1,6 @@
 # Definitions
 
-This page will bring context to all Linaro and 96Boards terminology.
+Linaro and 96Boards terminology
 
 ## Contents
 
