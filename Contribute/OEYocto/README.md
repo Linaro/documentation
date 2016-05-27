@@ -1,6 +1,6 @@
 # Contributions to OpenEmbedded Reference Platform Build
 
-OpenEmbedded Reference Platform Build layer descriptions and how/where to send patches
+OpenEmbedded Reference Platform Build layer descriptions and how/where to send patches.
 
 ## Layers
 
@@ -36,7 +36,7 @@ https://github.com/96boards/meta-rpb
 
 ###### About
 
-This layer houses many useful, but unmaintained recipes. Since reduction in recipes to the core, meta-oe was created for everything else. There are currently approximately 650 recipes in this layer.
+This layer houses many useful, but sometimes unmaintained recipes. Since the reduction in recipes to the core, meta-oe was created for everything else. There are currently approximately 650 recipes in this layer.
 
 ###### Contribute
 
