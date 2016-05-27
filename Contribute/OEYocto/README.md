@@ -1,6 +1,6 @@
 # Contributions to OpenEmbedded Reference Platform Build
 
-Here you will find out more about the OpenEmbedded Reference Platform Build layers and how/where to send patches.
+OpenEmbedded Reference Platform Build layer descriptions and how/where to send patches
 
 ## Layers
 
@@ -64,7 +64,7 @@ http://lists.openembedded.org/mailman/listinfo/openembedded-devel
 
 ###### About
 
-This is a cross-platform toolkit
+This is a cross-platform toolkit.
 
 ###### Contribute
 
@@ -113,7 +113,7 @@ https://lists.linaro.org/mailman/listinfo/openembedded
 
 ###### About
 
-This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer
+This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer.
 
 ###### Contribute
 
