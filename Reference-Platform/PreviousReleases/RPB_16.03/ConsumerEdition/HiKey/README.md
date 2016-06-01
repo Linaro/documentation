@@ -14,7 +14,7 @@
 |   **CE Debian RPB - 16.03**   |    **CE AOSP RPB - 16.03**  |
 |:-----------------------------:|:---------------------------:|
 |   [Install Instructions](InstallDebianRPB-16.03.md)    |   [Install Instructions](InstallAOSPRPB-16.03.md)  |
-|    <a href="https://github.com/linaro/documentation/wiki/HiKey-RPB-Debian-Build-Source-16.03" target="_blank">Build from source</a>      |    <a href="https://github.com/linaro/documentation/wiki/HiKey-RPB-AOSP-Build-Source-16.03" target="_blank">Build from source</a>    |
+|   [Build from Source](BFSDebianRPB-16.03)      |    [Build from Source](BFSAOSPRPB-16.03)    |
 |       [Known issues](../../Known-Issues.md)        |      [Known issues](../../Known-Issues.md)       |
 |        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.03/CE-Debian-RPB-16.03-HiKey-TestReport.pdf)        |       [Test Report](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/CE-AOSP-RPB-16.03-HiKey-TestReport.pdf)       |
 
