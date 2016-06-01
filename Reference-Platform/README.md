@@ -24,6 +24,7 @@ Choose Consumer Edition or Enterprise Edition to start setting up your instructi
 
 #### Reference Software - Enterprise Edition
 - [D02](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-D02-Home)
+- [D03](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-D03-Home)
 - [Overdrive](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-Overdrive-Home)
 - [Cello](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-Cello-Home)
 - [X-Gene Mustang](https://github.com/linaro/documentation/wiki/Reference-Platform-EE-X-Gene-Mustang-Home)
