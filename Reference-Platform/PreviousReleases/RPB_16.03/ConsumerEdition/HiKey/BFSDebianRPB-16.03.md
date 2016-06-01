@@ -4,7 +4,7 @@
    - Step 3: Export path to cross compiler tool and confirm version
    - Step 5: Set the right kernel .config file
    - Step 6: Build kernel image and debian package
-   - Step 7: Copy Modules](https://github.com/linaro/documentation/wiki/HiKey-RPB-Debian-Build-Source-16.03#step-7-copy-modules)
+   - Step 7: Copy Modules
    - Step 8: Find kernel release string
    - Step 9: Generate modules.dep and map files
    - Step 10: Find DragonBoard™ 410c IP Address
