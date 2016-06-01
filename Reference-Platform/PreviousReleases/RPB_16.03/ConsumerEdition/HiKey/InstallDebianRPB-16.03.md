@@ -45,7 +45,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 
 
-**Make sure fastboot is set up on host computer**
+1. **Make sure fastboot is set up on host computer**
 
 - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
@@ -53,7 +53,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
 
-**Boot HiKey into Fastboot mode using J15 header**
+2. **Boot HiKey into Fastboot mode using J15 header**
 
 - Link pins 1 and 2
 - Link pins 5 and 6
@@ -77,7 +77,7 @@ $ sudo fastboot devices
 
 >Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/wiki/HiKey-Board-Recovery) and return to this step once your board is ready
 
-**Install Operating System update using downloaded files**
+3. **Install Operating System update using downloaded files**
 
 >**NOTE:** the ptable must be flashed first. Wait for a few seconds after the reboot command to allow the bootloader to restart using the new partition table.
 
@@ -88,7 +88,7 @@ $ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
 $ sudo fastboot flash system hikey-jessie_alip_2015MMDD-nnn-Xg.emmc.img
 ```
 
-**Reboot HiKey into new OS**
+4. **Reboot HiKey into new OS**
 
 - Wait untill all files have been flashed onto HiKey board
 - Power down HiKey by unplugging the power adapter
