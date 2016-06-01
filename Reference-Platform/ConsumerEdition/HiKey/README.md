@@ -22,4 +22,4 @@
 
 ***
 
-Access **bootloader** build from source instructions [here](https://github.com/Linaro/documentation/wiki/Reference-Platform-Bootloader-Hikey#building-from-source) 
+Access **bootloader** build from source instructions [here](BuildSourceBL.md) 
