@@ -1,5 +1,11 @@
 # Reference Platform Build - 16.03
 
+<p align="center">
+  <b>Announcements</b><br>
+  <a href="#">[RPB 16.03 Highlights](Highlights.md)</a> |
+  <a href="#">[Known Issues](Known-Issues.md)</a>
+  <br>
+
 #### Reference Software - Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
