@@ -4,6 +4,6 @@ Home to all previous RPB information and images. This documentation will be cons
 
 ***
 
-- [15.10 (Alpha)](15.10/README.md)
-- [15.12](15.12/README.md)
-- [16.03](16.03/README.md)
+- [15.10 (Alpha)](RPB_15.10/README.md)
+- [15.12](RPB_15.12/README.md)
+- [16.03](RPB_16.03/README.md)
