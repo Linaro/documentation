@@ -13,7 +13,7 @@
 
 |   **CE Debian RPB - 16.03**   |    **CE AOSP RPB - 16.03**  |
 |:-----------------------------:|:---------------------------:|
-|    <a href="https://github.com/96boards/documentation/wiki/HiKey-RP-Download#your-build-choice" target="_blank">Install instructions</a>   |   <a href="https://github.com/96boards/documentation/wiki/HiKey-RP-Download#your-build-choice-1" target="_blank">Install instructions</a>  |
+|   [Install Instructions](InstallDebianRPB-16.03.md)    |   [Install Instructions](InstallAOSPRPB-16.03.md)  |
 |    <a href="https://github.com/linaro/documentation/wiki/HiKey-RPB-Debian-Build-Source-16.03" target="_blank">Build from source</a>      |    <a href="https://github.com/linaro/documentation/wiki/HiKey-RPB-AOSP-Build-Source-16.03" target="_blank">Build from source</a>    |
 |       [Known issues](https://github.com/linaro/documentation/wiki/RPB-16.03-Known-Issues#hikey)        |      [Known issues](https://github.com/linaro/documentation/wiki/RPB-16.03-Known-Issues#hikey)       |
 |        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.03/CE-Debian-RPB-16.03-HiKey-TestReport.pdf)        |       [Test Report](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/CE-AOSP-RPB-16.03-HiKey-TestReport.pdf)       |
