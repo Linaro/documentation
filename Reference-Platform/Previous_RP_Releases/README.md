@@ -1,3 +1,0 @@
-# Previous Reference Platform Releases
-
-## Coming Soon...
