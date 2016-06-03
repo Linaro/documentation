@@ -16,7 +16,7 @@ At the time of the 16.03 release, the kernel is based on *4.4.0*.
 
 For future releases we will also have kernel config fragments for key functionality that will make it easier for other projects and distributions to consume.
 
-The Reference Platform kernel will act as an integration point (very similar to linux-next) for various upstream-targeted features and platform-enablement code on the latest kernel. Please read the [kernel policy](../../KernelPolicy) on how this kernel will be maintained. It is not meant to be a stable kernel - the [LSK](https://wiki.linaro.org/LSK) is already available for that.
+The Reference Platform kernel will act as an integration point (very similar to linux-next) for various upstream-targeted features and platform-enablement code on the latest kernel. Please read the [kernel policy](../../KernelPolicy.md) on how this kernel will be maintained. It is not meant to be a stable kernel - the [LSK](https://wiki.linaro.org/LSK) is already available for that.
 
 ### Network Installers
 
@@ -45,7 +45,7 @@ Follow the [instructions](../OpenStack-Liberty.md) on how to install and run Ope
 
 ##### Installation
 
-Follow the [instructions](../ODPI-Hadoop-Installation.md) to install ODPi BigTop Hadoop
+Follow the [instructions](../ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
 
 ##### Setup and Running Hadoop
 
