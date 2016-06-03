@@ -57,7 +57,7 @@ Follow the [instructions](../OpenStack-Liberty.md) on how to install and run Ope
 
 ##### Installation
 
-Follow the [instructions](../ODPI-Hadoop-Installation.md) to install ODPi BigTop Hadoop
+Follow the [instructions](../ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
 
 ##### Setup and Running Hadoop
 
