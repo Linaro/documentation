@@ -40,12 +40,12 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 - [Report a bug](Report-a-bug.md)
 - [Feedback and Support](Feedback-and-Support.md)
 - [Kernel Policy](KernelPolicy.md)
-- [Previous RPB Releases](PreviousReleases/README.md)
 
 ***
 
 <p align="left">
   <b></b>
-  <a href="#">[HOLD1]()</a> |
-  <a href="#">[HOLD2]()</a>
+  <a href="#">[Contribute to RPB](../Contribute/README.md)</a> |
+  <a href="#">[Doc Contribution Policy](../ContributionPolicy.md)</a> |
+  <a href="#">[Previous RPB Releases](PreviousReleases/README.md)</a>
   <br>
