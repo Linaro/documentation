@@ -37,6 +37,119 @@ This method requires the following hardware:
 >Note the location of all downloads, they will be needed once you access your instruction set
 
 ***
-#### Step 4: Choose your host computer to access your instruction set
+#### Step 4: Install Android using Fastboot with Linux host
 
-- [Linux](InstallAOSPRPB-16.03.md)
+This section show how to install the Android operating system to your DragonBoard™ 410c using the fastboot method on a Mac OS X host computer.
+
+1 - **Make sure fastboot is set up on host computer**
+
+- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
+- To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
+
+If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+
+2 - **Connect host computer to DragonBoard™ 410c**
+
+- DragonBoard™ 410c must be powered off (unplugged from power)
+- Make sure microSD card slot on DragonBoard™ 410c is empty
+- S6 switch on DragonBoard™ 410c must be set to ‘0-0-0-0’. All switches should be in “off” position
+- Connect USB to microUSB cable from host computer to DragonBoard™ 410c
+
+3 - **Boot DragonBoard™ 410c into fastboot mode**
+
+**Please read all bullet points before attempting**
+
+- Press and hold the Vol (-) button on the DragonBoard™ 410c, this is the S4 button. DragonBoard™ 410c should still NOT be powered on
+- While holding the Vol (-) button, power on the DragonBoard™ 410c by plugging it in
+- Once DragonBoard™ 410c is plugged into power, release your hold on the Vol (-) button.
+- Board should boot into fastboot mode.
+
+From the connected host machine terminal window, run the following commands:
+
+```shell
+# Check to make sure device is connected and in fastboot mode
+
+fastboot devices
+```
+
+**At this point you should be connected to your DragonBoard™ 410c with a USB to microUSB cable. Your DragonBoard™ 410c should be booted into fastboot mode and ready to be flashed with the appropriate images.**
+
+4 - **Flash Bootloader**
+
+- Use host computer
+- Open "Terminal" application
+- Recall location of Bootloader download.
+- The bootloader file should be named `dragonboard410c_bootloader_emmc_android`
+- `cd` to the directory with your unzipped **Bootloader Folder**
+
+```shell
+cd <extraction directory>
+
+#Example: 
+cd /Users/YourUserName/Downloads
+#<extraction directory> = /Users/YourUserName/Downloads
+#For this example we assume the "Bootloader" is in the Downloads folder.
+
+
+cd <unzipped Bootloader folder>
+
+#Example:
+cd dragonboard410c_bootloader_emmc_android
+#<unzipped Bootloader folder> = dragonboard410c_bootloader_emmc_android
+
+# This command will execute the flashall script within the bootloader folder
+./flashall
+
+```
+
+5 - **Recall location of all downloaded files from downloads page**
+
+This will include the files listed below:
+
+###### Reference Platform files
+
+- boot.img.tar.xz 
+- system.img.tar.xz 
+- userdata.img.tar.xz 
+- cache.img.tar.xz 
+
+6 - **Unzip all files**
+
+7 - **Flash all files to the DragonBoard™ 410c**
+
+- Use host computer
+- Use "Terminal" application
+- Recall location of all extracted(unzipped) files
+- `cd` to the directory with your unzipped files
+- From within extraction directory, execute the following commands:
+
+###### Reference Platform
+
+```shell
+# (Once again) Check to make sure fastboot device connected
+sudo fastboot devices
+
+# cd to the directory the boot image and  were extracted
+$ cd <extraction directory>
+
+# Make sure you have properly unzipped the downloads
+sudo fastboot flash boot boot.img
+sudo fastboot flash system system.img
+sudo fastboot flash userdata userdata.img
+sudo fastboot flash cache cache.img
+```
+
+8 - **Reboot DragonBoard™ 410c**
+
+- Unplug power to DragonBoard™ 410c
+- Unplug micro USB cable from DragonBoard™ 410c
+- Ensure HDMI connection to monitor
+- Ensure keyboard and/or mouse connection (Depending on your rootfs selection)
+- Plug power back into DragonBoard™ 410c
+- Wait for board to boot up
+- Board will boot into Android lock screen.
+
+**Congratulations! You are now booting your newly installed OS directly
+from eMMC on the DragonBoard™ 410c!**
+
