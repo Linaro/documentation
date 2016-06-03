@@ -33,7 +33,7 @@ Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-
 ### Distro Installers
 
 Install instructions for the tested/supported distributions:
-* [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md) - Using the minimum ISO
+* [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md#loading-debian-installer-from-the-minimal-cd) - Using the minimum ISO
 * [CentOS 7](../Install-CentOS-7.md)
 
 #### Other distributions
