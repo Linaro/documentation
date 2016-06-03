@@ -11,8 +11,8 @@
 
 |   **CE Debian RPB - 16.03**   |    **CE AOSP RPB - 16.03**<br>(Developer Preview) |
 |:-----------------------------:|:---------------------------:|
-|    <a href="https://github.com/96boards/documentation/wiki/DragonBoard™-410c-RP-Download#your-build-choice" target="_blank">Install instructions</a>   |   <a href="https://github.com/96boards/documentation/wiki/DragonBoard™-410c-RP-Download#your-build-choice-1" target="_blank">Install instructions</a>  |
+|  [Install Instructions](InstallDebianRPB-16.03.md)     |   [Install Instructions](InstallAOSPRPB-16.03.md)   |
 |    <a href="https://github.com/linaro/documentation/wiki/DragonBoard™-410c-RPB-Debian-Build-Source-16.03" target="_blank">Build from source</a>      |    <a href="https://github.com/Linaro/documentation/wiki/DragonBoard™-410c-RPB-AOSP-Build-Source-16.03" target="_blank">Build from source</a>    |
-|       [Known issues](https://github.com/linaro/documentation/wiki/RPB-16.03-Known-Issues#dragonboard-410c)        |      [Known issues](https://github.com/linaro/documentation/wiki/RPB-16.03-Known-Issues#dragonboard-410c)       |
+|       [Known issues](../../Known-Issues.md)        |      [Known issues](../../Known-Issues.md)       |
 |        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/CE-Debian-RPB-16.03-Dragonboard410c-TestReport.pdf)        |       [Test Report](https://builds.96boards.org/releases/reference-platform/aosp/dragonboard410c/16.03/CE-AOSP-RPB-16.03-DB410c-TestReport.pdf)       |
 
