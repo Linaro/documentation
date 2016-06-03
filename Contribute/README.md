@@ -12,5 +12,5 @@
    - How to contribute
 - [OpenEmbedded/Yocto Reference Platform Build](OEYocto/README.md)
    - How to contribute
-- [Debian/CentOS](DebianCentOS/README.md)
+- [CentOS Reference Platform Build](DebianCentOS/README.md)
    - Learn how to extend installers to support additional platforms
