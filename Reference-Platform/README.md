@@ -45,6 +45,6 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 <p align="left">
   <b></b>
-  <a href="#">[Linaro Wiki](https://github.com/linaro/documentation/wiki/)</a> |
-  <a href="#">[96Boards Wiki](https://github.com/96boards/documentation/wiki/)</a>
+  <a href="#">[HOLD1]()</a> |
+  <a href="#">[HOLD2]()</a>
   <br>
