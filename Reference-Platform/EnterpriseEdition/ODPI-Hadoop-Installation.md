@@ -79,4 +79,4 @@ Usage: hadoop [--config confdir] COMMAND
      
     Most commands print help when invoked w/o parameters.
 
-Next Step: [Setup, Configuration and Running Hadoop](https://github.com/linaro/documentation/wiki/ODPi-BigTop-Hadoop-configuration-and-Running) 
+Next Step: [Setup, Configuration and Running Hadoop](ODPi-BigTop-Hadoop-Config-Run.md) 
