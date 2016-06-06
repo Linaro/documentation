@@ -45,6 +45,7 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - [**APM/HP-m400**](https://goo.gl/5hhs0l)
 - [**D02**](https://goo.gl/P87Q5z)
 - [**D03**](https://goo.gl/LSXpPR)
+- [**Q2432LZB**](https://goo.gl/Q5lIGE)
 
 ##### Out of Scope / Next Release
 
