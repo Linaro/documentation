@@ -1,4 +1,4 @@
-## Installing Debian "Jessie" 8.4
+## Installing Debian "Jessie" 8.5
 
 This guide is not to be a replacement of the official Debian Installer documentation, but instead be a quick walkthrough for the network installer. You can find the original documentation at [https://www.debian.org/releases/jessie/arm64/index.html.en](https://www.debian.org/releases/jessie/arm64/index.html.en)
 
@@ -453,7 +453,7 @@ Download the installer (from jessie):
 
 ```shell
 sudo apt-get build-dep debian-installer
-dget http://ftp.us.debian.org/debian/pool/main/d/debian-installer/debian-installer_20150422+deb8u2.dsc
+dget http://ftp.us.debian.org/debian/pool/main/d/debian-installer/debian-installer_20150422+deb8u4.dsc
 ```
 
 Change the kernel abi and set a default local preseed (so it can install your kernel during the install process):
