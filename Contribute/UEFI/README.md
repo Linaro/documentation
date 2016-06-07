@@ -1,6 +1,6 @@
 # Contributions to UEFI/EDK2 Core code and Open Platform Package
 
-How/where to send Core code and Open Platform Package patches.
+How/where to send UEFI/EDK2 Core code and Open Platform Package patches.
 
 ### Core Code
 
