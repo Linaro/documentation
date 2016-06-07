@@ -46,6 +46,8 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - [**D02**](https://goo.gl/P87Q5z)
 - [**D03**](https://goo.gl/LSXpPR)
 - [**Q2432LZB**](https://goo.gl/Q5lIGE)
+- [**ThunderX**](https://goo.gl/z45Jkk)
+
 
 ##### Out of Scope / Next Release
 
