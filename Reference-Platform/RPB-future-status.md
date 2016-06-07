@@ -40,7 +40,7 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 ##### Bugs per hardware platform:
 
 - [**HiKey**](https://goo.gl/Rlu59c)
-- [**Dragonboard410c**](https://goo.gl/c3K242)
+- [**Dragonboard410c**](https://goo.gl/2rnL8X)
 - [**Cello/Overdrive**](https://goo.gl/CXTDbw)
 - [**APM/HP-m400**](https://goo.gl/5hhs0l)
 - [**D02**](https://goo.gl/P87Q5z)
