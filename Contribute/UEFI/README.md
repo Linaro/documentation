@@ -10,7 +10,7 @@ Submit all patches through the EDK2 Developer Mailing list
 
 https://lists.01.org/mailman/listinfo/edk2-devel
 
-Additional contribution information can be found [here](https://github.com/tianocore/edk2) in each package folder (Contribution.txt)
+> Note: Additional contribution information can be found [here](https://github.com/tianocore/edk2) in each package folder (Contribution.txt)
 
 ***
 
