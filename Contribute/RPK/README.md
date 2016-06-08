@@ -15,7 +15,7 @@ Instructions on how/where to submit patches for the Reference Platfor Kernel
    - Submit through the 96Boards developer Mailing list
    - dev@lists.96boards.org
 
-###### Patch under review - not accepted
+###### Patch under review - not accepted upstream
 
 - If patch is submitted upstream, and under review by a Linux developer:
    - Patch is not yet ready for the RPK
