@@ -1,6 +1,6 @@
 # Reference Platform Kernel
 
-Instructions on how/where to submit patches for the Reference Platfor Kernel
+Instructions on how/where to submit patches for the Reference Platform Kernel
 
 ### Contribute
 
