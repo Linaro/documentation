@@ -1,6 +1,6 @@
 # Reference Platform Kernel
 
-Reference Platform Kernel description and contribution policy. This page will show you how/where to submit patches.
+Instructions on how/where to submit patches for the Reference Platfor Kernel
 
 ###### Contribute
 
