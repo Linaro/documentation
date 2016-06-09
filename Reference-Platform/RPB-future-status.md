@@ -23,19 +23,19 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 
 ### Images
 
-#### Release Candidate 1
+#### Release Candidate 2
 
-- *Reference Platform Kernel:* [4.4.0-125-arm64_4.4.11.linaro.125](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
-- **CentOS Installer (staging):** [11](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/11/)
-- **UEFI/EDK2:** [78](https://builds.96boards.org/snapshots/reference-platform/components/uefi/78/)
-- **Debian Installer (staging):** [100](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/100)
-- **CE Debian RPB (staging) - HiKey:** [98](https://builds.96boards.org/snapshots/reference-platform/debian/98/hikey)
-- **CE Debian RPB (staging) - DB410c:** [98](https://builds.96boards.org/snapshots/reference-platform/debian/98/dragonboard410c)
+- *Reference Platform Kernel:* [4.4.0-128-arm64_4.4.11.linaro.128](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
+- **CentOS Installer (staging):** [15](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/15/)
+- **UEFI/EDK2:** [85](https://builds.96boards.org/snapshots/reference-platform/components/uefi/85/)
+- **Debian Installer (staging):** [121](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/121)
+- **CE Debian RPB (staging) - HiKey:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/hikey)
+- **CE Debian RPB (staging) - DB410c:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/11/dragonboard410c)
 
 ##### Known issues
 
-- D02 is not yet functional, as UEFI-SAS support is still unstable, see bug [2286](https://bugs.linaro.org/show_bug.cgi?id=2286) for more details
-- D03 fails to boot with RC1 Kernel and UEFI, check bug [2296](https://bugs.linaro.org/show_bug.cgi?id=2296) for more details.
+- **APM**, **HP-M400** and **D03** require the user to provide a valid __console__ kernel argument when booting the kernel/installer
+ - For more details, please check bugs [2296](https://bugs.linaro.org/show_bug.cgi?id=2296) and [2290](https://bugs.linaro.org/show_bug.cgi?id=2290)
 
 ##### Bugs per hardware platform:
 
@@ -48,6 +48,14 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - [**Q2432LZB**](https://goo.gl/Q5lIGE)
 - [**ThunderX**](https://goo.gl/z45Jkk)
 
+#### Release Candidate 1
+
+- *Reference Platform Kernel:* [4.4.0-125-arm64_4.4.11.linaro.125](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
+- **CentOS Installer (staging):** [11](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/11/)
+- **UEFI/EDK2:** [78](https://builds.96boards.org/snapshots/reference-platform/components/uefi/78/)
+- **Debian Installer (staging):** [100](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/100)
+- **CE Debian RPB (staging) - HiKey:** [98](https://builds.96boards.org/snapshots/reference-platform/debian/98/hikey)
+- **CE Debian RPB (staging) - DB410c:** [98](https://builds.96boards.org/snapshots/reference-platform/debian/98/dragonboard410c)
 
 ##### Out of Scope / Next Release
 
