@@ -30,7 +30,7 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - **UEFI/EDK2:** [85](https://builds.96boards.org/snapshots/reference-platform/components/uefi/85/)
 - **Debian Installer (staging):** [121](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/121)
 - **CE Debian RPB (staging) - HiKey:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/hikey)
-- **CE Debian RPB (staging) - DB410c:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/11/dragonboard410c)
+- **CE Debian RPB (staging) - DB410c:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/dragonboard410c)
 
 ##### Known issues
 
