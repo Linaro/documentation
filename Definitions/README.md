@@ -6,6 +6,7 @@ Linaro and 96Boards terminology
 
 - [Builds](Builds.md)
    - This list defines the various builds found throughout Linaro and outlines the differences between them (i.e. Member, Linaro, Reference Platform, Community)
-   
+- [Members](Members.md)   
+   - Group members all provide funding for Linaro and engineering assignees
 ***
 
