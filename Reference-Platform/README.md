@@ -7,10 +7,10 @@ For more information about the Reference Software Platform project please watch 
 <p align="center">
   <b>Announcements</b><br>
   <a href="#">[RPB 16.03 Release](PreviousReleases/RPB_16.03/README.md) |
-  <a href="#">[RPB 16.03 Highlights](Highlights.md)</a> |
+  <a href="#">[RPB 16.06 Highlights](Highlights.md)</a> |
   <a href="#">[Known Issues](Known-Issues.md)</a> |
   <a href="#">[Kernel Roadmap](Kernel-Roadmap.md)</a> |
-  <a href="#">[RPB 16.06 Status](RPB-future-status.md)</a>
+  <a href="#">[RPB 16.09 Status](RPB-future-status.md)</a>
   <br>
 
 ***
