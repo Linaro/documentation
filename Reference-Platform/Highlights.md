@@ -1,48 +1,46 @@
-### Highlights for 16.03 release:
+### Highlights for 16.06 release:
 
 ***
 
 ###### Consumer and Enterprise Edition:
 #### Kernel
-- Unified tree shared between the CE and EE builds. Supports Hikey, Dragonboard, D02, APM X-Gene, HP Proliant m400 and AMD Overdrive.
-- 4.4.0 based, including under-review topic branches to extend the hardware support for the platforms available.
-- Device-Tree support for CE; ARM ACPI and PCIe support for Enterprise.
-- Single kernel config for all platforms in arch/arm64/configs/distro.config
-- Single kernel binary (package) for all platforms
+- 1
+- 2
+- 3
 
 ***
 
 ###### Consumer Edition:
 
 #### CE Debian RPB (common):
-- Upgrade to Debian 8.3 "Jessie"
-- Upgrade to the unified 4.4.0 Linux Kernel
-- Upgrade graphics components: Mesa 11.1.2 and Xserver 1.17.3
+- Upgrade to Debian x.x "Jessie"
+- Upgrade to the unified x.x.x Linux Kernel
+- Upgrade graphics components: Mesa x.x.x and Xserver x.x.x
 - Rootfs automatically resized during the first boot
 
 #### CE Debian RPB for DragonBoard™ 410:
-- Freedreno X11 video driver included by default (1.4.0)
+- Freedreno X11 video driver included by default (x.x.x)
 - Analog audio playback and record support
-- Upgrade Qualcomm Firmware Package to 1.2
+- Upgrade Qualcomm Firmware Package to x.x
 
 #### CE Debian RPB for HiKey (CircuitCo & LeMaker):
 - Default Grub 2 boot configuration updated, now supporting kernel package upgrades
 - xserver-xorg-video-armsoc now included by default (still using software rendering, Mali integration expected as part of the next release) 
 
 #### CE AOSP RPB (common):
-- AOSP Android Marshmallow 6.0 (android-6.0.1_r16) 
+- AOSP Android Marshmallow x.x (android-x.x.x_rXX) 
 
 #### CE AOSP RPB for DragonBoard™ 410:
 - Initial build, available as Developer Preview (not suitable for end users).
 - Mesa and Freedreno support
-- Kernel 4.4.0  
+- Kernel x.x.x  
 
 #### CE AOSP RPB for HiKey (CircuitCo & LeMaker):
-- AOSP Android Marshmallow 6.0 (android-6.0.1_r16)
-- 4.1 based kernel 
+- AOSP Android Marshmallow 6.0 (android-x.x.x_rXX)
+- x.x based kernel 
 
 #### CE OE/Yocto RPB:
-- Included the unified 4.4.0 kernel
+- Included the unified x.x.x kernel
 - meta-backports created, to contain backported recipes used by the reference platform
 
 ***
@@ -69,19 +67,19 @@
 #### Network Installers:
 
 - Debian:
-   - Upgrade to Debian 8.3 "Jessie"
-   - Using the unified 4.4.0 kernel
+   - Upgrade to Debian x.x "Jessie"
+   - Using the unified x.x.x kernel
 - CentOS (Now officially supported):
-   - Based on CentOS 7.2 15.11
-   - Using the consolidated 4.4 kernel
+   - Based on CentOS x.x xx.xx
+   - Using the consolidated x.x kernel
 
 #### Enterprise Components:
 
-- Docker 1.9.1
+- Docker x.x.x
 - OpenStack Liberty for Debian Jessie
    - CentOS to be supported as part of the next cycle
 - ODPi based Hadoop
-- Spark 1.6
-- OpenJDK 8 (Linaro 16.03)
+- Spark x.x
+- OpenJDK x (Linaro xx.xx)
 
 ***
