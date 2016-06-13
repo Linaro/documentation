@@ -1,4 +1,4 @@
-## Reference Platform Build - 16.03 Release - Known Issues
+## Reference Platform Build - 16.06 Release - Known Issues
 
 ### Enterprise
 
