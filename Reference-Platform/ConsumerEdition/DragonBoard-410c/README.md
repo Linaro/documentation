@@ -18,7 +18,7 @@
 
 ***
 
-|   **CE Debian RPB - 16.03**   |
+|   **CE OpenEmbedded - 16.03**   |
 |:-----------------------------:|
 |  [Install Instructions](InstallOERPB-16.03.md) |
 |   [Build from Source](BFSOERPB-16.03.md)       |
