@@ -18,7 +18,7 @@ https://lists.01.org/mailman/listinfo/edk2-devel
 
 ###### Contribute
 
-Submit all patches through the Linaro UEDI Mailing list
+Submit all patches through the Linaro UEFI Mailing list
 
 https://lists.linaro.org/mailman/listinfo/linaro-uefi
 
