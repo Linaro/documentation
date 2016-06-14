@@ -1,5 +1,7 @@
 ## Contribute
 
+Learn how to contribute to Linaro and the Reference Software Platform
+
 ***
 
 - [Reference Platform Kernel (RPK)](RPK/README.md)
