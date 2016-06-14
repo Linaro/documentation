@@ -11,5 +11,3 @@
 **96Boards:** 96Boards is the first open hardware specification that provides a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards.  Corporate members of Linaro provide funding and engineers plus direction through various steering committees. Resources are split into semi-autonomous groups with their own members. LCG is one of these groups and its member companies contribute to the development of the 96Boards specification, the maintenance of the 96Boards website and support for the software builds for their compatible boards. LCG membership is required for 96Boards certification.
 
 Because this group is all about ecosystem development and encouraging the production of add-on products, there are also opportunities for companies to participate as partners who engage in board manufacturing, board distribution and/or add-on product distribution and manufacturing.
-
-**:**
