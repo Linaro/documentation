@@ -17,6 +17,20 @@ This layer has been tested with OpenEmbedded Core layer, and is expected to work
 
 The Linux kernel used for the DragonBoard 410c is the Linaro Landing team kernel, e.g. the same kernel used for the Linaro Linux release builds. The graphic stack is based on mesa, using the freedreno driver.
 
+## OE Layers
+
+|   Layer                 |   Description                    |
+|:-----------------------:|:----------------------|
+| OE-Core (Base layer)    | This is the main collaboration point when working on OpenEmbedded projects and is part of the core recipes. The goal of this layer is to have just enough recipes to build a basic system, this means keeping it as small as possible. |
+| Meta-rpb (Distro layer) |   This is a very small layer where the distro configurations live. Currently it houses both Reference Platform Build and Wayland Reference Platform Builds. |
+| Meta-oe                 | This layer houses many useful, but sometimes unmaintained recipes. Since the reduction in recipes to the core, meta-oe was created for everything else. There are currently approximately 650 recipes in this layer. |
+| Meta-browser            | This layer holds the recipes for Firefox and Chromium. Both recipes require a lot of maintenance, because of this a seperate layer was created. |
+| Meta-qt5                | This is a cross-platform toolkit. |
+| Meta-linaro             | This layer is used to get the Linaro toolchain. |
+| Meta-linaro-backports   | This is an experimental layer used to get newer versions into the build which were not part of the release. |
+| Meta-96Boards           | This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer. |
+| Meta-qcom (BSP)         | This is the board support layer for Qualcomm boards. Currently supports IFC6410 and the DragonBoard 410c. |
+
 # Package Dependencies
 
 In order to successfully set up your build environment, you will need to install the following package dependencies.
