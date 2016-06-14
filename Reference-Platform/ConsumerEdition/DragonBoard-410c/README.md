@@ -16,3 +16,9 @@
 |       [Known issues](../../Known-Issues.md)           |      [Known issues](../../Known-Issues.md)            |
 |        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/CE-Debian-RPB-16.03-Dragonboard410c-TestReport.pdf)        |       [Test Report](https://builds.96boards.org/releases/reference-platform/aosp/dragonboard410c/16.03/CE-AOSP-RPB-16.03-DB410c-TestReport.pdf)       |
 
+***
+
+|   **CE Debian RPB - 16.03**   |
+|:-----------------------------:|
+|  [Install Instructions](InstallOERPB-16.03.md) |
+|   [Build from Source](BFSOERPB-16.03.md)       |
