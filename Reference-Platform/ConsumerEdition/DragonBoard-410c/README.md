@@ -1,4 +1,4 @@
-## Reference Platform Build - 16.03
+## Dragonboard™ 410c - Reference Platform Build - 16.03
 
 - **Install Instructions:** For "out-of-box" users. Instructions for installing pre-build Reference Platform images onto your 96Boards.
 - **Build from Source:** For Advanced users. Instructions for building and installing the various Reference Platform components used by Consumer Edition 96Boards.
@@ -7,14 +7,12 @@
 
 ***
 
-#### Dragonboard™ 410c
-
-|   **CE Debian RPB - 16.03**   |    **CE AOSP RPB - 16.03**<br>(Developer Preview) |
-|:-----------------------------:|:---------------------------:|
-|  [Install Instructions](InstallDebianRPB-16.03.md) |   [Install Instructions](InstallAOSPRPB-16.03.md)  |
-|   [Build from Source](BFSDebianRPB-16.03.md)       |   [Build from Source](BFSAOSPRPB-16.03.md)         |
-|       [Known issues](../../Known-Issues.md)           |      [Known issues](../../Known-Issues.md)            |
-|        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/CE-Debian-RPB-16.03-Dragonboard410c-TestReport.pdf)        |       [Test Report](https://builds.96boards.org/releases/reference-platform/aosp/dragonboard410c/16.03/CE-AOSP-RPB-16.03-DB410c-TestReport.pdf)       |
+|   **CE Debian RPB - 16.03**   |
+|:-----------------------------:|
+|  [Install Instructions](InstallDebianRPB-16.03.md) |
+|   [Build from Source](BFSDebianRPB-16.03.md)       |
+|  [Known issues](../../Known-Issues.md)           |
+| [Test Report](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/CE-Debian-RPB-16.03-Dragonboard410c-TestReport.pdf)        |
 
 ***
 
