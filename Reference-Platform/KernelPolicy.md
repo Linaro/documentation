@@ -4,7 +4,7 @@ The reference platform kernel will provide a common tree collecting Linaro-relev
 
 Some reference platforms may choose to add additional, out of tree code that does not meet the requirements for the RPK when building the kernels that they use.
 
-See [Responsibilities](#Responsibilities) on how to get your patches into RPK.
+See [Responsibilities](#responsibilities) on how to get your patches into RPK.
 
 ## Rules
 1. Patches will not break the single multi-platform kernel that is shipped as part of the RP
