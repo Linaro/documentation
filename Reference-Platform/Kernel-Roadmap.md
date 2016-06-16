@@ -35,7 +35,7 @@ FIXME
 
 ## Additional Material
  * [Talk](https://www.youtube.com/watch?v=fW6_eL3U7OQ) about RPK at BKK16 (March 2016)
- * [Patch-acceptance Policy(KernelPolicy.md) for RPK
+ * [Patch-acceptance Policy](KernelPolicy.md) for RPK
 
 ## Communications
  * [Dev](https://lists.96boards.org/mailman/listinfo) mailing list
