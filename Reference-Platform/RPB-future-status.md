@@ -23,14 +23,14 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 
 ### Images
 
-#### Release Candidate 2
+#### Release Candidate 3
 
-- *Reference Platform Kernel:* [4.4.0-128-arm64_4.4.11.linaro.128](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
-- **CentOS Installer (staging):** [15](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/15/)
-- **UEFI/EDK2:** [85](https://builds.96boards.org/snapshots/reference-platform/components/uefi/85/)
-- **Debian Installer (staging):** [121](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/121)
-- **CE Debian RPB (staging) - HiKey:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/hikey)
-- **CE Debian RPB (staging) - DB410c:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/dragonboard410c)
+- *Reference Platform Kernel:* [4.4.0-132-arm64_4.4.11.linaro.132](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- **CentOS Installer:** [46](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/46/)
+- **UEFI/EDK2:** [102](https://builds.96boards.org/snapshots/reference-platform/components/uefi/102/)
+- **Debian Installer:** [240](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/240/)
+- **CE Debian RPB - HiKey:** [117](https://builds.96boards.org/snapshots/reference-platform/debian/117/hikey)
+- **CE Debian RPB - DB410c:** [117](https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c)
 
 ##### Known issues
 
@@ -47,6 +47,15 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - [**D03**](https://goo.gl/LSXpPR)
 - [**Q2432LZB**](https://goo.gl/Q5lIGE)
 - [**ThunderX**](https://goo.gl/z45Jkk)
+
+#### Release Candidate 2
+
+- *Reference Platform Kernel:* [4.4.0-128-arm64_4.4.11.linaro.128](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
+- **CentOS Installer (staging):** [15](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/15/)
+- **UEFI/EDK2:** [85](https://builds.96boards.org/snapshots/reference-platform/components/uefi/85/)
+- **Debian Installer (staging):** [121](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/121)
+- **CE Debian RPB (staging) - HiKey:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/hikey)
+- **CE Debian RPB (staging) - DB410c:** [110](https://builds.96boards.org/snapshots/reference-platform/debian/110/dragonboard410c)
 
 #### Release Candidate 1
 
