@@ -297,8 +297,6 @@ Press 'e' to edit the selected item, or 'c' for a command prompt.
 
 Now just hit enter and wait for the kernel and initrd to load, which automatically loads the installer and provides you the installer console menu, so you can finally install Debian.
 
-**NOTE - Cello Only:** The network driver **r8169** needs an additional module parameter for a functional 64-bit DMA operation ([related kernel change](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4300e8c7f64d95a80ffa7d98d98738f41546bc30)), so please edit your grub boot parameter by pressing _e_ at the selected boot line, and add _r8169.use_dac=1_ in the end of the linux line. To boot, simply press _Control + x_.
-
 You should see the following:
 
 ```shell
