@@ -4,23 +4,21 @@
 
 ### Critical Bug List
 
-As both USB and the PCIe slot are not yet functional (hardware issues), the only way to currently start the installer is via SATA (CD-ROM, or flashed in a SATA disk). Once we get a functional Realtek UEFI driver, it will also be possible to PXE boot the installer.
+As both USB and the PCIe slot are not yet functional (hardware issues), the only way to currently start the installer is via SATA (CD-ROM, or flashed in a SATA disk). Once the Realtek UEFI driver gets integrated as part of OpenPlatformPkg, it will also be possible to PXE boot the installer.
 
-Please also check bugs [2194](https://bugs.linaro.org/show_bug.cgi?id=2194), [2195](https://bugs.linaro.org/show_bug.cgi?id=2195) and  [2196](https://bugs.linaro.org/show_bug.cgi?id=2196) for the known issues.
+Please also check bugs [2194](https://bugs.linaro.org/show_bug.cgi?id=2194), [2195](https://bugs.linaro.org/show_bug.cgi?id=2195) and [2196](https://bugs.linaro.org/show_bug.cgi?id=2196) for the known issues.
 
 ### Boot Firmware
 
-The [UEFI/EDK2 guide for EE](../UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (EDK2).
-
-Since the EDK2 based firmware is not yet public (work in progress), internal access to the tree/binary is required. Email your board point of contact for further information on how to download the required firmware.
+The [UEFI/EDK2 guide for EE](../UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (Tianocore EDK2).
 
 ### Reference Platform Kernel
 
-The Reference Platform kernel used by the enterprise release can be found on [github.com/96boards/linux](https://github.com/96boards/linux/tree/96b/releases/2016.03)
+The Reference Platform kernel used by the enterprise release can be found on [github.com/96boards/linux](https://github.com/96boards/linux/tree/96b/releases/2016.06)
 
-Since we use the same kernel config with all our builds and distributions, it is also available as part of the same kernel tree, and can be found at [arch/arm64/configs/distro.config](https://github.com/96boards/linux/blob/96b/releases/2016.03/arch/arm64/configs/distro.config).
+Since we use the same kernel config with all our builds and distributions, it is also available as part of the same kernel tree, and can be found at [arch/arm64/configs/distro.config](https://github.com/96boards/linux/blob/96b/releases/2016.06/arch/arm64/configs/distro.config).
 
-At the time of the 16.03 release, the kernel is based on *4.4.0*.
+At the time of the 16.06 release, the kernel is based on *4.4.11*.
 
 ### Quick Start
 
