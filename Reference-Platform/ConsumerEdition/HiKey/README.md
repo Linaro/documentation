@@ -1,4 +1,4 @@
-## Reference Platform Build - 16.03
+## Reference Platform Build - 16.06
 
 
 - **Install Instructions:** For "out-of-box" users. Instructions for installing pre-build Reference Platform images onto your 96Boards.
@@ -12,12 +12,12 @@
 
 
 
-|   **CE Debian RPB - 16.03**   |    **CE AOSP RPB - 16.03**  |
+|   **CE Debian RPB - 16.06**   |    **CE AOSP RPB - 16.03**  |
 |:-----------------------------:|:---------------------------:|
 |   [Install Instructions](InstallDebianRPB-16.03.md)    |   [Install Instructions](InstallAOSPRPB-16.03.md)  |
 |  [Build from Source](BFSDebianRPB-16.03.md)        |    [Build from Source](BFSAOSPRPB-16.03.md)    |
 |       [Known issues](../../Known-Issues.md)        |      [Known issues](../../Known-Issues.md)       |
-|        [Test Report](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.03/CE-Debian-RPB-16.03-HiKey-TestReport.pdf)        |       [Test Report](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/CE-AOSP-RPB-16.03-HiKey-TestReport.pdf)       |
+|        Test Report - TBD        |       [Test Report](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/CE-AOSP-RPB-16.03-HiKey-TestReport.pdf)       |
 
 
 ***
