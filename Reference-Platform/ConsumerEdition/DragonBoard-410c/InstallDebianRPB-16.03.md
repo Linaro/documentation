@@ -1,3 +1,5 @@
+# Reference Platform Built - 16.06
+
 [<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />]()
 [<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
 [<img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />]()
@@ -20,14 +22,14 @@ This method requires the following hardware:
 
 ***
 
-#### Step 2: Download Debian Bootloader and Boot file
+#### Step 2: Download Debian Bootloader
 
 - Debian Bootloader ([Direct Download](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip) / <a href="https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/" target="_blank">Build Folder</a> )
-- Debian Boot ([Direct Download](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/dragonboard410c-boot-linux-*.img.gz) / <a href="https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/" target="_blank">Build Folder</a> )
 
-#### Step 3: Download Root File System
+#### Step 3: Download Boot image and Root file system
 
-- Debian Rootfs (Desktop) ([Direct Download](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.03/" target="_blank">Build Folder</a> )
+- Debian Boot ([Direct Download](https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/dragonboard410c-boot-linux-*.img.gz) / <a href="https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/" target="_blank">Build Folder</a> )
+- Debian Rootfs (Desktop) ([Direct Download](https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/" target="_blank">Build Folder</a> )
 
 >Note the location of all downloads, they will be needed once you access your instruction set
 
