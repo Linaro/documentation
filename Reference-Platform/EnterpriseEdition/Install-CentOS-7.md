@@ -15,20 +15,20 @@ wget http://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/BOOTAA64.EFI
 wget http://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/grubaa64.efi
 ```
 
-#### Downloading the CentOS installer from the Reference Platform 16.03 release (4.4.0 RP Kernel):
+#### Downloading the CentOS installer from the Reference Platform 16.06 release (4.4.11 RP Kernel):
 
 ```shell
 mkdir /srv/tftp/centos7
 cd /srv/tftp/centos7
-wget https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/images/pxeboot/vmlinuz
-wget https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/images/pxeboot/initrd.img
+wget https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/images/pxeboot/vmlinuz
+wget https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/images/pxeboot/initrd.img
 ```
 
 Creating the Grub 2 config file (`grub.cfg`):
 
 ```shell
-menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform - 16.03' --class red --class gnu-linux --class gnu --class os {
-    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/ inst.repo=http://mirror.centos.org/altarch/7/os/aarch64/ inst.ks=file:/ks.cfg
+menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform - 16.06' --class red --class gnu-linux --class gnu --class os {
+    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.repo=http://mirror.centos.org/altarch/7/os/aarch64/ inst.ks=file:/ks.cfg
     initrd (tftp)/centos7/initrd.img
 }
 ```
@@ -90,7 +90,7 @@ Press <DEL> or <ESC> to enter setup.
 At this stage you should be able to see the Grub 2 menu, like:
 
 ```shell
-Install CentOS 7 ARM 64-bit - Reference Platform - 16.03
+Install CentOS 7 ARM 64-bit - Reference Platform - 16.06
 .
 Use the  and  keys to change the selection.                       
 Press 'e' to edit the selected item, or 'c' for a command prompt.
@@ -203,8 +203,8 @@ echo linaro | passwd linaro --stdin
 Now back to your tftp server, change the original grub.cfg file adding the location of your kickstart file:
 
 ```shell
-menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform - 16.03' --class red --class gnu-linux --class gnu --class os {
-    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/ inst.ks=http://people.linaro.org/~ricardo.salveti/centos-ks.cfg
+menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform - 16.06' --class red --class gnu-linux --class gnu --class os {
+    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.ks=http://people.linaro.org/~ricardo.salveti/centos-ks.cfg
     initrd (tftp)/centos7/initrd.img
 }
 ```
