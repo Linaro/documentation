@@ -56,7 +56,7 @@ UEFI/EDK2:
 git clone https://github.com/tianocore/edk2.git
 git clone https://git.linaro.org/uefi/OpenPlatformPkg.git
 cd edk2
-git checkout -b stable-baseline d0d34cdf1d2752f0d7c3ca41af7e7ed29c221d11 # revision provided by https://git.linaro.org/uefi/linaro-edk2.git
+git checkout -b stable-baseline 469e1e1e4203b5d369fdce790883cb0aa035a744 # revision provided by https://git.linaro.org/uefi/linaro-edk2.git
 ln -s ../OpenPlatformPkg
 ```
 
@@ -96,18 +96,6 @@ The output files:
 export AARCH64_TOOLCHAIN=GCC49
 export LINARO_EDK2_DIR=${PWD}/edk2
 export UEFI_TOOLS_DIR=${PWD}/uefi-tools
-```
-
-Since D02 support is not yet merged in OpenPlatformPkg, a specific branch needs to be used for it:
-
-```shell
-cd OpenPlatformPkg
-git checkout d02-release
-```
-
-Then just proceed with the build:
-
-```shel
 cd ${LINARO_EDK2_DIR}
 ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG d02
 ```
@@ -116,17 +104,26 @@ The output file:
 
 - `Build/Pv660D02/DEBUG_GCC49/FV/PV660D02.fd`
 
+#### Building UEFI/EDK2 for D03
+
+```shell
+export AARCH64_TOOLCHAIN=GCC49
+export LINARO_EDK2_DIR=${PWD}/edk2
+export UEFI_TOOLS_DIR=${PWD}/uefi-tools
+cd ${LINARO_EDK2_DIR}
+${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG d03
+```
+
+The output file:
+
+- `Build/D03/DEBUG_GCC49/FV/D03.fd`
+
 #### Building UEFI/EDK2 for Overdrive
 
 ```shell
 export AARCH64_TOOLCHAIN=GCC49
 export LINARO_EDK2_DIR=${PWD}/edk2
 export UEFI_TOOLS_DIR=${PWD}/uefi-tools
-```
-
-Since support is now available in the OpenPlatformPkg upstream tree, just proceed with the build:
-
-```shel
 cd ${LINARO_EDK2_DIR}
 ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG overdrive
 ```
@@ -141,11 +138,6 @@ The output file:
 export AARCH64_TOOLCHAIN=GCC49
 export LINARO_EDK2_DIR=${PWD}/edk2
 export UEFI_TOOLS_DIR=${PWD}/uefi-tools
-```
-
-Since support is now available in the OpenPlatformPkg upstream tree, just proceed with the build:
-
-```shel
 cd ${LINARO_EDK2_DIR}
 ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG cello
 ```
