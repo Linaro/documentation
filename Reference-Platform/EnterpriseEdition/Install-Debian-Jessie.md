@@ -20,7 +20,7 @@ Since the kernel, initrd and GRUB 2 is part of the debian-installer tarball (`ne
 ```shell
 sudo su -
 cd /srv/tftp/
-wget https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/netboot.tar.gz
+wget https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/netboot.tar.gz
 tar -zxvf netboot.tar.gz
 ```
 
@@ -44,185 +44,7 @@ You should now have the following file tree structure:
 │       │   │   ├── boot.mod
 │       │   │   ├── btrfs.mod
 │       │   │   ├── bufio.mod
-│       │   │   ├── cat.mod
-│       │   │   ├── cbfs.mod
-│       │   │   ├── chain.mod
-│       │   │   ├── cmdline_cat_test.mod
-│       │   │   ├── cmp.mod
-│       │   │   ├── command.lst
-│       │   │   ├── cpio_be.mod
-│       │   │   ├── cpio.mod
-│       │   │   ├── crc64.mod
-│       │   │   ├── cryptodisk.mod
-│       │   │   ├── crypto.lst
-│       │   │   ├── crypto.mod
-│       │   │   ├── datehook.mod
-│       │   │   ├── date.mod
-│       │   │   ├── datetime.mod
-│       │   │   ├── diskfilter.mod
-│       │   │   ├── disk.mod
-│       │   │   ├── div_test.mod
-│       │   │   ├── dm_nv.mod
-│       │   │   ├── echo.mod
-│       │   │   ├── efifwsetup.mod
-│       │   │   ├── efi_gop.mod
-│       │   │   ├── efinet.mod
-│       │   │   ├── elf.mod
-│       │   │   ├── eval.mod
-│       │   │   ├── exfat.mod
-│       │   │   ├── exfctest.mod
-│       │   │   ├── ext2.mod
-│       │   │   ├── extcmd.mod
-│       │   │   ├── fat.mod
-│       │   │   ├── file.mod
-│       │   │   ├── font.mod
-│       │   │   ├── fs.lst
-│       │   │   ├── gcry_arcfour.mod
-│       │   │   ├── gcry_blowfish.mod
-│       │   │   ├── gcry_camellia.mod
-│       │   │   ├── gcry_cast5.mod
-│       │   │   ├── gcry_crc.mod
-│       │   │   ├── gcry_des.mod
-│       │   │   ├── gcry_dsa.mod
-│       │   │   ├── gcry_idea.mod
-│       │   │   ├── gcry_md4.mod
-│       │   │   ├── gcry_md5.mod
-│       │   │   ├── gcry_rfc2268.mod
-│       │   │   ├── gcry_rijndael.mod
-│       │   │   ├── gcry_rmd160.mod
-│       │   │   ├── gcry_rsa.mod
-│       │   │   ├── gcry_seed.mod
-│       │   │   ├── gcry_serpent.mod
-│       │   │   ├── gcry_sha1.mod
-│       │   │   ├── gcry_sha256.mod
-│       │   │   ├── gcry_sha512.mod
-│       │   │   ├── gcry_tiger.mod
-│       │   │   ├── gcry_twofish.mod
-│       │   │   ├── gcry_whirlpool.mod
-│       │   │   ├── geli.mod
-│       │   │   ├── gettext.mod
-│       │   │   ├── gfxmenu.mod
-│       │   │   ├── gfxterm_background.mod
-│       │   │   ├── gfxterm_menu.mod
-│       │   │   ├── gfxterm.mod
-│       │   │   ├── gptsync.mod
-│       │   │   ├── grub.cfg
-│       │   │   ├── gzio.mod
-│       │   │   ├── halt.mod
-│       │   │   ├── hashsum.mod
-│       │   │   ├── help.mod
-│       │   │   ├── hexdump.mod
-│       │   │   ├── hfs.mod
-│       │   │   ├── hfspluscomp.mod
-│       │   │   ├── hfsplus.mod
-│       │   │   ├── http.mod
-│       │   │   ├── jfs.mod
-│       │   │   ├── jpeg.mod
-│       │   │   ├── keystatus.mod
-│       │   │   ├── ldm.mod
-│       │   │   ├── linux.mod
-│       │   │   ├── loadenv.mod
-│       │   │   ├── loopback.mod
-│       │   │   ├── lsacpi.mod
-│       │   │   ├── lsefimmap.mod
-│       │   │   ├── lsefi.mod
-│       │   │   ├── lsefisystab.mod
-│       │   │   ├── lsmmap.mod
-│       │   │   ├── ls.mod
-│       │   │   ├── lssal.mod
-│       │   │   ├── luks.mod
-│       │   │   ├── lvm.mod
-│       │   │   ├── lzopio.mod
-│       │   │   ├── macbless.mod
-│       │   │   ├── macho.mod
-│       │   │   ├── mdraid09_be.mod
-│       │   │   ├── mdraid09.mod
-│       │   │   ├── mdraid1x.mod
-│       │   │   ├── memrw.mod
-│       │   │   ├── minicmd.mod
-│       │   │   ├── minix2_be.mod
-│       │   │   ├── minix2.mod
-│       │   │   ├── minix3_be.mod
-│       │   │   ├── minix3.mod
-│       │   │   ├── minix_be.mod
-│       │   │   ├── mmap.mod
-│       │   │   ├── moddep.lst
-│       │   │   ├── mpi.mod
-│       │   │   ├── msdospart.mod
-│       │   │   ├── net.mod
-│       │   │   ├── newc.mod
-│       │   │   ├── normal.mod
-│       │   │   ├── ntfscomp.mod
-│       │   │   ├── ntfs.mod
-│       │   │   ├── odc.mod
-│       │   │   ├── offsetio.mod
-│       │   │   ├── part_acorn.mod
-│       │   │   ├── part_amiga.mod
-│       │   │   ├── part_apple.mod
-│       │   │   ├── part_bsd.mod
-│       │   │   ├── part_dfly.mod
-│       │   │   ├── part_dvh.mod
-│       │   │   ├── part_gpt.mod
-│       │   │   ├── partmap.lst
-│       │   │   ├── part_msdos.mod
-│       │   │   ├── part_plan.mod
-│       │   │   ├── part_sun.mod
-│       │   │   ├── part_sunpc.mod
-│       │   │   ├── parttool.lst
-│       │   │   ├── parttool.mod
-│       │   │   ├── password.mod
-│       │   │   ├── password_pbkdf2.mod
-│       │   │   ├── pbkdf2.mod
-│       │   │   ├── pbkdf2_test.mod
-│       │   │   ├── png.mod
-│       │   │   ├── priority_queue.mod
-│       │   │   ├── probe.mod
-│       │   │   ├── procfs.mod
-│       │   │   ├── progress.mod
-│       │   │   ├── raid5rec.mod
-│       │   │   ├── raid6rec.mod
-│       │   │   ├── read.mod
-│       │   │   ├── reboot.mod
-│       │   │   ├── regexp.mod
-│       │   │   ├── reiserfs.mod
-│       │   │   ├── romfs.mod
-│       │   │   ├── scsi.mod
-│       │   │   ├── serial.mod
-│       │   │   ├── setjmp.mod
-│       │   │   ├── setjmp_test.mod
-│       │   │   ├── signature_test.mod
-│       │   │   ├── sleep.mod
-│       │   │   ├── sleep_test.mod
-│       │   │   ├── squash4.mod
-│       │   │   ├── syslinuxcfg.mod
-│       │   │   ├── terminal.lst
-│       │   │   ├── terminal.mod
-│       │   │   ├── terminfo.mod
-│       │   │   ├── test_blockarg.mod
-│       │   │   ├── testload.mod
-│       │   │   ├── test.mod
-│       │   │   ├── testspeed.mod
-│       │   │   ├── tftp.mod
-│       │   │   ├── tga.mod
-│       │   │   ├── time.mod
-│       │   │   ├── trig.mod
-│       │   │   ├── tr.mod
-│       │   │   ├── true.mod
-│       │   │   ├── udf.mod
-│       │   │   ├── ufs1_be.mod
-│       │   │   ├── ufs1.mod
-│       │   │   ├── ufs2.mod
-│       │   │   ├── verify.mod
-│       │   │   ├── video_colors.mod
-│       │   │   ├── video_fb.mod
-│       │   │   ├── videoinfo.mod
-│       │   │   ├── video.lst
-│       │   │   ├── video.mod
-│       │   │   ├── videotest_checksum.mod
-│       │   │   ├── videotest.mod
-│       │   │   ├── xfs.mod
-│       │   │   ├── xnu_uuid.mod
-│       │   │   ├── xnu_uuid_test.mod
+...
 │       │   │   ├── xzio.mod
 │       │   │   └── zfscrypt.mod
 │       │   ├── font.pf2
@@ -245,7 +67,7 @@ Together with the debian-installer netboot files, a minimal ISO is also provided
 Making a bootable SATA disk / USB stick / microSD card (attention to **/dev/sdX**, make sure that it is your target device first):
 
 ```
-wget https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/mini.iso
+wget https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/mini.iso
 sudo cp mini.iso /dev/sdX
 sync
 ```
