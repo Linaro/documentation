@@ -1,3 +1,5 @@
+# Reference Platform Build - 16.06
+
 <img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />
 <img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
 <img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />
@@ -84,7 +86,7 @@ $ sudo fastboot devices
 $ sudo fastboot flash ptable <ptable_FILE_NAME>.img
 $ sudo fastboot reboot
 $ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
-$ sudo fastboot flash system hikey-jessie_alip_2015MMDD-nnn-Xg.emmc.img
+$ sudo fastboot flash system hikey-jessie_alip_YYYYMMDD-nnn-Xg.emmc.img
 ```
 
 4 - **Reboot HiKey into new OS**
