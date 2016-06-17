@@ -25,7 +25,7 @@ UEFI/EDK2 is supported by Overdrive Rev B (with build from source instructions a
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100), but a board like the [SPI Hook](http://www.tincantools.com/SPI_Hook.html) should also be compatible with it (not yet tested).
+Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](http://www.tincantools.com/SPI_Hook.html).
 
 ### Network Installers
 
@@ -35,7 +35,7 @@ Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md)
 * [CentOS 7](../Install-CentOS-7.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.03-TestReport.pdf))
+Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
 
 #### Other distributions
 
