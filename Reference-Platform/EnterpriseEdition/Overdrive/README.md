@@ -8,27 +8,20 @@ The [UEFI/EDK2 guide for EE](../UEFI-EDK2-Guide-EE.md) provides information on h
 
 ### Reference Platform Kernel
 
-The Reference Platform kernel used by the enterprise release can be found on [github.com/96boards/linux](https://github.com/96boards/linux/tree/96b/releases/2016.03)
+The Reference Platform kernel used by the enterprise release can be found on [github.com/96boards/linux](https://github.com/96boards/linux/tree/96b/releases/2016.06)
 
 Since we use the same kernel config with all our builds and distributions, it is also available as part of the same kernel tree, and can be found at [arch/arm64/configs/distro.config](https://github.com/96boards/linux/blob/96b/releases/2016.03/arch/arm64/configs/distro.config).
 
-At the time of the 16.03 release, the kernel is based on *4.4.0*.
-
-For future releases we will also have kernel config fragments for key functionality that will make it easier for other projects and distributions to consume.
-
-The Reference Platform kernel will act as an integration point (very similar to linux-next) for various upstream-targeted features and platform-enablement code on the latest kernel. Please read the [kernel policy](../../KernelPolicy.md) on how this kernel will be maintained. It is not meant to be a stable kernel - the [LSK](https://wiki.linaro.org/LSK) is already available for that.
+At the time of the 16.06 release, the kernel is based on *4.4.11*.
 
 ### Quick Start
 
 #### AMD Overdrive
 
-Since the EDK2 based firmware is not yet supported (work in progress), the original AMI BIOS based firmware from AMD is required.
+UEFI/EDK2 is supported by Overdrive Rev B (with build from source instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#building), and since ACPI support is new, please make sure you are using the latest firmware available at [https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/overdrive/](https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/overdrive) before proceeding with kernel testing or installing your favorite distribution (and please make sure to report your firmware version when reporting issues and bugs).
 
-At the time of the 16.03 release the latest firmware version for Overdrive (*B0*) is 1.0.0.1. Latest for *rev A* is still 0.0.7.4.
+**NOTE:** 16.06 kernel **requires** the 16.06 UEFI/EDK2 firmware release!
 
-*A* and *B0* are both supported by the 16.03 release (`A` requires an external PCIe NIC)
-
-After flashing/updating the firmware, proceed to the network installer instructions in order to install your favorite distribution. No special setup is required for Overdrive.
 
 ##### Flashing the firmware
 
