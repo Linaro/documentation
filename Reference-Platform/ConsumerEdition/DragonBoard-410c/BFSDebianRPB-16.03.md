@@ -12,8 +12,8 @@
    - Step 9: Generate modules.dep and map files
    - Step 10: Find DragonBoard™ 410c IP Address
    - Step 11: Transfer the modules to the target DragonBoard™ 410c
-   - [Step 12: Generate the initramfs
-   - [Step 13: Create the device tree image and boot image
+   - Step 12: Generate the initramfs
+   - Step 13: Create the device tree image and boot image
 - Customize Bootloader
 - Build Rootfs from source
 
