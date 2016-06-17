@@ -1,4 +1,4 @@
-## Debian RPB 16.03 - Build from Source
+## Debian RPB 16.06 - Build from Source
 
 - Building Linux Kernel from Source
    - Step 1: Setting up your environment on your host computer 
@@ -25,7 +25,8 @@ The Linux kernel used in this release is available via tags in the git [reposito
 
 ```shell
 git: https://github.com/96boards/linux
-tag: 96b-kernelci
+Dynamic tag: 96b-kernelci
+Fixed tag: 96b/releases/2016.06
 defconfig: arch/arm64/defconfig kernel/configs/distro.config
 ```
 
@@ -45,8 +46,8 @@ To build the Linux kernel, you can use the following instructions:
 $ cd ~/Desktop
 
 #Example of relevant folder
-$ mkdir DB410c-16.03
-$ cd DB410c-16.03
+$ mkdir DB410c-16.06
+$ cd DB410c-16.06
 ```
 
 #### Step 2: Download the Linaro cross compiler toolchain and Skales Tool
