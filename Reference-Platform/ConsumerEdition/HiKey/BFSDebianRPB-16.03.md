@@ -1,4 +1,4 @@
-## Debian RPB 16.03 - Build from Source
+## Debian RPB 16.06 - Build from Source
 
 - Building Linux Kernel from Source
    - Step 1: Setting up your environment on your host computer 
@@ -25,7 +25,7 @@ The Linux kernel used in this release is available via tags in the git [reposito
 ```shell
 git: https://github.com/96boards/linux
 Dynamic tag: 96b-kernelci
-Fixed tag: 96b/releases/2016.03
+Fixed tag: 96b/releases/2016.06
 defconfig: arch/arm64/configs/distro.config
 ```
 
@@ -45,8 +45,8 @@ To build the Linux kernel, you can use the following instructions:
 $ cd ~/Desktop
 
 #Example of relevant folder
-$ mkdir HiKey-16.03
-$ cd HiKey-16.03
+$ mkdir HiKey-16.06
+$ cd HiKey-16.06
 ```
 
 #### Step 2: Step 2: Download the Linaro cross compiler toolchain
@@ -69,7 +69,7 @@ $ tar -Jxvf gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz
 
 ```shell
 #Create path
-$ export PATH=~/Desktop/HiKey-16.03/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu/bin/:$PATH
+$ export PATH=~/Desktop/HiKey-16.06/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu/bin/:$PATH
 #Check version
 $ aarch64-linux-gnu-gcc --version
 aarch64-linux-gnu-gcc (Linaro GCC 5.3-2016.02) 5.3.1 20160113
@@ -82,10 +82,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 - **96b-kernelci** is the development branch
 - This branch will have the latest changes
-- Use **96b/releases/2016.03** if you want the same version used by the 16.03 release
+- Use **96b/releases/2016.06** if you want the same version used by the 16.06 release
 
 ```shell
-$ git clone -b 96b/releases/2016.03 http://github.com/96boards/linux.git
+$ git clone -b 96b/releases/2016.06 http://github.com/96boards/linux.git
 ```
 
 - Cloning the kernel may take a few minutes
@@ -152,7 +152,7 @@ Congratulations! Your new kernel is now ready to be used by your HiKey.
 
 ### Boot Loader
 
-Please see [https://github.com/linaro/documentation/wiki/Reference-Platform-Bootloader-Hikey#building-from-source](https://github.com/linaro/documentation/wiki/Reference-Platform-Bootloader-Hikey#building-from-source) for instructions on how to built the boot loader from source.
+Please see go [here](BuildSourceBL.md) for instructions on how to built the boot loader from source.
 
 #### How to get and customize Debian packages source code
 
