@@ -8,7 +8,7 @@ For more information about the Reference Software Platform project please watch 
 
 <p align="center">
   <b>Announcements</b><br>
-  <a href="#">[RPB 16.03 Release](PreviousReleases/RPB_16.03/README.md) |
+  <a href="#">[Previous RPB Releases](PreviousReleases/README.md)</a> |
   <a href="#">[RPB 16.06 Highlights](Highlights.md)</a> |
   <a href="#">[Known Issues](Known-Issues.md)</a> |
   <a href="#">[Kernel Roadmap](Kernel-Roadmap.md)</a> |
@@ -52,5 +52,4 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
   <b></b>
   <a href="#">[Contribute to RPB](../Contribute/README.md)</a> |
   <a href="#">[Doc Contribution Policy](../ContributionPolicy.md)</a> |
-  <a href="#">[Previous RPB Releases](PreviousReleases/README.md)</a>
   <br>
