@@ -17,7 +17,7 @@ For more information about the Reference Software Platform project please watch 
 
 ***
 
-### Official Reference Platform
+## Official Reference Platform
 
 Choose Consumer Edition or Enterprise Edition to start setting up your instruction set. Download, build, and install your preferred Reference Platform operating system and/or components. Pre-built images and "build from source" options are available.
 
@@ -32,7 +32,7 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 ***
 
-### Test Reference Platform
+## Test Reference Platform
 
 #### Reference Software - Consumer Edition
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
