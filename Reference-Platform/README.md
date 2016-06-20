@@ -38,13 +38,13 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
 
 #### Reference Software - Enterprise Edition
-- [D02](TestEE/D02/README.md)
-- [D03](TestEE/D03/README.md)
-- [AMD Overdrive](TestEE/Overdrive/README.md)
-- [X-Gene Mustang](TestEE/X-Gene-Mustang/README.md)
-- [HP ProLiant m400](TestEE/HP-ProLiant-m400/README.md)
-- [Cavium Thunder X](TestEE/ThunderX/README.md)
-- [Qualcomm Q2432LZB](TestEE/Q2432LZB/README.md)
+- [D02](EnterpriseEdition/D02/README.md)
+- [D03](EnterpriseEdition/D03/README.md)
+- [AMD Overdrive](EnterpriseEdition/Overdrive/README.md)
+- [X-Gene Mustang](EnterpriseEdition/X-Gene-Mustang/README.md)
+- [HP ProLiant m400](EnterpriseEdition/HP-ProLiant-m400/README.md)
+- [Cavium Thunder X](EnterpriseEdition/ThunderX/README.md)
+- [Qualcomm Q2432LZB](EnterpriseEdition/Q2432LZB/README.md)
 
 Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
 
