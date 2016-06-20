@@ -17,37 +17,12 @@ For more information about the Reference Software Platform project please watch 
 
 ***
 
-## Official Reference Platform
+## QuickStart
 
-Choose Consumer Edition or Enterprise Edition to start setting up your instruction set. Download, build, and install your preferred Reference Platform operating system and/or components. Pre-built images and "build from source" options are available.
+#### Reference Software
 
-#### Consumer Edition
-- [HiKey](ConsumerEdition/HiKey/README.md)
-
-#### Enterprise Edition
-- [LeMaker Cello](EnterpriseEdition/Cello/README.md)
-
-
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
-
-***
-
-## Test Reference Platform
-
-#### Consumer Edition
-- [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
-
-#### Enterprise Edition
-- [D02](EnterpriseEdition/D02/README.md)
-- [D03](EnterpriseEdition/D03/README.md)
-- [AMD Overdrive](EnterpriseEdition/Overdrive/README.md)
-- [X-Gene Mustang](EnterpriseEdition/X-Gene-Mustang/README.md)
-- [HP ProLiant m400](EnterpriseEdition/HP-ProLiant-m400/README.md)
-- [Cavium Thunder X](EnterpriseEdition/ThunderX/README.md)
-- [Qualcomm Q2432LZB](EnterpriseEdition/Q2432LZB/README.md)
-
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
-
+- [Official](RPOfficial/README.md)
+- [Test](RPTest/README.md)
 
 ***
 
