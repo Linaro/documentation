@@ -16,15 +16,6 @@
 
 ***
 
-|    **CE AOSP RPB - 16.03**<br>(Developer Preview) |
-|:---------------------------:|
-|   [Install Instructions](InstallAOSPRPB-16.03.md)  |
-|   [Build from Source](BFSAOSPRPB-16.03.md)         |
-|      [Known issues](../../Known-Issues.md)            |
-|   [Test Report](https://builds.96boards.org/releases/reference-platform/aosp/dragonboard410c/16.03/CE-AOSP-RPB-16.03-DB410c-TestReport.pdf)       |
-
-***
-
 |   **CE OpenEmbedded - 16.03**   |
 |:-----------------------------:|
 |  [Install Instructions](InstallOERPB-16.03.md) |
