@@ -4,7 +4,7 @@
 
 ### Boot Firmware
 
-The [UEFI/EDK2 guide for EE](../UEFI-EDK2-Guide-EE.md) provides information about building and flashing the boot firmware for D02.
+The [UEFI/EDK2 guide for EE](../../../EECommon/UEFI-EDK2-Guide-EE.md) provides information about building and flashing the boot firmware for D02.
 
 ### Reference Platform Kernel
 
@@ -18,21 +18,21 @@ At the time of the 16.06 release, the kernel is based on *4.4.11*.
 
 #### D02 - QuickStart
 
-UEFI/EDK2 is supported by D02 (with build from source instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#building), and since ACPI support is new, please make sure you are using the latest firmware available at [https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/d02/](https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/d02/) before proceeding with kernel testing or installing your favorite distribution (and please make sure to report your firmware version when reporting issues and bugs).
+UEFI/EDK2 is supported by D02 (with build from source instructions available as part of the [UEFI EDK2 Guide](../../../EECommon/UEFI-EDK2-Guide-EE.md#building), and since ACPI support is new, please make sure you are using the latest firmware available at [https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/d02/](https://builds.96boards.org/releases/reference-platform/components/uefi/16.06/release/d02/) before proceeding with kernel testing or installing your favorite distribution (and please make sure to report your firmware version when reporting issues and bugs).
 
 **NOTE:** 16.06 kernel **requires** the 16.06 UEFI/EDK2 firmware release!
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#d02) in order to flash your D02. The tested flashing process only requires access to a TFTP server, since the firmware supports fetching the firmware from the network.
+Follow the instructions available as part of the [UEFI EDK2 Guide](../../../EECommon/UEFI-EDK2-Guide-EE.md#d02) in order to flash your D02. The tested flashing process only requires access to a TFTP server, since the firmware supports fetching the firmware from the network.
 
 ### Network Installers
 
-In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
+In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../../../EECommon/DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
 
 Install instructions for the tested/supported distributions:
-* [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md)
-* [CentOS 7](../Install-CentOS-7.md)
+* [Debian 8.x 'Jessie'](../../../EECommon/Install-Debian-Jessie.md)
+* [CentOS 7](../../../EECommon/Install-CentOS-7.md)
 
 Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
 
@@ -47,14 +47,14 @@ Extra resources for other distributions:
 
 #### OpenStack
 
-Follow the [instructions](../OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
+Follow the [instructions](../../../EECommon/OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
 
 #### Hadoop (ODPi BigTop)
 
 ##### Installation
 
-Follow the [instructions](../ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
+Follow the [instructions](../../../EECommon/ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
 
 ##### Setup and Running Hadoop
 
-Follow the [instructions](../ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
+Follow the [instructions](../../../EECommon/ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
