@@ -10,7 +10,7 @@ Please also check bugs [2194](https://bugs.linaro.org/show_bug.cgi?id=2194), [21
 
 ### Boot Firmware
 
-The [UEFI/EDK2 guide for EE](../../../EECommon/UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (Tianocore EDK2).
+The [UEFI/EDK2 guide for EE](../../EECommon/UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (Tianocore EDK2).
 
 ### Reference Platform Kernel
 
