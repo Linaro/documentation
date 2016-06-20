@@ -21,10 +21,10 @@ For more information about the Reference Software Platform project please watch 
 
 Choose Consumer Edition or Enterprise Edition to start setting up your instruction set. Download, build, and install your preferred Reference Platform operating system and/or components. Pre-built images and "build from source" options are available.
 
-#### Reference Software - Consumer Edition
+#### Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
 
-#### Reference Software - Enterprise Edition
+#### Enterprise Edition
 - [LeMaker Cello](EnterpriseEdition/Cello/README.md)
 
 
@@ -34,10 +34,10 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 ## Test Reference Platform
 
-#### Reference Software - Consumer Edition
+#### Consumer Edition
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
 
-#### Reference Software - Enterprise Edition
+#### Enterprise Edition
 - [D02](EnterpriseEdition/D02/README.md)
 - [D03](EnterpriseEdition/D03/README.md)
 - [AMD Overdrive](EnterpriseEdition/Overdrive/README.md)
