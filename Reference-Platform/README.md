@@ -17,8 +17,6 @@ For more information about the Reference Software Platform project please watch 
 
 ***
 
-## QuickStart
-
 ### Official Reference Platform
 
 Choose Consumer Edition or Enterprise Edition to start setting up your instruction set. Download, build, and install your preferred Reference Platform operating system and/or components. Pre-built images and "build from source" options are available.
