@@ -1,4 +1,4 @@
-# Official - Reference Software Platform
+# Reference Hardware Platform
 
 <p align="center">
   <b>Announcements</b><br>
