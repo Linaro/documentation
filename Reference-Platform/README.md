@@ -22,7 +22,7 @@ For more information about the Reference Software Platform project please watch 
 - [Reference Hardware Platforms](RPOfficial/README.md)
    - List of CE and EE boards which have been officially accepted into the Reference Platform.
 - [Other Test Platforms](RPTest/README.md)
-   - Other member hardware that the release was tested on.
+   - Other member hardware being used to test the Reference Platform
 
 ***
 
