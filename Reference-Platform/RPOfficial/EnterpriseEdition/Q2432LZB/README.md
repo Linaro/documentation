@@ -16,7 +16,7 @@ At the time of the 16.06 release, the kernel is based on *4.4.11*.
 
 ### Network Installers
 
-In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
+In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../../../EECommon/DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
 
 Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md)
