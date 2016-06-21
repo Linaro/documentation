@@ -1,4 +1,4 @@
-# Reference Hardware Platform
+# Reference Hardware Platforms
 
 <p align="center">
   <b>Announcements</b><br>
