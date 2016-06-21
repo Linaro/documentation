@@ -16,7 +16,7 @@
 |:-----------------------------:|:---------------------------:|
 |   [Install Instructions](InstallDebianRPB-16.06.md)    |  [Install Instructions](https://source.android.com/source/devices.html) |
 |  [Build from Source](BFSDebianRPB-16.06.md)        |    [Build from Source](https://source.android.com/source/devices.html)    |
-|       [Known issues](../../Known-Issues.md)        |      [Known issues](../../Known-Issues.md)       |
+|       [Known issues](../../../Known-Issues.md)        |      [Known issues](../../../Known-Issues.md)       |
 |        Test Report - TBD        |      Test Report - TBD       |
 
 
