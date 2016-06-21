@@ -1,4 +1,4 @@
-# Test - Reference Software Platform
+# Other Test Platforms
 
 <p align="center">
   <b>Announcements</b><br>
