@@ -11,7 +11,7 @@
 |:-----------------------------:|
 |  [Install Instructions](InstallDebianRPB-16.06.md) |
 |   [Build from Source](BFSDebianRPB-16.06.md)       |
-|  [Known issues](../../Known-Issues.md)           |
+|  [Known issues](../../../Known-Issues.md)           |
 | Test Report - TBD        |
 
 ***
