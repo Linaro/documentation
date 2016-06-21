@@ -12,12 +12,12 @@
 
 
 
-|   **CE Debian RPB - 16.06**   |    **CE AOSP RPB - 16.03**  |
+|   **CE Debian RPB - 16.06**   |    **CE AOSP RPB - 16.06**  |
 |:-----------------------------:|:---------------------------:|
-|   [Install Instructions](InstallDebianRPB-16.06.md)    |   [Install Instructions](InstallAOSPRPB-16.03.md)  |
-|  [Build from Source](BFSDebianRPB-16.06.md)        |    [Build from Source](BFSAOSPRPB-16.03.md)    |
+|   [Install Instructions](InstallDebianRPB-16.06.md)    |  [Install Instructions](https://source.android.com/source/devices.html) |
+|  [Build from Source](BFSDebianRPB-16.06.md)        |    [Build from Source](https://source.android.com/source/devices.html)    |
 |       [Known issues](../../Known-Issues.md)        |      [Known issues](../../Known-Issues.md)       |
-|        Test Report - TBD        |       [Test Report](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/CE-AOSP-RPB-16.03-HiKey-TestReport.pdf)       |
+|        Test Report - TBD        |      Test Report - TBD       |
 
 
 ***
