@@ -22,7 +22,7 @@ For more information about the Reference Software Platform project please watch 
 - [Official Platform](RPOfficial/README.md)
    - List of CE and EE boards which have been officially accepted into the Reference Platform.
 - [Test Platform](RPTest/README.md)
-   - List of CE and EE boards which are currently being tested under the Reference Platform. Limited support.
+   - List of CE and EE boards which are currently being tested under the Reference Platform with limited support.
 
 ***
 
