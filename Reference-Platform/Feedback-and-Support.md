@@ -1,3 +1,5 @@
+# Feedback and Support
+
 - [**96boards.org Community forum**](https://www.96boards.org/forums/)
    - For general questions or support requests
 
