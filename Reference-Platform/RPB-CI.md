@@ -1,4 +1,4 @@
-## Reference Software Platform - CI
+# Reference Software Platform - CI
 
 List of current CI jobs ([ci.linaro.org](https://ci.linaro.org/)) which are maintained as part of the Reference Software Platform lead project.
 
