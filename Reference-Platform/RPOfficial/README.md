@@ -1,7 +1,7 @@
 # Reference Hardware Platforms
 
 <p align="center">
-  <b></b><br>
+  <b></b>
   <a href="#">[Previous RPB Releases](../PreviousReleases/README.md)</a> |
   <a href="#">[RPB 16.06 Highlights](../Highlights.md)</a> |
   <a href="#">[Known Issues](../Known-Issues.md)</a> |
