@@ -7,7 +7,7 @@ The Reference Software Platform Lead Project is part of the Linaro 96Boards init
 For more information about the Reference Software Platform project please watch this video from Linaro Connect (SFO15)
 
 <p align="center">
-  <b></b><br>
+  <b></b>
   <a href="#">[Previous RPB Releases](PreviousReleases/README.md)</a> |
   <a href="#">[RPB 16.06 Highlights](Highlights.md)</a> |
   <a href="#">[Known Issues](Known-Issues.md)</a> |
