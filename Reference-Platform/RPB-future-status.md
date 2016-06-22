@@ -15,7 +15,7 @@ Schedule for the Core, CE Debian, CE AOSP and Enterprise deliverables:
  - May 31th
  - June 7th
  - June 14th
-- **Final Release:** June 21th
+- **Final Release:** June 30th
 
 ### Release Backlog
 
