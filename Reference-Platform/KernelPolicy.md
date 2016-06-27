@@ -22,6 +22,9 @@ See [Responsibilities](#responsibilities) on how to get your patches into RPK.
 ### Linaro Enterprise Group (LEG)
  LEG members will submit their kernel topics to LEG for inclusion.  These will then be integrated into a branch by the LEG kernel maintainer for inclusion into the RPK.
 
+### Security Working Group (SWG)
+ SWG will provide an OP-TEE branch for inclusion in the RPK until it is integrated upstream.
+
 ### Hardware enablement
  Basic support for new platforms should already exist in mainline before it'll be enabled in RPK. Additional features that are actively being worked on upstream may be submitted via the relevant landing team or platform maintainer for inclusion into RPK.
 
