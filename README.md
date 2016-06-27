@@ -10,7 +10,7 @@ Welcome to the official documentation for Linaro and the Reference Software Plat
    - See whats new with Linaro
 - [Definitions](Definitions/README.md)
    - Linaro and 96Boards terminology
-- [Contribute to the Reference Platform](Contribute/README.md)
+- [Contribute to the Reference Platform](Reference-Platform/Contribute/README.md)
    - Learn how to contribute to Linaro and the Reference Software Platform
 
 ***
