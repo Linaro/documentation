@@ -23,6 +23,15 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 
 ### Images
 
+#### Release Candidate 4
+
+- *Reference Platform Kernel:* [4.4.0-133-arm64_4.4.11.linaro.133](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- **CentOS Installer:** [53](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/53/)
+- **UEFI/EDK2:** [106](https://builds.96boards.org/snapshots/reference-platform/components/uefi/106/)
+- **Debian Installer:** [255](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/255/)
+- **CE Debian RPB - HiKey:** [118](https://builds.96boards.org/snapshots/reference-platform/debian/118/hikey)
+- **CE Debian RPB - DB410c:** [118](https://builds.96boards.org/snapshots/reference-platform/debian/118/dragonboard410c)
+
 #### Release Candidate 3
 
 - *Reference Platform Kernel:* [4.4.0-132-arm64_4.4.11.linaro.132](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
