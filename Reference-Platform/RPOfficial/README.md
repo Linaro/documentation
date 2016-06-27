@@ -36,6 +36,6 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 <p align="left">
   <b></b>
-  <a href="#">[Contribute to RPB](../../Contribute/README.md)</a> |
+  <a href="#">[Contribute to RPB](../Contribute/README.md)</a> |
   <a href="#">[Doc Contribution Policy](../../ContributionPolicy.md)</a>
   <br>
