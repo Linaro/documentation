@@ -29,8 +29,8 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 - **CentOS Installer:** [53](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/53/)
 - **UEFI/EDK2:** [106](https://builds.96boards.org/snapshots/reference-platform/components/uefi/106/)
 - **Debian Installer:** [255](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/255/)
-- **CE Debian RPB - HiKey:** [118](https://builds.96boards.org/snapshots/reference-platform/debian/118/hikey)
-- **CE Debian RPB - DB410c:** [118](https://builds.96boards.org/snapshots/reference-platform/debian/118/dragonboard410c)
+- **CE Debian RPB - HiKey:** [119](https://builds.96boards.org/snapshots/reference-platform/debian/119/hikey)
+- **CE Debian RPB - DB410c:** [119](https://builds.96boards.org/snapshots/reference-platform/debian/119/dragonboard410c)
 
 #### Release Candidate 3
 
