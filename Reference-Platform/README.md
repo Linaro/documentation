@@ -37,6 +37,6 @@ For more information about the Reference Software Platform project please watch 
 
 <p align="left">
   <b></b>
-  <a href="#">[Contribute to RPB](../Contribute/README.md)</a> |
+  <a href="#">[Contribute to RPB](Contribute/README.md)</a> |
   <a href="#">[Doc Contribution Policy](../ContributionPolicy.md)</a>
   <br>
