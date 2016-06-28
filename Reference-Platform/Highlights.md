@@ -28,7 +28,7 @@
 
 #### CE OE/Yocto RPB:
 - Included the unified 4.4.11 kernel
-- Wayland, console and minimal images supported for both HiKey and Dragonboard410c
+- Weston, desktop and console images supported for both HiKey and Dragonboard410c
 
 ***
 
