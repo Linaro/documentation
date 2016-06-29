@@ -28,8 +28,8 @@ This method requires the following hardware:
 
 #### Step 3: Download Boot image and Root file system
 
-- Debian Boot ([Direct Download](https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/dragonboard410c-boot-linux-*.img.gz) / <a href="https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/" target="_blank">Build Folder</a> )
-- Debian Rootfs (Desktop) ([Direct Download](https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="https://builds.96boards.org/snapshots/reference-platform/debian/117/dragonboard410c/" target="_blank">Build Folder</a> )
+- Debian Boot ([Direct Download](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-boot-linux-*.img.gz) / <a href="http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
+- Debian Rootfs (Desktop) ([Direct Download](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
 
 >Note the location of all downloads, they will be needed once you access your instruction set
 
