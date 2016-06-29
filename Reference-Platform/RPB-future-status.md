@@ -23,6 +23,18 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 
 ### Images
 
+#### Final Builds
+
+- *Reference Platform Kernel:* [4.4.0-135-arm64_4.4.11.linaro.135](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- **CentOS Installer:** [54](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/54/)
+- **UEFI/EDK2:** [106](https://builds.96boards.org/snapshots/reference-platform/components/uefi/106/)
+- **Debian Installer:** [259](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/259/)
+- **CE Debian RPB - HiKey:** [120](https://builds.96boards.org/snapshots/reference-platform/debian/120/hikey)
+- **CE Debian RPB - DB410c:** [120](https://builds.96boards.org/snapshots/reference-platform/debian/120/dragonboard410c)
+
+Changes compared RC4:
+- Revert Debian kernel to 4k pages - affects only the Debian related builds (Debian installer and CE Debian RPB)
+
 #### Release Candidate 4
 
 - *Reference Platform Kernel:* [4.4.0-133-arm64_4.4.11.linaro.133](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
