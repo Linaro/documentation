@@ -29,14 +29,14 @@ This method requires the following hardware:
 - All HiKey **LeMaker 1G boards** will use the **4G files**
 - All HiKey **LeMaker 2G boards** will use the **8G files**
 
-**ptable-linux.img** ([**4G Download**](https://builds.96boards.org/snapshots/reference-platform/components/uefi/latest/release/hikey/ptable-linux-4g.img) / [**8G Download**](https://builds.96boards.org/snapshots/reference-platform/components/uefi/latest/release/hikey/ptable-linux-8g.img))
+**ptable-linux.img** ([**4G Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) / [**8G Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img))
 
 ***
 
 #### Step 3: Download Boot image and Root File System
 
-- **Debian Boot** ([**Download**](https://builds.96boards.org/snapshots/reference-platform/debian/117/hikey/hikey-boot-linux-*.uefi.img.gz))
-- **Debian Rootfs** (<a href="https://builds.96boards.org/snapshots/reference-platform/debian/117/hikey/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz" target="_blank">**Download**</a>)
+- **Debian Boot** ([**Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz))
+- **Debian Rootfs** (<a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz" target="_blank">**Download**</a>)
 
 ***
 
