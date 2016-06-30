@@ -37,7 +37,7 @@ The work for the CE OE/Yocto RPB was also started, but unfortunately not yet cov
    - AOSP Android Marshmallow 6.0
    - 4.1 based kernel
 
-The complete list of known issues for this release: [Known Issues](Known=-Issues.md)
+The complete list of known issues for this release: [Known Issues](Known-Issues.md)
 
 ##### Enterprise
 
