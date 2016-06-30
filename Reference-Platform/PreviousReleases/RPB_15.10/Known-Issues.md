@@ -1,4 +1,4 @@
-# Reference Platform Build - 15.10 Release - Known Issues
+## Reference Platform Build - 15.10 Release - Known Issues
 
 ### UEFI - HiKey
 
