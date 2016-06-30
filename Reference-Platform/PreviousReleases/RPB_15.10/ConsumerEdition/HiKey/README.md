@@ -13,6 +13,7 @@
    - [Known issues](../Known-Issues)
    - [Test Report](https://builds.96boards.org/releases/reference-platform/debian/hikey/15.10/CE-Debian-RPB-15.10-HiKey-TestReport.pdf)
 
+
 - [CE AOSP RPB - 15.10](https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/)
    - [Install instructions](InstallAOSPRPB-15.10.md)
    - [Build from source](BFSAOSPRPB-15.10.md)
