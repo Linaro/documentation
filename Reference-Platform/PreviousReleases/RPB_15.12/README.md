@@ -14,4 +14,4 @@
 - [D02](EnterpriseEdition/D02/README.md)
 - [Overdrive](EnterpriseEdition/Overdrive/README.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/15.12/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/15.12/EE-CentOS-RPB-16.03-TestReport.pdf))
+Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/15.12/EE-Debian-RPB-15.12-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/15.12/EE-CentOS-RPB-15.12-TestReport.pdf))
