@@ -1,4 +1,4 @@
-##### HiKey Reference Platform Build - 16.03
+# HiKey Reference Platform Build - 16.03
 
 - **Install Instructions:** For "out-of-box" users. Instructions for installing pre-build Reference Platform images onto your 96Boards.
 - **Build from Source:** For Advanced users. Instructions for building and installing the various Reference Platform components used by Consumer Edition 96Boards.
