@@ -15,7 +15,7 @@
 
 
 - [CE AOSP RPB - 15.10](https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/)
-   - [Install instructions](InstallAOSPRPB-15.10.md)
+   - [Install instructions](InstallAOSP-15.10.md)
    - [Build from source](BFSAOSPRPB-15.10.md)
    - [Known issues](../../Known-Issues.md)
    - [Test Report](https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/CE-AOSP-RPB-15.10-HiKey-TestReport.pdf)
