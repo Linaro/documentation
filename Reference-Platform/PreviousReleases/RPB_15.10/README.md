@@ -3,7 +3,7 @@
 <p align="center">
   <b></b>
   <a href="#">[RPB 15.10 Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a> |
+  <a href="#">[Known Issues](Known-Issues.md)</a>
   <br>
 
 #### Reference Software - Consumer Edition
