@@ -16,6 +16,10 @@
 
 ***
 
-|   **CE OpenEmbedded - 16.03**   |
+|   **CE OpenEmbedded - 16.06**   |
 |:-----------------------------:|
-|  [Install Instructions](InstallOERPB-16.03.md) |
+|  [Build from Source](InstallOERPB-16.06.md) |
+
+***
+
+- Access generic **OpenEmbedded** build from source instructions [here](../../../CECommon/OEYocto.md)
