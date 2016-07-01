@@ -23,4 +23,4 @@
 ***
 
 - Access **bootloader** build from source instructions [here](BuildSourceBL.md) 
-- Access **OpenEmbedded** build from source instructions [here](../../../CECommon/OEYocto.md
+- Access **OpenEmbedded** build from source instructions [here](../../../CECommon/OEYocto.md)
