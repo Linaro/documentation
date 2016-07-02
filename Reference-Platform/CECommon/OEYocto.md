@@ -230,4 +230,4 @@ And that should get you to the Weston desktop shell.
 
 For general question or support request, please go to [96boards.org Community forum](http://www.96boards.org/forums/forum/products/).
 
-For any bug related to this release, please submit issues to the [96Board.org Bug tracking system](https://bugs.linaro.org/). To submit a bug, follow this [link](https://bugs.linaro.org/enter_bug.cgi?product=Reference%20Platforms).
+For any bug related to this release, please submit issues to the [Linaro Bug Tracking System](https://bugs.linaro.org/). To submit a bug, follow this [link](https://bugs.linaro.org/enter_bug.cgi?product=Reference%20Platforms).
