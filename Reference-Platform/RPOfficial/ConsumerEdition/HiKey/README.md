@@ -20,9 +20,9 @@
 |        [Test Report](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/16.06-CE-Debian-RPB-Test-Report.pdf) |  
 
 
- |    **CE AOSP RPB - 16.06**  |
+|    **CE AOSP RPB - 16.06**  |
 |:---------------------------:|
- |  [Install Instructions](https://source.android.com/source/devices.html) |
+|  [Install Instructions](https://source.android.com/source/devices.html) |
 |      [Known issues](../../../Known-Issues.md)       |
 
 
