@@ -14,8 +14,8 @@
 
 |   **CE Debian RPB - 16.06**   |
 |:-----------------------------:|
-|   [Install Instructions](InstallDebianRPB-16.06.md)    |  
-|  [Build from Source](BFSDebianRPB-16.06.md)        | 
+|   [Install Instructions](InstallDebianRPB.md)    |  
+|  [Build from Source](BFSDebianRPB.md)        | 
 |       [Known issues](../../../Known-Issues.md)        |  
 |        [Test Report](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/16.06-CE-Debian-RPB-Test-Report.pdf) |  
 
