@@ -12,13 +12,7 @@
 |  [Install Instructions](InstallDebianRPB-16.06.md) |
 |   [Build from Source](BFSDebianRPB-16.06.md)       |
 |  [Known issues](../../../Known-Issues.md)           |
-| Test Report - TBD        |
-
-***
-
-|   **CE OpenEmbedded - 16.06**   |
-|:-----------------------------:|
-|  [Build from Source](InstallOERPB-16.06.md) |
+| [Test Report](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/16.06-CE-Debian-RPB-Test-Report.pdf)       |
 
 ***
 
