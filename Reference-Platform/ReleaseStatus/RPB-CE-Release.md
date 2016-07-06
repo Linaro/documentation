@@ -115,8 +115,8 @@ Tested hardware platforms are splitted into 2 categories: Tier 1 (Reference Hard
 
 #### Tier 1 - Reference Hardware Platforms
 
-**TBA.**
+* LeMaker HiKey
 
 #### Tier 2 - Optional Test Hardware Platforms
 
-**TBA.**
+* Dragonboard 410c
