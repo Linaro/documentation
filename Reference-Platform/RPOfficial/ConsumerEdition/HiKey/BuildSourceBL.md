@@ -1,4 +1,4 @@
-## Building from source
+## HiKey Bootloader - Building from source
 
 The source code is available from:
 - [**l-loader**](https://github.com/96boards-hikey/l-loader)
