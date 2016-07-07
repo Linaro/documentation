@@ -1,4 +1,4 @@
-# Contributions to OpenEmbedded Reference Platform Build
+# Contributions to AOSP
 
 How and where to send RPB AOSP patches for 96Boards
 
