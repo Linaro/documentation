@@ -94,6 +94,13 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [OE]
 * **Bug(s):** https://bugs.linaro.org/show_bug.cgi?id=2394
 <br />
 <br />
+* **Summary:** [HiKey] support HDMI hotplug detection
+* **Description:** fix HDMI hotplug detection on HiKey
+* **Advocate/Owner:** Guodong Xu
+* **State:** proposed
+* **Bug(s):** https://bugs.96boards.org/show_bug.cgi?id=385
+<br />
+<br />
 
 #### Accepted Goals
 
