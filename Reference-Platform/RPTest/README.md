@@ -31,10 +31,12 @@ Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/referenc
 
 #### Resources
 
+- [Previous RPB Releases](../PreviousReleases/README.md)
 - [RPB CI](../RPB-CI.md)
 - [Report a bug](../Report-a-bug.md)
 - [Feedback and Support](../Feedback-and-Support.md)
 - [Kernel Policy](../KernelPolicy.md)
+- [Kernel Roadmap](../Kernel-Roadmap.md)
 
 ***
 
