@@ -8,11 +8,9 @@ For more information about the Reference Software Platform project please watch 
 
 <p align="center">
   <b></b>
-  <a href="#">[Previous RPB Releases](PreviousReleases/README.md)</a> |
   <a href="#">[Release Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a> |
-  <a href="#">[Kernel Roadmap](Kernel-Roadmap.md)</a> |
-  <a href="#">[Release Status](RPB-future-status.md)</a>
+  <a href="#">[Known Issues](Known-Issues.md)</a> <br>
+  <a>Release Status ([CE](ReleaseStatus/RPB-CE-Release.md) / [EE](ReleaseStatus/RPB-EE-Release.md))</a>
   <br>
 
 ***
@@ -28,10 +26,12 @@ For more information about the Reference Software Platform project please watch 
 
 #### Resources
 
+- [Previous RPB Releases](PreviousReleases/README.md)
 - [RPB CI](RPB-CI.md)
 - [Report a bug](Report-a-bug.md)
 - [Feedback and Support](Feedback-and-Support.md)
 - [Kernel Policy](KernelPolicy.md)
+- [Kernel Roadmap](Kernel-Roadmap.md)
 
 ***
 
