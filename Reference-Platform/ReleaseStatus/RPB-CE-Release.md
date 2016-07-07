@@ -15,8 +15,8 @@
 **TBA:**
 * upstream projects key dates and events
   * v4.8 kernel predictions: merge window closes on 2016-08-07 and release on 2016-09-25 
-  * Linaro Connect Las Vegas, 2016-09-26 -> 2016-09-26
-  * OP-TEE 2.2.0, ~2016-10-15
+  * Linaro Connect Las Vegas, from 2016-09-26 to 2016-09-30
+  * OP-TEE 2.2.0, around 2016-10-15
 * QA checkpoints
 
 ### CE Release Goals
