@@ -13,7 +13,11 @@
 | 2016-12-xx    | Release                         |
 
 **TBA:**
-* upstream projects key dates (kernel, etc...)
+* upstream projects key dates and events
+  * v4.8 kernel predictions: merge window closes on 2016-08-07 and release on 2016-09-25
+  * v4.9 kernel predictions: merge window closes on 2016-10-09 and release on 2016-11-27
+  * Linaro Connect Las Vegas, from 2016-09-26 to 2016-09-30
+  * OP-TEE 2.2.0, around 2016-10-15
 * QA checkpoints
 
 ### CE Release Goals
@@ -39,7 +43,7 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [CentOS]
 #### Proposed Goals
 
 * **Summary:** update kernel to 4.9
-* **Description:** update kernel to 4.9, currently predicted for release on 2016-11-27. 4.9-rcX will be used if required.
+* **Description:** update kernel to 4.9, 4.9-rcX will be used if required.
 * **Advocate/Owner:** Graeme Gregory
 * **State:** proposed
 * **Bug(s):** TBA
