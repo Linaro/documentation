@@ -2,8 +2,8 @@
 
 <p align="center">
   <b></b>
-  <a href="#">[Release Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a> <br>
+  <a href="#">[Release Highlights](../Highlights.md)</a> |
+  <a href="#">[Known Issues](../Known-Issues.md)</a> <br>
   <a>Release Status ([CE](../ReleaseStatus/RPB-CE-Release.md) / [EE](../ReleaseStatus/RPB-EE-Release.md))</a>
   <br>
 ***
