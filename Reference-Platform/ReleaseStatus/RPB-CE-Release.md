@@ -101,6 +101,13 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [OE]
 * **Bug(s):** https://bugs.96boards.org/show_bug.cgi?id=385
 <br />
 <br />
+* **Summary:** [OE] switch from conman to NetworkManager
+* **Description:** use NM instead of conman to be consistent with Debian RPB
+* **Advocate/Owner:** Fathi Boudra
+* **State:** proposed
+* **Bug(s):** https://...
+<br />
+<br />
 
 #### Accepted Goals
 
