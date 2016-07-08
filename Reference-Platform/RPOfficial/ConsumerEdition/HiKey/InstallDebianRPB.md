@@ -145,6 +145,8 @@ Before clicking "OK":
 
 **Congratulations! You are now booting your newly installed operating system directly from eMMC on the HiKey**
 
+[Back to top](#install-instructions---reference-software-platform)
+
 ***
 
 # Fastboot Method
@@ -259,3 +261,5 @@ GPIO3-1 | Link 5-6 | open
 
 **Congratulations! You are now booting your newly installed OS directly
 from eMMC on the HiKey!**
+
+[Back to top](#install-instructions---reference-software-platform)
