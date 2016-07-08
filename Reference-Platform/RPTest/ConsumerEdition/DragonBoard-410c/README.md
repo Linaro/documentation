@@ -16,4 +16,4 @@
 
 ***
 
-- Access generic **OpenEmbedded** build from source instructions [here](../../../CECommon/OEYocto.md)
+- Access generic **OpenEmbedded** build from source instructions [here](../../../CECommon/OE.md)
