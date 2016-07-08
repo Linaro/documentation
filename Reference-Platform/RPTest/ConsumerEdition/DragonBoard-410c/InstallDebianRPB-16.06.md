@@ -42,7 +42,7 @@ This method requires the following hardware:
 
 #### Step 4: Find SD Card Device name
 
-- Use host computer
+- Use host Linux computer
 - Open "Terminal" application
 - Remove SD card from host computer and run the following command:
 ```shell
@@ -76,7 +76,7 @@ $ lsblk
 
 #### Step 7: Go to directory with _SD Card Install Image_ folder using Terminal
 
-- Use host computer
+- Use host Linux computer
 - Open "Terminal" application
 - `cd` to the directory with your unzipped **Debian SD Card Install Image**
 
@@ -123,7 +123,7 @@ $ cd dragonboard410c_sdcard_install_debian-XX
 
 **Checklist:**
 
-- SD card inserted into host computer
+- SD card inserted into host Linux computer
 - Recall SD Card device name from [**Step 2**](https://github.com/sdrobertw/test-wiki-/wiki/Linux-host-SD-CARD#step-2-find-sd-card-device-name)
 - From within the dragonboard410c_sdcard_install_debian-XX folder, using the Terminal execute the following commands:
 
@@ -184,7 +184,7 @@ Fastboot is supported by the board and can be used for installs.  This is for ad
 
 This method requires the following hardware:
 - DragonBoard™ 410c with power supply
-- Host machine (Linux, Mac OS X, or Windows)
+- Host Linux machine
 - USB to microUSB cable
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
