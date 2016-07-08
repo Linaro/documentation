@@ -171,6 +171,8 @@ Before clicking "OK":
 
 **Congratulations! You are now booting your newly installed operating system directly from eMMC on the DragonBoard™ 410c!**
 
+[Back to top](#install-instructions---reference-software-platform)
+
 ***
 
 # Fastboot Method
@@ -320,3 +322,5 @@ $ sudo fastboot flash rootfs linaro-jessie-developer-qcom-snapdragon-arm64-**BUI
 
 **Congratulations! You are now booting your newly installed OS directly
 from eMMC on the DragonBoard™ 410c!**
+
+[Back to top](#install-instructions---reference-software-platform)
