@@ -1,4 +1,153 @@
-# Reference Platform Build - 16.06
+# Install Instructions - Reference Software Platform
+
+This page provides download and installation instructions inteded for those interested in flashing the HiKey board with pre-built Linaro Reference Software. Two methods are currently available: **SD card method** and **Fastboot method**. If you are already familiar with these methods, you may find all necessary files in the [96Boards RPB 16.06 build folder](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/).
+
+## Contents
+
+- [SD Card Method](#sd-card-method)
+- [Fastboot Method](#fastboot-method)
+
+***
+
+# SD Card Method
+
+<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />
+<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />
+<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="http://i.imgur.com/g8N21m1.png" data-canonical-src="http://i.imgur.com/g8N21m1.png" width="125" height="157" />
+
+#### Step 1: Read about the SD Card Method
+
+The SD card method allows you to place a microSD card into the DragonBoard™ 410c to automatically boot and install the Linux Desktop onto the board. This method is generally simpler and should be used by beginners. 
+
+This method requires the following hardware:
+- HiKey with power supply
+- Host machine (Linux, Mac OS X, or Windows)
+- MicroSD card with 4GB or more of storage
+- USB Mouse and/or keyboard
+- HDMI Monitor with full size HDMI cable 
+
+
+***
+#### Step 2: Download SD Card Image
+
+**Debian Linux Reference Software Platform - SD Card Image** 
+
+[SD Card Image](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
+
+***
+
+#### Step 3: Prepare MicroSD card
+
+- Ensure data from mircoSD card is backed up
+- Everything on microSD card will be lost by the end of this procedure.
+
+***
+
+#### Step 4: Find SD Card Device name
+
+- Use host computer
+- Open "Terminal" application
+- Remove SD card from host computer and run the following command:
+```shell
+lsblk
+```
+- Note all recognized disk names
+- **Insert SD card** and run the following command (again):
+```shell
+lsblk
+```
+- Note the newly recognized disk. This will be your SD card.
+- You will need to remember this device name for a later step.
+
+***
+
+#### Step 5: Recall Download Location
+
+- Locate SD card install file from Downloads page.
+- This file will be needed for the next step.
+
+***
+
+#### Step 6: Unzip _SD Card Install Image_
+
+- When unzipped, you will have a folder with the following contents:
+   - Linaro/Debian Install Image (.img)
+   - Readme
+
+***
+
+#### Step 7: Go to directory with _SD Card Install Image_ folder using Terminal
+
+- Use host computer
+- Open "Terminal" application
+- `cd` to the directory with your unzipped **SD Card Install Image**
+
+```shell
+cd <extraction directory>
+
+#Example: 
+#<extraction directory> = /home/YourUserName/Downloads
+#For this example we assume the "Debian SD Card Install Image" is in the Downloads folder.
+cd /home/YourUserName/Downloads
+```
+
+***
+
+#### Step 8: Install Image onto SD Card
+
+**Checklist:**
+
+- SD card inserted into host computer
+- Recall SD Card device name **Step 4**
+- From within the extraction folder, using the Terminal execute the following commands:
+
+**Execute:**
+
+```shell
+sudo dd if=hikey-jessie_alip_2015MMDD-nnn.img of=/dev/XXX bs=4M oflag=sync status=noxfer
+```
+
+**Note:**
+
+- `if=hikey-jessie_alip_2015MMDD-nnn.img`: should match the name of the image that was downloaded.
+- `of=/dev/XXX`: XXX should match the name of the SD Card device name from [**Step 2**](). Be sure to use the device name with out the partition.
+- This command will take some time to execute. Be patient and avoid tampering with the terminal until process has ended.
+- Once SD card is done flashing, remove from host computer and set aside for a later step
+
+
+***
+
+#### Step 9: Prepare HiKey with SD card
+
+- Make sure HiKey is unplugged from power
+- Connect an HDMI monitor to the HiKey with an HDMI cable, and power on the monitor
+- Plug a USB keyboard and/or mouse into either of the two USB connectors on the HiKey
+- Insert the microSD card into the HiKey
+- Plug power adaptor into HiKey, wait for board to boot up.
+
+***
+
+#### Step 10: Install Linaro/Debian onto HiKey
+
+<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+
+- If **Steps 1 - 8** were followed correctly, the above screen should be visible from your HiKey
+- Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory
+- This process can take a few minutes to complete
+- Upon completion, “Flashing has completed and OS has installed successfully....” message will appear.
+
+Before clicking "OK":
+
+- Remove the SD Card
+- Now click "OK" button and allow HiKey to reboot.
+
+**Congratulations! You are now booting your newly installed operating system directly from eMMC on the HiKey**
+
+***
+
+# Fastboot Method
 
 <img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />
 <img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
