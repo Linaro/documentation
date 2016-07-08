@@ -34,7 +34,7 @@ This method requires the following hardware:
 
 **Debian Linux Reference Software Platform - SD Card Image** 
 
-[SD Card Image](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
+[SD Card Image - Direct Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
 
 ***
 
