@@ -23,7 +23,7 @@ The SD card method allows you to place a microSD card into the DragonBoard™ 41
 
 This method requires the following hardware:
 - HiKey with power supply
-- Host machine (Linux, Mac OS X, or Windows)
+- Host Linux machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 4GB or more of storage
 - USB Mouse and/or keyboard
 - HDMI Monitor with full size HDMI cable 
@@ -47,7 +47,7 @@ This method requires the following hardware:
 
 #### Step 4: Find SD Card Device name
 
-- Use host computer
+- Use host Linux computer
 - Open "Terminal" application
 - Remove SD card from host computer and run the following command:
 ```shell
@@ -80,7 +80,7 @@ lsblk
 
 #### Step 7: Go to directory with _SD Card Install Image_ folder using Terminal
 
-- Use host computer
+- Use host Linux computer
 - Open "Terminal" application
 - `cd` to the directory with your unzipped **SD Card Install Image**
 
@@ -99,7 +99,7 @@ cd /home/YourUserName/Downloads
 
 **Checklist:**
 
-- SD card inserted into host computer
+- SD card inserted into host Linux computer
 - Recall SD Card device name **Step 4**
 - From within the extraction folder, using the Terminal execute the following commands:
 
@@ -165,7 +165,7 @@ Fastboot is supported by the board and can be used for installs.  This is for ad
 
 This method requires the following hardware:
 - HiKey with power supply
-- Host machine (Linux, Mac OS X, or Windows)
+- Host Linux machine (Linux, Mac OS X, or Windows)
 - USB to microUSB cable
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
