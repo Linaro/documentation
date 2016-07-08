@@ -10,7 +10,44 @@
 
 #### HiKey
 
-
+<table border="3">
+	<thead>
+		<tr>
+			<td></td>
+			<td><b></td>
+			<td colspan="3"><b>CPU</td>
+			<td><b></td>
+			<td colspan="4"><b>RAM</td>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td><img src="http://i.imgur.com/mKjYKTH.png" data-canonical-src="http://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
+			<td><a href="https://en.wikipedia.org/wiki/System_on_a_chip"><b>SoC</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/ARM_architecture"><b>Architecture&shy;</a></td>
+		</tr>
+		<tr>
+			
+		</tr>
+		<tr>
+			<td><img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> DragonBoard™ 410c</td>
+			<td>Qualcomm<br>Snapdragon 410</td>
+		</tr>
+		<tr>
+			<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
+			<td>HiSilicon<br>Kirin 620</td>
+		</tr>
+		<tr>
+			<td> <img src="http://i.imgur.com/ykySoFc.png" data-canonical-src="http://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br> Bubblegum-96</td>
+			<td>Actions<br>s900</td>
+		</tr>
+		<tr>
+			
+			<td colspan="9">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
 
 |   **CE Debian RPB - 16.06**   |
 |:-----------------------------:|
