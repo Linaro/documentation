@@ -54,7 +54,9 @@ Fixed Issues
 
 #### HiKey
 
-| Fixed <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&classification=Consumer%20Edition%20Boards&list_id=1613&product=HiKey&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06" target="_blank">( Bugzilla )</a> | Known Issues  <a href="https://bugs.96boards.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&classification=Consumer%20Edition%20Boards&known_name=HiKey%20RPB%2016.06&list_id=2378&product=HiKey&query_based_on=HiKey%20RPB%2016.06&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06">( Bugzilla )</a>   |
+Fixed <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&classification=Consumer%20Edition%20Boards&list_id=1613&product=HiKey&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06" target="_blank">( Bugzilla )</a>
+
+|  Known Issues  <a href="https://bugs.96boards.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&classification=Consumer%20Edition%20Boards&known_name=HiKey%20RPB%2016.06&list_id=2378&product=HiKey&query_based_on=HiKey%20RPB%2016.06&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06">( Bugzilla )</a>  |   |
 |:-----:|:-----|
 |[Bug 20](https://bugs.96boards.org/show_bug.cgi?id=20)| [RPB] USB kernel trace errors -22 |
 |[Bug 27](https://bugs.96boards.org/show_bug.cgi?id=27)| UEFI variable runtime service not working |
@@ -82,7 +84,9 @@ Fixed Issues
 
 #### DragonBoard 410c
 
-| Fixed <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&classification=Consumer%20Edition%20Boards&component=Android&component=Bootloader%20%2F%20Firmware&component=Documentation&component=Kernel&component=OpenEmbedded%20%2F%20Yocto&component=Tools%20%2F%20Installer&component=Ubuntu%20%2F%20Debian&list_id=1623&product=Dragonboard%20410c&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=WORKSFORME&resolution=NON%20REPRODUCIBLE&version=RPB%2016.06" target="_blank">( Bugzilla )</a> | Known Issues <a href="https://bugs.96boards.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&classification=Consumer%20Edition%20Boards&component=Bootloader%20%2F%20Firmware&component=Documentation&component=Kernel&component=OpenEmbedded%20%2F%20Yocto&component=Tools%20%2F%20Installer&component=Ubuntu%20%2F%20Debian&known_name=HiKey%20RPB%2016.06&list_id=2465&product=Dragonboard%20410c&query_based_on=HiKey%20RPB%2016.06&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06" target="_blank">( Bugzilla )</a> |
+Fixed <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&classification=Consumer%20Edition%20Boards&component=Android&component=Bootloader%20%2F%20Firmware&component=Documentation&component=Kernel&component=OpenEmbedded%20%2F%20Yocto&component=Tools%20%2F%20Installer&component=Ubuntu%20%2F%20Debian&list_id=1623&product=Dragonboard%20410c&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=WORKSFORME&resolution=NON%20REPRODUCIBLE&version=RPB%2016.06" target="_blank">( Bugzilla )</a>
+
+| Known Issues <a href="https://bugs.96boards.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&classification=Consumer%20Edition%20Boards&component=Bootloader%20%2F%20Firmware&component=Documentation&component=Kernel&component=OpenEmbedded%20%2F%20Yocto&component=Tools%20%2F%20Installer&component=Ubuntu%20%2F%20Debian&known_name=HiKey%20RPB%2016.06&list_id=2465&product=Dragonboard%20410c&query_based_on=HiKey%20RPB%2016.06&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06" target="_blank">( Bugzilla )</a> |  |
 |:-------:|:---------|
 | [Bug 142](https://bugs.96boards.org/show_bug.cgi?id=142) |	Linux Guide lacks information on how to configure WiFi  |
 | [Bug 153](https://bugs.96boards.org/show_bug.cgi?id=153) | [RPB] Missing information about hwpack usage |
