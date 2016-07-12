@@ -20,7 +20,7 @@
   * OP-TEE 2.2.0, around 2016-10-15
 * QA checkpoints
 
-### CE Release Goals
+### EE Release Goals
 
 This section lists the current release goals for EE Reference Platform 16.12 and additional candidates which may become a release goal in the future.
 
