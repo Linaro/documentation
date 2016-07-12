@@ -19,7 +19,7 @@ This page provides download and installation instructions inteded for those inte
 
 #### Step 1: Read about the SD Card Method
 
-The SD card method allows you to place a microSD card into the DragonBoard™ 410c to automatically boot and install the Linux Desktop onto the board. This method is generally simpler and should be used by beginners. 
+The SD card method allows you to place a microSD card into the HiKey to automatically boot and install the Linux Desktop onto the board. This method is generally simpler and should be used by beginners. 
 
 This method requires the following hardware:
 - HiKey with power supply
