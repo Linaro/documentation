@@ -237,7 +237,7 @@ $ sudo fastboot devices
 $ sudo fastboot flash ptable <ptable_FILE_NAME>.img
 $ sudo fastboot reboot
 $ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
-$ sudo fastboot flash system hikey-jessie_alip_YYYYMMDD-nnn-Xg.emmc.img
+$ sudo fastboot flash system hikey-rootfs-debian-jessie-alip-YYYYMMDD-nnn.emmc.img
 ```
 
 4 - **Reboot HiKey into new OS**
