@@ -41,6 +41,13 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [OE]
 
 #### Proposed Goals
 
+* **Summary:** update kernel to 4.8
+* **Description:** update kernel to 4.8
+* **Advocate/Owner:** Mark Brown
+* **State:** proposed
+* **Bug(s):** TBA
+<br />
+<br />
 * **Summary:** latest Chromium release running on Wayland Ozone
 * **Description:** latest Chromium release running on Wayland Ozone
 * **Advocate/Owner:** Zoltan Kuscsik
