@@ -35,8 +35,6 @@ Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../../../EECommon/Install-Debian-Jessie.md)
 * [CentOS 7](../../../EECommon/Install-CentOS-7.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
-
 #### Other distributions
 
 Only Debian and CentOS are officially released and validated as part of the reference software platform project, but other distributions can be easily supported as well (just need kernel and installer changes).
