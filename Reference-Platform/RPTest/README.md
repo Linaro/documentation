@@ -23,7 +23,7 @@ Choose Consumer Edition or Enterprise Edition to start setting up your instructi
 - [X-Gene Mustang](EnterpriseEdition/X-Gene-Mustang/README.md)
 - [HP ProLiant m400](EnterpriseEdition/HP-ProLiant-m400/README.md)
 - [Cavium Thunder X](EnterpriseEdition/ThunderX/README.md)
-- [Qualcomm Q2432LZB](EnterpriseEdition/Q2432LZB/README.md)
+- [Qualcomm QDF2432 Server Development Platform](EnterpriseEdition/Q2432LZB/README.md)
 
 Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
 
