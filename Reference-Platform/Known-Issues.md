@@ -37,8 +37,6 @@ These lists group all **current and unfixed bugs** into their respective categor
 
 ***
 
-###### Bug Legend
-
 | Bug Legend   |        |
 |:-----:|:-------|
 | CONFIRMED      | If a bug can be reproduced, a member from the 96Boards, Linaro or QA team will change its status from **UNCONFIRMED** to **CONFIRMED** |
