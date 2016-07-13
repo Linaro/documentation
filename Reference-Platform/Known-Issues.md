@@ -85,7 +85,6 @@ These lists group all **current and unfixed bugs** into their respective categor
 |[Bug 386](https://bugs.96boards.org/show_bug.cgi?id=386)| [RPB] Unable to handle kernel NULL pointer dereference at virtual address during shutdown |
 |[Bug 387](https://bugs.96boards.org/show_bug.cgi?id=387)| [RPB] hikey: Unbalanced enable for IRQ 42 when booting 16.06 RC2 |
 
-***
 
 #### DragonBoard 410c
 
