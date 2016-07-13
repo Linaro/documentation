@@ -11,8 +11,8 @@ still be in review, the full policy can be seen in KernelPolicy.md
 
 To submit changes:
 
-1. Make a git branch based off Linus' most recent -rc1 tag with the
-   changes
+1. Make a git branch based off Linus' most recent -rc1 tag (or a newer one if
+   there are dependencies) with the changes
 2. Create a tag (ideally signed using 'git tag -s'). The tag message should
    describe the change, why it is being proposed for the reference platform
    and link to the upstream submission (ideally using thread.gmane.org).
