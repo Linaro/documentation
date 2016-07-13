@@ -1,4 +1,4 @@
-### Qualcomm QDF2432 Server Development Platform
+## Qualcomm QDF2432 Server Development Platform
 
 ***
 
