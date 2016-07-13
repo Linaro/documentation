@@ -11,7 +11,7 @@ These lists group all **fixed RPB issues** into their repective categories. Unde
 
 ## Current Issues
 
-These lists group all **current and unfixed bugs** into their respective categories. Basic bug summary can be found here, while links to their bugzilla pages are also available. Bugzilla links to full list of bugs are also available of the top of each table for convenience and quick reference.
+These lists group all **current and unfixed bugs** into their respective categories. Basic bug summaries can be found here, while links to their bugzilla pages are also available. Bugzilla links to full lists of bugs are also available at the top of each table for convenience and quick reference.
 
 ### Enterprise
 
