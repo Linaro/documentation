@@ -7,7 +7,7 @@ the current development kernel prior to submission to the reference platform
 kernel. Changes do not need to have been accepted, they only need to have been
 posted since the last merge window. They *do* need to work with other
 changes in the reference platform kernel and meet quality standards but can
-still be in review, the full policy can be seen in (the kernel policy)[KernelPolicy.md]
+still be in review, the full policy can be seen in KernelPolicy.md
 
 To submit changes:
 
