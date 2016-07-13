@@ -37,7 +37,7 @@ These lists group all **current and unfixed bugs** into their respective categor
 
 ***
 
-## Bug Legend
+###### Bug Legend
 
 | Bug Legend   |        |
 |:-----:|:-------|
