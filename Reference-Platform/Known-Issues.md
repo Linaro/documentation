@@ -32,7 +32,7 @@ Fixed Issues
 |:-----:|:-----|
 | N/A | N/A |
 
-#### Q2432LZB
+#### Qualcomm QDF2432 Server Development Platform
 
 | Known Issues  <a href="https://bugs.linaro.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&component=Enterprise&list_id=10080&product=Reference%20Platforms&query_format=advanced&rep_platform=Q2432LZB&target_milestone=16.06" target="_blank">( Bugzilla )</a> |  |
 |:-----:|:-----|
