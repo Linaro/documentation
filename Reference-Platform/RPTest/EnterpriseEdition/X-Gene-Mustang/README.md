@@ -22,7 +22,7 @@ Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../../../EECommon/Install-Debian-Jessie.md)
 * [CentOS 7](../../../EECommon/Install-CentOS-7.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.03-TestReport.pdf))
+
 
 #### Other distributions
 
