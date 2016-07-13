@@ -1,14 +1,19 @@
 # Reference Platform Build - 16.06 Release - Known Issues
 
+## Fixed Issues
+
+These lists group all **fixed RPB issues** into their repective categories. Underlying Consumer and Enterprise edition boards, and their bug fixes are grouped under a single page for convenience and quick reference.
+
 | Fixed Issues   |     |
 |:---|:----|
 | Enterprise | <a href="https://bugs.linaro.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&component=Enterprise&list_id=10084&product=Reference%20Platforms&query_format=advanced&version=16.06" target="_blank">(Full List)</a> |
 | Conssumer | <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&classification=Consumer%20Edition%20Boards&list_id=1613&product=HiKey&query_format=advanced&target_milestone=Reference%20Software%20Platform%20-%2016.06" target="_blank">(Full List)</a> |
 
+## Current Issues
+
+These lists group all **current and unfixed bugs** into their respective categories. Basic bug summary can be found here, while links to their bugzilla pages are also available. Bugzilla links to full list of bugs are also available of the top of each table for convenience and quick reference.
 
 ## Enterprise
-
-
 
 #### Cello/Overdrive
 
