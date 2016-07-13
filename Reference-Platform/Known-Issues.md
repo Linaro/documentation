@@ -2,7 +2,7 @@
 
 ## Fixed Issues
 
-These lists group all **fixed RPB issues** into their repective categories. Underlying Consumer and Enterprise edition boards, and their bug fixes are grouped under a single page for convenience and quick reference.
+These lists group all **fixed RPB issues** into their repective categories. Underlying Consumer and Enterprise Edition boards, and their bug fixes are grouped under a single page for convenience and quick reference.
 
 | Fixed Issues   |     |
 |:---|:----|
@@ -102,7 +102,7 @@ Fixed Issues <a href="https://bugs.96boards.org/buglist.cgi?bug_status=RESOLVED&
 
 ***
 
-
+## Bug Legend
 
 | Bug Legend   |        |
 |:-----:|:-------|
