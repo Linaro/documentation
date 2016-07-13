@@ -18,8 +18,6 @@ Choose Consumer Edition or Enterprise Edition to start setting up your instructi
 #### Enterprise Edition
 - [LeMaker Cello](EnterpriseEdition/Cello/README.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.06/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/EE-CentOS-RPB-16.06-TestReport.pdf))
-
 ***
 
 #### Resources
