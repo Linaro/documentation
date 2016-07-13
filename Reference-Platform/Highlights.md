@@ -12,7 +12,7 @@
 - Added OP-TEE support
    - Enabled on HiKey and Juno-r1
 - Supports Reference HW platforms HiKey and Cello
-   - Other Test Platforms include: Dragonboard 410c, Hisilicon D02 and D03, APM X-Gene, HP Proliant m400, AMD Overdrive, Qualcomm Q2432:ZB, and Cavium ThunderX.
+   - Other Test Platforms include: Dragonboard 410c, Hisilicon D02 and D03, APM X-Gene, HP Proliant m400, AMD Overdrive, Qualcomm QDF2432 Server Development Platform, and Cavium ThunderX.
 - Single kernel config for all platforms in arch/arm64/configs/distro.config
 - Single kernel binary (package) for all platforms
 
@@ -68,7 +68,7 @@
 - Hisilicon D03 (new)
 - APM X-Gene Mustang
 - HP ProLiant m400
-- Qualcomm Q2432LZB (new)
+- Qualcomm QDF2432 Server Development Platform (new)
 - Cavium ThunderX (new)
 
 #### Overall platform features, validated as part of the release:
