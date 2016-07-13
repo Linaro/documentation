@@ -13,7 +13,7 @@ These lists group all **fixed RPB issues** into their repective categories. Unde
 
 These lists group all **current and unfixed bugs** into their respective categories. Basic bug summary can be found here, while links to their bugzilla pages are also available. Bugzilla links to full list of bugs are also available of the top of each table for convenience and quick reference.
 
-## Enterprise
+### Enterprise
 
 #### Cello/Overdrive
 
@@ -55,12 +55,9 @@ These lists group all **current and unfixed bugs** into their respective categor
 |[Bug 2326](https://bugs.linaro.org/show_bug.cgi?id=2326)| [ThunderX] rtc-efi rtc-efi: can't read time |
 |[Bug 2332](https://bugs.linaro.org/show_bug.cgi?id=2332)| [ThunderX] fork: Resource temporarily unavailable when building linux |
 
-
-
-
 ***
 
-## Consumer
+### Consumer
 
 #### HiKey
 
