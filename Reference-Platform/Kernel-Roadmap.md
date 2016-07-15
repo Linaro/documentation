@@ -10,8 +10,8 @@ See the [table](#kernel-version-table) below for a roadmap of proposed kernel ve
 |---|---|---|---|---|---|
 |16.03   |4.4   | Y | - | - | - |
 |16.06   |4.4   | Y | Y | Y | ? |
-|16.09   |4.6?  | S | ? | ? | ? |
-|16.12   |4.8?  | Y | ? | ? | ? |
+|16.09   |4.8?  | S | ? | ? | ? |
+|16.12   |4.9?  | Y | ? | ? | ? |
 
      - Not supported
      ? Undecided
