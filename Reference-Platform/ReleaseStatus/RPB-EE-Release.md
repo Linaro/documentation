@@ -91,6 +91,13 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [CentOS]
 * **Bug(s):** TBA
 <br />
 <br />
+* **Summary:** Improve Colo/lab handling of PXE servers
+* **Description:** Reserve 2 systems in their own subnet and allow PXE server configuration to users
+* **Advocate/Owner:** Andy Doan
+* **State:** proposed
+* **Bug(s):** TBA
+<br />
+<br />
 
 #### Accepted Goals
 
