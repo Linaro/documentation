@@ -18,6 +18,9 @@
   * Linaro Connect Las Vegas, from 2016-09-26 to 2016-09-30
   * OP-TEE 2.2.0, around 2016-10-15
 * QA checkpoints
+  * Alpha: feature complete, no blocker bugs
+  * Beta: code freeze, no blocker bugs, no critical bugs (only bugfixes are accepted after this point)
+  * RC: no critical bugs, possibly no major bugs
 
 ### CE Release Goals
 
