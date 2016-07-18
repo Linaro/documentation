@@ -89,7 +89,7 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [CentOS]
 <br />
 * **Summary:** Debian/CentOS installers support in LAVA
 * **Description:** LAVA supports Debian/CentOS installers
-* **Advocate/Owner:** TBA
+* **Advocate/Owner:** Milosz Wasilewski
 * **State:** proposed
 * **Bug(s):** TBA
 <br />
