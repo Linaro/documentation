@@ -118,6 +118,20 @@ Note: if it's relevant, add tags in the summary. e.g. [Debian] [OE]
 * **Bug(s):** https://...
 <br />
 <br />
+* **Summary:** [OE] use meta-mali layer
+* **Description:** use meta-mali layer instead of our own recipes to provide Mali support
+* **Advocate/Owner:** Fathi Boudra
+* **State:** proposed
+* **Bug(s):** https://...
+<br />
+<br />
+* **Summary:** 32bit RP builds for Debian and OE
+* **Description:** 32bit RP builds for Debian and OE
+* **Advocate/Owner:** Fathi Boudra
+* **State:** proposed
+* **Bug(s):** https://...
+<br />
+<br />
 
 #### Accepted Goals
 
