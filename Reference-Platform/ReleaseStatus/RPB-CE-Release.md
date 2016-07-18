@@ -40,7 +40,13 @@ The template to propose entries is describerd below:
 Note: if it's relevant, add tags in the summary. e.g. [Debian] [OE]
 
 #### Proposed Goals
-
+* **Summary:** Auotomated UI testing covered with Robot Framework
+* **Description:** Automated UI regression testing performed on at least browser (more applications to be covered if possible)
+* **Advocate/Owner:** Milosz Wasilewski
+* **State:** proposed
+* **Bug(s):** TBA
+<br />
+<br />
 * **Summary:** update kernel to 4.8
 * **Description:** update kernel to 4.8
 * **Advocate/Owner:** Mark Brown
