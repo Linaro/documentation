@@ -6,13 +6,10 @@
    - Step 3: Export path to cross compiler tool and confirm version
    - Step 5: Set the right kernel .config file
    - Step 6: Build kernel image and debian package
-   - Step 7: Copy Modules
-   - Step 8: Find kernel release string
-   - Step 9: Generate modules.dep and map files
-   - Step 10: Find HiKey IP Address
-   - Step 11: Transfer the modules to the target HiKey
-   - Step 12: Generate the initramfs
-   - Step 13: Create the device tree image and boot image
+   - Step 7: Find HiKey IP Address
+   - Step 8: Transfer the modules to the target HiKey
+   - Step 9: Generate the initramfs
+   - Step 10: Create the device tree image and boot image
 - Customize Bootloader
 - Build Rootfs from source
 
