@@ -3,6 +3,7 @@
 The source code is available from:
 - [**l-loader**](https://github.com/96boards-hikey/l-loader)
 - [**ARM Trusted Firmware**](https://github.com/96boards-hikey/arm-trusted-firmware)
+- [**OP-TEE**](https://github.com/OP-TEE/optee_os)
 - [**Tianocore EDK2 – UEFI**](https://github.com/96boards-hikey/edk2) and [**OpenPlatformPkg**](https://github.com/96boards-hikey/OpenPlatformPkg)
 
 Since GRUB2 is currently consumed directly from the Debian package, debian package rebuild instructions applies.
@@ -30,6 +31,7 @@ export PATH="${PWD}/arm-tc/bin:${PWD}/arm64-tc/bin:$PATH"
 ```shell
 git clone -b hikey-aosp https://github.com/96boards-hikey/edk2.git
 git clone -b hikey-aosp https://github.com/96boards-hikey/OpenPlatformPkg.git
+git clone https://github.com/OP-TEE/optee_os.git
 git clone -b hikey https://github.com/96boards-hikey/arm-trusted-firmware.git
 git clone https://github.com/96boards-hikey/l-loader.git
 git clone git://git.linaro.org/uefi/uefi-tools.git
@@ -44,11 +46,12 @@ To build EDK2/UEFI (use **-b** to select **RELEASE** or **DEBUG** build):
 ```shell
 export AARCH64_TOOLCHAIN=GCC49
 export EDK2_DIR=${PWD}/edk2
+export OPTEE_DIR=${PWD}/optee_os
 export ATF_DIR=${PWD}/arm-trusted-firmware
 export UEFI_TOOLS_DIR=${PWD}/uefi-tools
 cd ${EDK2_DIR}
 rmdir OpenPlatformPkg; ln -s ../OpenPlatformPkg
-${UEFI_TOOLS_DIR}/uefi-build.sh -b RELEASE -a ${ATF_DIR} hikey
+${UEFI_TOOLS_DIR}/uefi-build.sh -b RELEASE -a ${ATF_DIR} -s ${OPTEE_DIR} hikey
 ```
 
 And bl1.bin with l-loader (ptable files are also created as part of the l-loader Makefile):
