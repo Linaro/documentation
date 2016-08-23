@@ -34,8 +34,7 @@ FIXME
     No. RPK's main focus is on engineers and teams that need to get their code upstream as a requirement to get distribution support (e.g. LEG features enabled in RHEL, Ubuntu) or that need to work on tip to get new features accepted into the kernel (e.g. core engineering teams such at KWG, PMWG). We don't have resources to maintain a long-term kernel. Please talk to the LSK team for long-term supported kernels.
 
 ## Additional Material
- * [Talk](https://www.youtube.com/watch?v=fW6_eL3U7OQ) about RPK at BKK16 (March 2016)
+ * [Talk](https://www.youtube.com/watch?v=fW6_eL3U7OQ) about RPK at BKK16 (March 2016, policy/goals substantially changed since)
  * [Patch-acceptance Policy](KernelPolicy.md) for RPK
 
-## Communications
- * [Dev](https://lists.96boards.org/mailman/listinfo) mailing list
+
