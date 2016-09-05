@@ -34,7 +34,7 @@ git clone -b hikey-aosp https://github.com/96boards-hikey/OpenPlatformPkg.git
 git clone https://github.com/OP-TEE/optee_os.git
 git clone -b hikey https://github.com/96boards-hikey/arm-trusted-firmware.git
 git clone https://github.com/96boards-hikey/l-loader.git
-git clone git://git.linaro.org/uefi/uefi-tools.git
+git clone -b hikey-aosp https://github.com/96boards-hikey/uefi-tools.git
 ```
 
 #### Building EDK2/UEFI for HiKey
