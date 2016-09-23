@@ -8,9 +8,9 @@ For more information about the Reference Software Platform project please watch 
 
 <p align="center">
   <b></b>
-  <a href="#">[Release Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a> <br>
-  <a>Release Status ([CE](ReleaseStatus/RPB-CE-Release.md) / [EE](ReleaseStatus/RPB-EE-Release.md))</a>
+  <a href="#">[Release Highlights](Extras/Highlights.md)</a> |
+  <a href="#">[Known Issues](Extras/Known-Issues.md)</a> <br>
+  <a>Release Status ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/ReleaseStatus/RPB-EE-Release.md))</a>
   <br>
 
 ***
@@ -26,17 +26,17 @@ For more information about the Reference Software Platform project please watch 
 
 #### Resources
 
-- [Previous RPB Releases](PreviousReleases/README.md)
-- [RPB CI](RPB-CI.md)
-- [Report a bug](Report-a-bug.md)
-- [Feedback and Support](Feedback-and-Support.md)
-- [Kernel Policy](KernelPolicy.md)
-- [Kernel Roadmap](Kernel-Roadmap.md)
+- [Previous RPB Releases](Extras/PreviousReleases/README.md)
+- [RPB CI](Extras/RPB-CI.md)
+- [Report a bug](Extras/Report-a-bug.md)
+- [Feedback and Support](Extras/Feedback-and-Support.md)
+- [Kernel Policy](Extras/KernelPolicy.md)
+- [Kernel Roadmap](Extras/Kernel-Roadmap.md)
 
 ***
 
 <p align="left">
   <b></b>
   <a href="#">[Contribute to RPB](Contribute/README.md)</a> |
-  <a href="#">[Doc Contribution Policy](../ContributionPolicy.md)</a>
+  <a href="#">[Document Contribution Policy](../ContributionPolicy.md)</a>
   <br>
