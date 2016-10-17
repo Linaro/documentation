@@ -145,7 +145,7 @@ Dragonboard 410c:
 
 HiKey:
 * `/dev/mmcblk0p6` , aka `boot` is used for the boot image (kernel, device tree, initrd)
-* `/dev/mmcblk0p9` , aka `rootfs` is used for the root file system
+* `/dev/mmcblk0p9` , aka `system` is used for the root file system
 
 # Flashing build artifacts
 
@@ -170,7 +170,7 @@ In the case of Dragonboard 410c:
 In the case of HiKey:
 
     # ext2simg -v IMAGE-MACHINE.ext4 IMAGE-MACHINE.img
-    # fastboot flash rootfs IMAGE-MACHINE.img
+    # fastboot flash system IMAGE-MACHINE.img
 
 # Proprietary firmware blob
 
