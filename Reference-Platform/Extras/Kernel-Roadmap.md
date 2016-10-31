@@ -1,7 +1,7 @@
 ## Introduction
 The Reference Platform Kernel (RPK) brings together WIP code that is still under review upstream in case that is useful.
 
-The kernel tree is managed similar to linux-next, in that topic branches adding support for various platforms and new kernel features are merged on top of a (close-to-mainline) vanilla kernel. These topic branches are provided by the relevant segment group, Landing Team or vendor engineers who want to add support for a hardware platform or a new feature into RPK. Please review the [[patch-acceptance policy|RP-Kernel-Policy]] for RPK. It is implicit that the person responsible for the feature/platform suppport will rebase it to the new kernel version if that feature is not to be dropped in subsequent kernel releases.
+The kernel tree is managed similar to linux-next, in that topic branches adding support for various platforms and new kernel features are merged on top of a (close-to-mainline) vanilla kernel. These topic branches are provided by the relevant segment group, Landing Team or vendor engineers who want to add support for a hardware platform or a new feature into RPK. Please review the [patch-acceptance Policy](KernelPolicy.md) for RPK. It is implicit that the person responsible for the feature/platform suppport will rebase it to the new kernel version if that feature is not to be dropped in subsequent kernel releases.
 
 See the [table](#kernel-version-table) below for a roadmap of proposed kernel versions for future releases.
 
