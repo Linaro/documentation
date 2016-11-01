@@ -226,6 +226,118 @@ If you boot this image on the board, you should get a command prompt on the HDMI
 
 And that should get you to the Weston desktop shell.
 
+# Build mixed 32bit/64bit image
+
+OE RPB has support for creating mixed 32-bit/64-bit builds with 64-bit
+kernel and 32-bit userland for:
+* HiKey
+* Dragonboard-410c
+
+There are two variants of machine configuration for both HiKey and
+Dragonboard-410c boards:
+
+| Board |  MACHINE-32   |  MACHINE-64 |
+|:-----:|:-------------:|:-----------:|
+| HiKey | hikey-32 | hikey |
+| DB-410c| dragonboard-410c-32 | dragonboard-410c |
+
+MACHINE-32 configuration doesn't build the kernel. It is intended to
+create the 32-bit root filesystem only.
+
+MACHINE-64 configuration is universal. But in this mixed build only the
+kernel and the kernel modules are needed from the 64-bit configuration,
+so the 64-bit rpb-minimal-image is built.
+
+## Running a mixed build
+
+Setting up the build environment is the same as usual. The only difference
+is that when running
+```
+$ . setup-environment
+```
+one should select `<MACHINE-32>` as the MACHINE.
+DISTRO values can be:
+* rpb-x11
+* rpb-wayland
+
+Then do
+```
+bitbake_secondary_image --extra-machine <MACHINE-64> <image>
+```
+e.g. if MACHINE=dragonboard-410c-32 and DISTRO=rpb-wayland were selected
+when sourcing setup-environment, the command could be:
+`bitbake_secondary_image --extra-machine dragonboard-410c rpb-weston-image`
+
+## Creating the mixed rootfs image
+
+`bitbake_secondary_image` actually runs two builds. So in the build directory,
+under `tmp-*/deploy/images/` two directories are created: one for 32-bit build
+artifacts, and the other for the 64-bit ones. E.g.
+```
+tmp-rpb_wayland-glibc/deploy/images/dragonboard-410c-32
+```
+and
+```
+tmp-rpb_wayland-glibc/deploy/images/dragonboard-410c
+
+Unpack the 32-bit `*.rootfs.ext4` image, resize it to make sure that there is
+enough space for the 64-bit modules, mount it via a loop device, and unpack the
+64-bit modules into the 32-bit root filesystem. Then unmount the rootfs to get
+the 32-bit rootfs.ext4 image with the 64-bit kernel modules added.
+
+Please find more detailed instructions for the both boards below.
+
+### Creating the image for Dragonboard-410c
+
+Assuming that all the relevant build artifacts are in the current directory:
+```
+gunzip -k rpb-weston-image-dragonboard-410c-32-20161013104111.rootfs.ext4.gz
+resize2fs rpb-weston-image-dragonboard-410c-32-20161013104111.rootfs.ext4 512M
+mkdir root
+sudo mount -o loop rpb-weston-image-dragonboard-410c-32-20161013104111.rootfs.ext4 root
+cd root/
+sudo tar xzf ../modules--4.4-r0-dragonboard-410c-20161013094521.tgz
+cd ..
+sync
+sudo umount root
+ext2simg rpb-weston-image-dragonboard-410c-32-20161013104111.rootfs.ext4 rpb-weston-image-dragonboard-410c.rootfs.img
+```
+The resulting rpb-weston-image-dragonboard-410c.rootfs.img with 32-bit userland
+and 64-bit kernel modules can be flashed into the board with
+```
+fastboot flash rootfs rpb-weston-image-dragonboard-410c.rootfs.img
+```
+
+### Creating the image for HiKey
+
+Creating the mixed tootfs image for HiKey is the same as for Dragonboard-410c,
+but requires an extra step, as HiKey reads the kernel image to boot from the
+rootfs (vs a boot partition in the case of Dragonboard-410c). So the 64-bit
+kernel image and the DTB file must be copied to the 32-bit rootfs, the /boot
+directory - this is where GRUB looks the kernel image for. E.g.:
+```
+mkdir root
+mkdir root-64
+gunzip -k rpb-minimal-image-hikey-20161014162659.rootfs.ext4.gz
+sudo mount -o loop rpb-minimal-image-hikey-20161014162659.rootfs.ext4 root-64/
+gunzip -k rpb-weston-image-hikey-32-20161014172406.rootfs.ext4.gz 
+resize2fs rpb-weston-image-hikey-32-20161014172406.rootfs.ext4 512M
+sudo mount -o loop rpb-weston-image-hikey-32-20161014172406.rootfs.ext4 root
+sudo cp -r root-64/boot/* root/boot/
+cd root
+sudo tar xzf ../modules--4.4.11+git-r0-hikey-20161014162659.tgz
+cd ..
+sync
+sudo umount root
+sudo umount root-64
+ext2simg rpb-weston-image-hikey-32-20161014172406.rootfs.ext4 rpb-weston-image-hikey.rootfs.img
+```
+The resulting rpb-weston-image-hikey.rootfs.img with a 32-bit userland, and
+64-bit kernel modules and the kernel can be flashed into the board with
+```
+fastboot flash system rpb-weston-image-hikey.rootfs.img
+```
+
 # Support
 
 For general question or support request, please go to [96boards.org Community forum](http://www.96boards.org/forums/forum/products/).
