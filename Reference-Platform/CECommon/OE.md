@@ -279,6 +279,7 @@ tmp-rpb_wayland-glibc/deploy/images/dragonboard-410c-32
 and
 ```
 tmp-rpb_wayland-glibc/deploy/images/dragonboard-410c
+```
 
 Unpack the 32-bit `*.rootfs.ext4` image, resize it to make sure that there is
 enough space for the 64-bit modules, mount it via a loop device, and unpack the
