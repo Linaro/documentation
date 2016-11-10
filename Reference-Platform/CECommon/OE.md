@@ -86,7 +86,7 @@ To manage the various git trees and the OpenEmbedded environment, a repo manifes
 To initialize your build environment, you need to run:
 
     mkdir oe-rpb && cd oe-rpb
-    repo init -u https://github.com/96boards/oe-rpb-manifest.git -b jethro
+    repo init -u https://github.com/96boards/oe-rpb-manifest.git -b krogoth
     repo sync
     source setup-environment [<build folder>]
 
