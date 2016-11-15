@@ -1,0 +1,28 @@
+h2. Install Instructions
+
+Look for the desirable release at "https://builds.96boards.org/snapshots/reference-platform/debian/":https://builds.96boards.org/snapshots/reference-platform/debian/
+
+h3. Downloading
+
+With the version in hands, simply download the images with wget:
+
+bc. wget https://builds.96boards.org/snapshots/reference-platform/debian/30/dragonboard410c/dragonboard410c-boot-linux-20151106-30.img.gz
+wget https://builds.96boards.org/snapshots/reference-platform/debian/30/dragonboard410c/dragonboard410c-rootfs-debian-jessie-alip-20151106-30.emmc.img.gz
+gunzip dragonboard410c-*
+
+h3. Flashing
+
+Unplug the power cable, press volume down and plug the power cable again (to boot in fastboot mode). Once in fastboot, flash with the following commands:
+
+bc. sudo fastboot flash boot dragonboard410c-boot-linux-*.img
+sudo fastboot flash rootfs dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img
+
+Now just reboot the board and enjoy the release :-)
+
+For known issues and more information, please check "https://github.com/96boards/documentation/wiki/ReferenceSoftware":https://github.com/96boards/documentation/wiki/ReferenceSoftware
+
+h3. TODO
+
+* Recovery process
+* Extend instructions to explain the files used
+
