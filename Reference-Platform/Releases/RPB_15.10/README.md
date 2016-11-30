@@ -1,10 +1,6 @@
 # Reference Platform Build - 15.10
 
-<p align="center">
-  <b></b>
-  <a href="#">[RPB 15.10 Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a>
-  <br>
+[RPB 15.10 Highlights](Highlights.md) | [RPB 15.10 Known Issues](Known-Issues.md)
 
 #### Reference Software - Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
