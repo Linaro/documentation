@@ -12,11 +12,10 @@ Release Status ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/Relea
 
 ## Choose your Release
 
-  - [15.10(Alpha)](Releases/RPB_15.10/README.md)
-  - [15.12](Releases/RPB_15.12/README.md)
-  - [16.03](Releases/RPB_16.03/README.md)
   - [16.06(Latest)](Releases/RPB_16.06/README.md)
-
+  - [16.03](Releases/RPB_16.03/README.md)
+  - [15.12](Releases/RPB_15.12/README.md)
+  - [15.10(Alpha)](Releases/RPB_15.10/README.md)
 
 ***
 
