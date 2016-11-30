@@ -4,11 +4,11 @@
 
 ## Choose your Hardware
 
-#### Reference Software - Consumer Edition
+#### Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
 
-#### Reference Software - Enterprise Edition
+#### Enterprise Edition
 - [D02](EnterpriseEdition/D02/README.md)
 - [Overdrive](EnterpriseEdition/Overdrive/README.md)
 - [Cello](EnterpriseEdition/Cello/README.md)
