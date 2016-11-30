@@ -21,12 +21,12 @@ For more information about the Reference Software Platform project please watch 
 
 #### Resources
 
-- [RPB CI](Extras/RPB-CI.md)
-- [Report a bug](Extras/Report-a-bug.md)
-- [Feedback and Support](Extras/Feedback-and-Support.md)
-- [Kernel Policy](Extras/KernelPolicy.md)
-- [Kernel Roadmap](Extras/Kernel-Roadmap.md)
-- [Contribute to RPB](Contribute/README.md)
-- [Document Contribution Policy](../ContributionPolicy.md)
+| Extras and Support                                    | Progress and Policy                       |   
+|:-----------------------------------------------------:|:-----------------------------------------:|
+| [RPB CI](Extras/RPB-CI.md)                            | [Kernel Policy](Extras/KernelPolicy.md)   |
+| [Feedback and Support](Extras/Feedback-and-Support.md)| [Kernel Roadmap](Extras/Kernel-Roadmap.md)|  
+| [Report a bug](Extras/Report-a-bug.md)                | [Contribute to RPB](Contribute/README.md) |  
 
 ***
+
+[Document Contribution Policy](../ContributionPolicy.md)
