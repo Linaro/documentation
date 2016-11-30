@@ -1,8 +1,6 @@
 # Reference Platform Build - 16.03
 
-- [RPB 16.03 Highlights](Highlights.md)
-- [Known Issues](Known-Issues.md)
-- [RPB 16.03 Release Status](ReleaseStatus-16.03.md)
+[RPB 16.03 Highlights](Highlights.md) | [Known Issues](Known-Issues.md) | [RPB 16.03 Release Status](ReleaseStatus-16.03.md)
 
 ## Choose your Hardware
 
