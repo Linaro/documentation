@@ -1,6 +1,6 @@
 # Reference Software Platform - 16.06
 
-[Release Highlights](Highlights.md) | [Known Issues](Known-Issues.md)
+[RPB 16.06 Highlights](Highlights.md) | [RPB 16.06 Known Issues](Known-Issues.md)
 
 ## Choose your Hardware
 
