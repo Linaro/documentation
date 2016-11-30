@@ -21,5 +21,6 @@
 - [Cavium Thunder X](EnterpriseEdition/ThunderX/README.md)
 - [Qualcomm QDF2432 Server Development Platform](EnterpriseEdition/Q2432LZB/README.md)
 
+Visit our [Components Downloads Page](https://builds.96boards.org/releases/reference-platform/components/)
 
 ***
