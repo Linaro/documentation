@@ -2,8 +2,6 @@
 
 [Release Highlights](Highlights.md) | [Known Issues](Known-Issues.md)
 
-***
-
 ## Choose your Hardware
 
 #### Consumer Edition
