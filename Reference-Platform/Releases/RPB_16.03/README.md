@@ -1,11 +1,10 @@
 # Reference Platform Build - 16.03
 
-<p align="center">
-  <b>Announcements</b><br>
-  <a href="#">[RPB 16.03 Highlights](Highlights.md)</a> |
-  <a href="#">[Known Issues](Known-Issues.md)</a> |
-  <a href="#">[RPB 16.03 Release Status](ReleaseStatus-16.03.md)</a>
-  <br>
+- [RPB 16.03 Highlights](Highlights.md)
+- [Known Issues](Known-Issues.md)
+- [RPB 16.03 Release Status](ReleaseStatus-16.03.md)
+
+## Choose your Hardware
 
 #### Reference Software - Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
