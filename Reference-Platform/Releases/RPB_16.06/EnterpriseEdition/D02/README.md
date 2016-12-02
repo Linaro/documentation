@@ -40,7 +40,7 @@ Install instructions for the tested/supported distributions:
 Only Debian and CentOS are officially released and validated as part of the reference software platform project, but other distributions can be easily supported as well (just need kernel and installer changes).
 
 Extra resources for other distributions:
-* [Fedora 23](../Install-Fedora-23.md)
+* [Fedora 23](../../../../Install-Fedora-23.md)
 
 ### Enterprise Software Components
 
