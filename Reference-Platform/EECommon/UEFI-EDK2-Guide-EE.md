@@ -265,24 +265,15 @@ Flashing D03 requires the board to have a working ethernet connection to the FTP
 
 ##### Clean flash
 
-First make sure the built firmware is available in your FTP server ('D03.fd'):
+To do a clean flash you will require access to the BMC.
 
-```shell
-cp D03.fd /srv/tftp/
-```
-
-Now follow the steps below in order to fetch and flash the new firmware:
-
-1. Power off the board and unplug the power supply.
-2. Push the dial switch **3. CPU0_SPI_SEL** to **off** (check [http://open-estuary.com/d03-2/](http://open-estuary.com/d03-2/) for the board picture)
-   - The board has two SPI flash chips, and this switch selects which one to boot from.
-3. Power on the device, stop the boot from the serial console, and get into the the 'Embedded Boot Loader (EBL)' shell
-4. Push the dial switch **3. CPU0_SPI_SEL** to **on**
-   - **NOTE:** make sure to run the step above before running 'biosupdate' (as it modifies the flash), or else the backup BIOS will also be modified and there will be no way to unbrick the board (unless sending it back to Huawei).
-5. Download and flash the firmware file from the FTP server:
-'biosupdate <server ip> -u <user> -p <password> -f <UEFI image file name> master' like
-'D02 > biosupdate 10.0.0.10 -u anonymous -p anonymous -f D03.fd master'
-6. Exit the EBL console and reboot the board
+1. Make sure the board's BMC port is connected, and with a known IP address.
+2. Login the BMC website, The username/passwd is root/Huawei12#$. Click "system", "Firmware upgrade", "Browse" to select the UEFI file in hpm formate. (Please contact support@open-estuary.org to get the hpm file).
+3. Pull out the power cable to power off the board. Find the pin named "COM_SW" at J44. Then connect it with jump cap.
+4. Power on the board, connect to the board's serial port. When the screen display message "You are trying to access a restricted zone. Only Authorized Users allowed.", type "Enter" key, input username/passwd, the username/passwd is root/Huawei12#$.
+5. After you login the BMC interface which start with "iBMC:/->", use command "ifconfig" to see the modified BMC IP. When you get the board's BMC IP, please visit the BMC website by "https://<BMC IP ADDRESS>"
+6. Click "Start update" (Do not power off during this period).
+7. After updated UFEI file, reboot the board to enter UEFI menu.
 
 ##### Upgrading firmware
 
