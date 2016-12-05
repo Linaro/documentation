@@ -265,15 +265,15 @@ Flashing D03 requires the board to have a working ethernet connection to the FTP
 
 ##### Clean flash
 
-To do a clean flash you will require access to the BMC.
+To do a clean flash you will require access to the board's BMC.
 
 1. Make sure the board's BMC port is connected, and with a known IP address.
-2. Login the BMC website, The username/passwd is root/Huawei12#$. Click "system", "Firmware upgrade", "Browse" to select the UEFI file in hpm formate. (Please contact support@open-estuary.org to get the hpm file).
+2. Login the BMC website, The username/passwd is root/Huawei12#$. Go to "System", "Firmware Upgrade", and "Browse" to select the UEFI file in hpm format. (Please contact support@open-estuary.org to get the hpm file).
 3. Pull out the power cable to power off the board. Find the pin named "COM_SW" at J44. Then connect it with jump cap.
-4. Power on the board, connect to the board's serial port. When the screen display message "You are trying to access a restricted zone. Only Authorized Users allowed.", type "Enter" key, input username/passwd, the username/passwd is root/Huawei12#$.
-5. After you login the BMC interface which start with "iBMC:/->", use command "ifconfig" to see the modified BMC IP. When you get the board's BMC IP, please visit the BMC website by "https://<BMC IP ADDRESS>"
-6. Click "Start update" (Do not power off during this period).
-7. After updated UFEI file, reboot the board to enter UEFI menu.
+4. Power on the board and connect to the board's serial port. When the screen display message "You are trying to access a restricted zone. Only Authorized Users allowed.", type "Enter", input username/passwd (username/passwd is root/Huawei12#$).
+5. After you login the BMC interface which start with "iBMC:/->", use command "ifconfig" to see the modified BMC IP. When you get the board's BMC IP, please visit the BMC website by "https://BMC IP ADDRESS/".
+6. Go to "Start Update" (Do not power off during this period).
+7. After updating the UEFI firmware, reboot the board to enter UEFI menu.
 
 ##### Upgrading firmware
 
