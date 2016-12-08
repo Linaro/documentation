@@ -20,7 +20,7 @@ The IoT reference platform’s goal is to provide an end to end open source secu
 - [Downloads](Downloads/README.md)
    - Skip straight to your Reference Platform downloads
 - [Hardware](HardwareDocs/README.md)
-   - Explore the Reference Platform from the Hardware side
+   - Explore the Reference Platform from a Hardware perspective
 - [Troubleshooting](Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
