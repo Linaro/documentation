@@ -1,14 +1,14 @@
-# Consumer Reference Platform - Documentation
+# Enterprise Reference Platform - Documentation
 
-The Consumer Reference Platform aims to enable the latest software on a series of embedded hardware platforms. Open source boot firmware and a unified Linux kernel delivers an excellent starting point for your next embedded product. High level components such as ROS, and a standard GPIO library are included to help accelerate robotic enthusiasts and makers. The consumer software stack provides two builds based on Debian and OpenEmbedded. A graphic user interface is included for each variant, and both are validated to ensure quality and a great user experience. 
+The enterprise reference platform is targeted to accelerate the high powered ARMv8 servers in both datacenter and cloud vertical markets. Industry standard firmware (SBBR and SBSA) and a unified Linux kernel are provided for all the supported platforms, simplifying software maintenance and deployment. The high level components such as Openstack, Ceph, Hadoop, and KVM are rigorously validated for each distribution. The enterprise software stack provides two builds based on Debian and Centos. The goal is to help bridge the gap between older technology present in today’s distributions and the latest ARM server optimizations. 
 
 ## Features
- - Unified Linux Kernel
- - Open Boot Firmware
- - Debian and OpenEmbedded Builds
- - Desktop Enviroment
- - ROS (Robot OS)
- - Standard GPIO Library
+- Unified Linux Kernel
+- Open Boot Firmware
+   - Compliant with ARM SBSA and SBBR specifications
+- Debian and Centos Network Installers
+- Openstack and Ceph Reference Deployments
+- Built for Big Data Workloads
 
 ***
 
