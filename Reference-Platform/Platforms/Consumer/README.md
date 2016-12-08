@@ -1,4 +1,4 @@
-# Reference Software Platform - Legacy
+# Consumer Reference Platform - Documentation
 
 The Consumer Reference Platform aims to enable the latest software on a series of embedded hardware platforms. Open source boot firmware and a unified Linux kernel delivers an excellent starting point for your next embedded product. High level components such as ROS, and a standard GPIO library are included to help accelerate robotic enthusiasts and makers. The consumer software stack provides two builds based on Debian and OpenEmbedded. A graphic user interface is included for each variant, and both are validated to ensure quality and a great user experience. 
 
