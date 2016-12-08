@@ -6,15 +6,21 @@
 The Reference Software Platform Lead Project is part of the Linaro 96Boards initiative. The project's goal is to deliver Linaro output for ARM SoCs using 96Boards products. Use cases range from the Embedded to the Enterprise segments. Releases may contain bootloader, kernel, distribution and/or user level middleware/applications. Loadable software for 96Boards products, reference source code, hardware dependencies including porting tips for other SoCs, configurations chosen for the reference builds, and ample documentation will also be included with every release.
 For more information about the Reference Software Platform project please watch this video from Linaro Connect (SFO15)
 
-**Release Status** ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/ReleaseStatus/RPB-EE-Release.md) / [IoT](Extras/ReleaseStatus/RPB-IoT-Release.md))
+**Release Status** ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/ReleaseStatus/RPB-EE-Release.md))</a>
 
 ***
 
-## Choose your Platform:
+|     |     |     |
+|:---:|:---:|:---:|
+|     |     |     |
 
-- [Consumer](Platforms/Consumer/README.md)
-- [Enterprise](Platforms/Enterprise/README.md)
-- [IoT](Platforms/IoT/README.md)
+
+
+
+  - **[16.06(Latest)](Releases/RPB_16.06/README.md)**
+  - [16.03](Releases/RPB_16.03/README.md)
+  - [15.12](Releases/RPB_15.12/README.md)
+  - [15.10(Alpha)](Releases/RPB_15.10/README.md)
 
 ***
 
