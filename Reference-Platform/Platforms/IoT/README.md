@@ -1,37 +1,32 @@
-# Reference Software Platform - Legacy
+# IoT Reference Platforms - Documentation
 
-<a href="http://connect.linaro.org/resource/sfo15/sfo15-104-the-96boards-software-reference-platform/" target="_blank"><img align="right" src="http://i.imgur.com/UzmaWUD.png" data-canonical-src="http://i.imgur.com/UzmaWUD.png" width="300" height="200" /></a>
+The IoT reference platform’s goal is to provide an end to end open source secure pipeline from gateway devices to endpoints.  For the deeply embedded use cases, a Zephyr RTOS baseline is provided to enable a series of hardware platforms, which ships with a rich developer SDK. The gateway is a variant of the Consumer reference platform based on Debian, leveraging the latest in cloud and container technology. Secure updates are not a mere afterthought, instead this software stack has been designed with security and maintainability in mind from day one.
 
+## Features
+ - Zephyr RTOS with SDK for endpoints
+ - Open Boot Firmware for endpoints
+ - Debian builds for gateways
+ - Secure update pipeline for all devices
 
-The Reference Software Platform Lead Project is part of the Linaro 96Boards initiative. The project's goal is to deliver Linaro output for ARM SoCs using 96Boards products. Use cases range from the Embedded to the Enterprise segments. Releases may contain bootloader, kernel, distribution and/or user level middleware/applications. Loadable software for 96Boards products, reference source code, hardware dependencies including porting tips for other SoCs, configurations chosen for the reference builds, and ample documentation will also be included with every release.
-For more information about the Reference Software Platform project please watch this video from Linaro Connect (SFO15)
-
-**Release Status** ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/ReleaseStatus/RPB-EE-Release.md))</a>
 
 ***
 
-|     |     |     |
-|:---:|:---:|:---:|
-|     |     |     |
+## Contents
 
-
-
-
-  - **[16.06(Latest)](Releases/RPB_16.06/README.md)**
-  - [16.03](Releases/RPB_16.03/README.md)
-  - [15.12](Releases/RPB_15.12/README.md)
-  - [15.10(Alpha)](Releases/RPB_15.10/README.md)
+- [Getting Started](GettingStarted/README.md)
+   - Learn more about the IoT Reference Platform, this is an ideal place to start.
+- [Installation](Installation/README.md)
+   - Installation and build instructions for a variety of your Reference Platform components
+- [Downloads](Downloads/README.md)
+   - Skip straight to your Reference Platform downloads
+- [Hardware](HardwareDocs/README.md)
+   - Explore the Reference Platform from the Hardware side
+- [Troubleshooting](Troubleshooting/README.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
 ***
 
 #### Resources
 
-| Extras and Support                                    | Progress and Policy                       |   
-|:-----------------------------------------------------:|:-----------------------------------------:|
-| [RPB CI](Extras/RPB-CI.md)                            | [Kernel Policy](Extras/KernelPolicy.md)   |
-| [Feedback and Support](Extras/Feedback-and-Support.md)| [Kernel Roadmap](Extras/Kernel-Roadmap.md)|  
-| [Report a bug](Extras/Report-a-bug.md)                | [Contribute to RPB](Contribute/README.md) |  
-
-***
-
-[Document Contribution Policy](../ContributionPolicy.md)
+- [Previous Releases](PreviousReleases/README.md)
+- [Document Contribution Policy](../ContributionPolicy.md)
