@@ -17,11 +17,11 @@ The Consumer Reference Platform aims to enable the latest software on a series o
 - [Getting Started](GettingStarted/README.md)
    - Learn more about the Consumer Reference Platform, this is an ideal place to start.
 - [Installation](Installation/README.md)
-   - Choose and install an operating system on your HiKey
+   - Installation and build instructions for a variety of your Reference Platform components
 - [Downloads](Downloads/README.md)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
+   - Skip straight to your Reference Platform downloads
 - [Hardware](HardwareDocs/README.md)
-   - Explore the Reference Platform from the Hardware side
+   - Explore the Reference Platform from a Hardware 
 - [Troubleshooting](Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
@@ -29,8 +29,5 @@ The Consumer Reference Platform aims to enable the latest software on a series o
 
 #### Resources
 
-[Previous Releases](PreviousReleases/README.md)
-
-***
-
-[Document Contribution Policy](../ContributionPolicy.md)
+- [Previous Releases](PreviousReleases/README.md)
+- [Document Contribution Policy](../ContributionPolicy.md)
