@@ -1,4 +1,4 @@
-# Reference Software Platform - Legacy
+# Reference Software Platform
 
 <a href="http://connect.linaro.org/resource/sfo15/sfo15-104-the-96boards-software-reference-platform/" target="_blank"><img align="right" src="http://i.imgur.com/UzmaWUD.png" data-canonical-src="http://i.imgur.com/UzmaWUD.png" width="300" height="200" /></a>
 
@@ -25,7 +25,5 @@ For more information about the Reference Software Platform project please watch 
 | [RPB CI](Extras/RPB-CI.md)                            | [Kernel Policy](Extras/KernelPolicy.md)   |
 | [Feedback and Support](Extras/Feedback-and-Support.md)| [Kernel Roadmap](Extras/Kernel-Roadmap.md)|  
 | [Report a bug](Extras/Report-a-bug.md)                | [Contribute to RPB](Contribute/README.md) |  
-
-***
 
 [Document Contribution Policy](../ContributionPolicy.md)
