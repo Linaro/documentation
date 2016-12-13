@@ -1,6 +1,6 @@
 # Reference Software Platform
 
-<a href="http://connect.linaro.org/resource/las16/las16-202/" target="_blank"><img align="right" src="http://i.imgur.com/UzmaWUD.png" data-canonical-src="http://i.imgur.com/UzmaWUD.png" width="300" height="200" /></a>
+<a href="http://connect.linaro.org/resource/las16/las16-202/" target="_blank"><img align="right" src="http://i.imgur.com/UzmaWUD.png" data-canonical-src="http://i.imgur.com/UzmaWUD.png" width="255" height="170" /></a>
 
 The Reference Platform is an end to end, open software stack. This product aims to showcase the latest available ARM optimizations, through validation, on a series of hardware platforms. Each reference platform is focused on a unique segment, providing everything from firmware to middleware, while reducing overall complexity and time to market.
 
