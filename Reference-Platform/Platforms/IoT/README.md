@@ -8,8 +8,6 @@
    - Installation and build instructions for a variety of your Reference Platform components
 - [Downloads](Downloads/README.md)
    - Skip straight to your pre-built Reference Platform downloads
-- [Hardware](HardwareDocs/README.md)
-   - Explore the Reference Platform from a Hardware perspective
 - [Support](Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
