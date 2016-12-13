@@ -4,8 +4,6 @@
 
 The Reference Platform is an end to end, open software stack. This product aims to showcase the latest available ARM optimizations, through validation, on a series of hardware platforms. Each reference platform is focused on a unique segment, providing everything from firmware to middleware, while reducing overall complexity and time to market.
 
-**Release Status** ([CE](Extras/ReleaseStatus/RPB-CE-Release.md) / [EE](Extras/ReleaseStatus/RPB-EE-Release.md))
-
 ***
 
 ## Choose your Platform:
