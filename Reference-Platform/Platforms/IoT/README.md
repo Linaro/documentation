@@ -1,5 +1,7 @@
 # IoT Reference Platform - Documentation
 
+A comprehensive guide to using the IoT Reference Platform. This guide is written by the Linaro team with community contributions and links to third-party content.
+
 ## Contents
 
 - [Getting Started](GettingStarted/README.md)
