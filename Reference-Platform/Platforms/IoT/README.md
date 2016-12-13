@@ -10,7 +10,7 @@
    - Skip straight to your Reference Platform downloads
 - [Hardware](HardwareDocs/README.md)
    - Explore the Reference Platform from a Hardware perspective
-- [Troubleshooting](Troubleshooting/README.md)
+- [Support](Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
 ***
@@ -18,4 +18,4 @@
 #### Resources
 
 - [Previous Releases](PreviousReleases/README.md)
-- [Document Contribution Policy](../ContributionPolicy.md)
+- [Document Contribution Policy](../../../ContributionPolicy.md)
