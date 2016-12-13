@@ -1,5 +1,7 @@
 # Enterprise Reference Platform - Documentation
 
+A comprehensive guide to using the Enterprise Reference Platform. This guide is written by the Linaro with community contributions and links to third-party content.
+
 ## Contents
 
 - [Getting Started](GettingStarted/README.md)
