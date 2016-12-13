@@ -18,4 +18,4 @@
 #### Resources
 
 - [Previous Releases](PreviousReleases/README.md)
-- [Document Contribution Policy](../ContributionPolicy.md)
+- [Document Contribution Policy](../../../ContributionPolicy.md)
