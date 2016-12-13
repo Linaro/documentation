@@ -1,6 +1,7 @@
 ## OpenEmbedded and Yocto
 
-This page provides instructions to get started with OpenEmbedded and the Yocto Project on the DragonBoard 410c and HiKey. 
+This page provides instructions to get started with OpenEmbedded and the Yocto Project. It aims at being generic for any board support.
+The board diversity should be addressed through dedicated BSP layer then MACHINE choice.
 
 # Introduction
 
@@ -11,15 +12,12 @@ This wiki is not an introduction on OpenEmbedded or Yocto Project. If you are no
 
 In this wiki, we assume that the reader is familiar with basic concepts of OpenEmbedded.
 
-The support for DragonBoard 410c is available in the [meta-qcom BSP layer](http://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom).
-
-The support for HiKey is available in the [meta-96boards BSP layer](https://github.com/96boards/meta-96boards).
-
-These layers have been tested with OpenEmbedded Core layer, and are expected to work with any other standard layers and of course any OpenEmbedded based distributions.
+The support for any board is available in the dedicated BSP Layers. These layers have been tested with OpenEmbedded Core layer, and are expected to work with any other standard layers and of course any OpenEmbedded based distributions.
 
 The Linux kernel used for these boards is the Reference Platform Kernel (RPK). The graphic stack is based on mesa:
 * using the freedreno driver for Dragonboard 410c
 * using the ARM Mali Utgard GPU driver for HiKey
+* using the ARM Mali 400 GPU driver for B2260
 
 ## OE Layers
 
@@ -32,8 +30,9 @@ The Linux kernel used for these boards is the Reference Platform Kernel (RPK). T
 | meta-qt5                | This is a cross-platform toolkit. |
 | meta-linaro             | This layer is used to get the Linaro toolchain. |
 | meta-linaro-backports   | This is an experimental layer used to get newer versions into the build which were not part of the release. |
-| meta-96Boards           | This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer Edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer. |
-| meta-qcom (BSP)         | This is the board support layer for Qualcomm boards. Currently supports IFC6410 and the DragonBoard 410c. |
+| [meta-96boards BSP layer](https://github.com/96boards/meta-96boards) | This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer Edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer. |
+| [meta-qcom BSP layer](http://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom) | This is the board support layer for Qualcomm boards. Currently supports IFC6410 and the DragonBoard 410c. |
+| [meta-st-cannes2 BSP Layer](https://github.com/cpriouzeau/meta-st-cannes2) | This is the board support layer for ST B2260 board. |
 
 # Package Dependencies
 
