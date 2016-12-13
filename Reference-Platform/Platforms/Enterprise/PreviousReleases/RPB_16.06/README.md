@@ -4,12 +4,6 @@
 
 ## Choose your Hardware
 
-#### Consumer Edition
-
-- [HiKey](ConsumerEdition/HiKey/README.md)
-- [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
-
-#### Enterprise Edition
 - [LeMaker Cello](EnterpriseEdition/Cello/README.md)
 - [D02](EnterpriseEdition/D02/README.md)
 - [D03](EnterpriseEdition/D03/README.md)

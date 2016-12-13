@@ -4,10 +4,6 @@
 
 ## Choose your Hardware
 
-#### Consumer Edition
 - [HiKey](ConsumerEdition/HiKey/README.md)
 - [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/README.md)
 
-#### Enterprise Edition
-- [D02](EnterpriseEdition/D02/README.md)
-- [Overdrive](EnterpriseEdition/Overdrive/README.md)
