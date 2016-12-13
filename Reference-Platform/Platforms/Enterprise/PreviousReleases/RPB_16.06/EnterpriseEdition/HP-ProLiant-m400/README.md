@@ -16,11 +16,11 @@ At the time of the 16.06 release, the kernel is based on *4.4.11*.
 
 ### Network Installers
 
-In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../../../../EECommon/DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
+In order to install a distribution from network, PXE (DCHP/TFTP) booting is required. Since we require UEFI for the Enterprise Edition, the setup is usually easier since all you need is to load GRUB 2 (and its configuration). Check [this link](../../EECommon/DHCP-TFTP-Server-UEFI.md) for instructions on how to quickly setup your own PXE server (using *dnsmasq*).
 
 Install instructions for the tested/supported distributions:
-* [Debian 8.x 'Jessie'](../../../../EECommon/Install-Debian-Jessie.md)
-* [CentOS 7](../../../../EECommon/Install-CentOS-7.md)
+* [Debian 8.x 'Jessie'](../../EECommon/Install-Debian-Jessie.md)
+* [CentOS 7](../../EECommon/Install-CentOS-7.md)
 
 
 #### Other distributions
@@ -28,20 +28,20 @@ Install instructions for the tested/supported distributions:
 Only Debian and CentOS are officially released and validated as part of the reference software platform project, but other distributions can be easily supported as well (just need kernel and installer changes).
 
 Extra resources for other distributions:
-* [Fedora 23](../../../../EECommon/Install-Fedora-23.md)
+* [Fedora 23](../../EECommon/Install-Fedora-23.md)
 
 ### Enterprise Software Components
 
 #### OpenStack
 
-Follow the [instructions](../../../../EECommon/OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
+Follow the [instructions](../../EECommon/OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
 
 #### Hadoop (ODPi BigTop)
 
 ##### Installation
 
-Follow the [instructions](../../../../EECommon/ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
+Follow the [instructions](../../EECommon/ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
 
 ##### Setup and Running Hadoop
 
-Follow the [instructions](../../../../EECommon/ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
+Follow the [instructions](../../EECommon/ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
