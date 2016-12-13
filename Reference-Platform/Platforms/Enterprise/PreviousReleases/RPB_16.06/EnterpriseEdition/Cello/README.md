@@ -10,7 +10,7 @@ Please also check bugs [2194](https://bugs.linaro.org/show_bug.cgi?id=2194), [21
 
 ### Boot Firmware
 
-The [UEFI/EDK2 guide for EE](../../../../EECommon/UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (Tianocore EDK2).
+The [UEFI/EDK2 guide for EE](../EECommon/UEFI-EDK2-Guide-EE.md) provides information on how to flash the boot firmware for Cello (Tianocore EDK2).
 
 ### Reference Platform Kernel
 
@@ -26,33 +26,33 @@ Booting from the network is not yet supported due lack of a binary UEFI driver f
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../../../../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your LeMaker Cello. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](http://www.tincantools.com/SPI_Hook.html).
+Follow the instructions available as part of the [UEFI EDK2 Guide](../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your LeMaker Cello. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](http://www.tincantools.com/SPI_Hook.html).
 
 ### Distro Installers
 
 Install instructions for the tested/supported distributions:
-* [Debian 8.x 'Jessie'](../../../../EECommon/Install-Debian-Jessie.md#loading-debian-installer-from-the-minimal-cd) - Using the minimum ISO
-* [CentOS 7](../../../../EECommon/Install-CentOS-7.md)
+* [Debian 8.x 'Jessie'](../EECommon/Install-Debian-Jessie.md#loading-debian-installer-from-the-minimal-cd) - Using the minimum ISO
+* [CentOS 7](../EECommon/Install-CentOS-7.md)
 
 #### Other distributions
 
 Only Debian and CentOS are officially released and validated as part of the reference software platform project, but other distributions can be easily supported as well (just need kernel and installer changes).
 
 Extra resources for other distributions:
-* [Fedora 23](../../../../EECommon/Install-Fedora-23.md)
+* [Fedora 23](../EECommon/Install-Fedora-23.md)
 
 ### Enterprise Software Components
 
 #### OpenStack
 
-Follow the [instructions](../../../../EECommon/OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
+Follow the [instructions](../EECommon/OpenStack-Liberty.md) on how to install and run OpenStack Liberty on Debian Jessie.
 
 #### Hadoop (ODPi BigTop)
 
 ##### Installation
 
-Follow the [instructions](../../../../EECommon/ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
+Follow the [instructions](../EECommon/ODPi-Hadoop-Installation.md) to install ODPi BigTop Hadoop
 
 ##### Setup and Running Hadoop
 
-Follow the [instructions](../../../../EECommon/ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
+Follow the [instructions](../EECommon/ODPi-BigTop-Hadoop-Config-Run.md) to configure and install Hadoop
