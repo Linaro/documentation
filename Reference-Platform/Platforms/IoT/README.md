@@ -1,4 +1,4 @@
-# IoT Reference Platforms - Documentation
+# IoT Reference Platform - Documentation
 
 ## Contents
 
