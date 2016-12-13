@@ -7,7 +7,7 @@
 - [Installation](Installation/README.md)
    - Installation and build instructions for a variety of your Reference Platform components
 - [Downloads](Downloads/README.md)
-   - Skip straight to your Reference Platform downloads
+   - Skip straight to your pre-built Reference Platform downloads
 - [Hardware](HardwareDocs/README.md)
    - Explore the Reference Platform from a Hardware perspective
 - [Support](Support/README.md)
