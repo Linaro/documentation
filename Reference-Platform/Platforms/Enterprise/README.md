@@ -17,5 +17,6 @@ A comprehensive guide to using the Enterprise Reference Platform. This guide is 
 
 #### Resources
 
+- [Release Note](ReleaseNotes.md)
 - [Previous Releases](PreviousReleases/README.md)
 - [Document Contribution Policy](../../../ContributionPolicy.md)
