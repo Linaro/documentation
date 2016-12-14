@@ -17,3 +17,11 @@ The enterprise reference platform is targeted to accelerate the high powered ARM
 
 ***
 
+## Jump to...
+
+- [Approved Hardware](../Hardware/README.md)
+   - This is a list of all tested and approved Enterprise Reference Platform hardware
+- [Installation](../Installation/README.md)
+   - From start to finish, set up your environment and install the Enterprise Reference Platform
+- [Support](../Support/README.md)
+   - Bug reports and current issues, forum access and other useful resources. We want to help you find answers
