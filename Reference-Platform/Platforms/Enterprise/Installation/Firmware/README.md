@@ -1,6 +1,6 @@
 <table align="center">
 <tr>
-    <td>UEFI/EDK2</td>
+    <td align="center">UEFI/EDK2<br><a href="../README.md">Go Back</a></td>
     <td align="center"><a href="">Download</a><br>Get the latest pre-built firmware images</td>
     <td align="center"><a href="Build.md">Build</a><br>Instructions for building latest firmware images</td>
     <td align="center"><a href="Install.md">Install</a><br>Instructions on how to install firmware</td>
