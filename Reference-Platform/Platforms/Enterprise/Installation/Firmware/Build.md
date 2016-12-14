@@ -78,6 +78,10 @@ The output files:
 - `Build/ArmJuno/DEBUG_GCC49/FV/bl1.bin`
 - `Build/ArmJuno/DEBUG_GCC49/FV/fip.bin`
 
+### Proceed to [Installation](Install.md) page
+
+***
+
 ## Building UEFI/EDK2 for D02
 
 ```shell
@@ -91,6 +95,10 @@ ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG d02
 The output file:
 
 - `Build/Pv660D02/DEBUG_GCC49/FV/PV660D02.fd`
+
+### Proceed to [Installation](Install.md) page
+
+***
 
 ## Building UEFI/EDK2 for D03
 
@@ -106,6 +114,10 @@ The output file:
 
 - `Build/D03/DEBUG_GCC49/FV/D03.fd`
 
+### Proceed to [Installation](Install.md) page
+
+***
+
 ## Building UEFI/EDK2 for Overdrive
 
 ```shell
@@ -119,6 +131,10 @@ ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG overdrive
 The output file:
 
 - `Build/Overdrive/DEBUG_GCC49/FV/STYX_ROM.fd`
+
+### Proceed to [Installation](Install.md) page
+
+***
 
 ## Building UEFI/EDK2 for HuskyBoard / Cello
 
@@ -134,6 +150,6 @@ The output file:
 
 - `Build/Cello/DEBUG_GCC49/FV/STYX_ROM.fd`
 
-***
+### Proceed to [Installation](Install.md) page
 
-Proceed to [Installation](Install.md) page
+***
