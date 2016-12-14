@@ -1,3 +1,3 @@
-# 16.12 Release Notes - Eneterprise Reference Platform
+# 16.12 Release Notes - Enterprise Reference Platform
 
 < Add when ready here > 
