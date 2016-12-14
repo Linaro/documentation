@@ -133,3 +133,7 @@ ${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG cello
 The output file:
 
 - `Build/Cello/DEBUG_GCC49/FV/STYX_ROM.fd`
+
+***
+
+Proceed to [Installation](Install.md) page
