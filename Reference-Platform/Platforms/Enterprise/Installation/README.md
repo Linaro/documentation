@@ -20,8 +20,16 @@ This page offers generic installation instructions for the Enterprise Reference 
 
 ## Step 2: Set up PXE on your network
 
-- Debian: https://wiki.debian.org/PXEBootInstall
-- Centos: https://wiki.centos.org/HowTos/NetworkInstallServer
+<table align="center">
+<tr>
+    <th>Centos</td>
+    <td> https://wiki.centos.org/HowTos/NetworkInstallServer</td>
+</tr>
+<tr>
+    <th>Debian</td>
+    <td>https://wiki.debian.org/PXEBootInstall</td>
+</tr>
+</table>
 
 ***
 
@@ -33,12 +41,12 @@ Choose your network installer, download or build, and proceed to the installatio
   
 <table>
 <tr>
-    <td>Centos</td>
+    <th>Centos</td>
     <td><a href="">Download</a></td>
     <td><a href="">Install</a></td>
 </tr>
 <tr>
-    <td>Debian Jessie</td>
+    <th>Debian Jessie</td>
     <td><a href="">Download</a></td>
     <td><a href="">Install</a></td>
 </tr>
