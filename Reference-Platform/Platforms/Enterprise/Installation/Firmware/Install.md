@@ -42,7 +42,7 @@ sync
 
 Finally, power cycle the Juno. After it has finished copying the contents of the MMC card into Flash, the board will boot up and run the new firmware.
 
-##### Upgrading UEFI/EDK2
+### Upgrade Firmware
 
 If you already have a known working firmware available in your Juno, you simply need to update 'bl1.bin' and 'fip.bin', by mounting Juno's MMC over usb (as described in the procedure for clean flash).
 
@@ -94,7 +94,7 @@ Now follow the steps below in order to fetch and flash the new firmware:
 'D02 > biosupdate 10.0.0.10 -u anonymous -p anonymous -f PV660D02.fd master'
 6. Exit the EBL console and reboot the board
 
-### Upgrading firmware
+### Upgrade Firmware
 
 There are 2 options for updating the firmware, first via network and the second via USB storage.
 
@@ -131,7 +131,7 @@ To do a clean flash you will require access to the board's BMC.
 6. Go to "Start Update" (Do not power off during this period).
 7. After updating the UEFI firmware, reboot the board to enter UEFI menu.
 
-### Upgrading firmware
+### Upgrade Firmware
 
 There are 2 options for updating the firmware, first via network and the second via USB storage.
 
@@ -198,7 +198,7 @@ sudo flashrom -p ft2232_spi:type=2232h,port=A,divisor=2 -c "MX25L12835F/MX25L128
 
 Then just power cycle the board, and it should boot with the new firmware.
 
-### Upgrading firmware
+### Upgrade Firmware
 
 There is currently no easy way to update just the UEFI/EDK2 firmware, so please follow the clean flash process instead.
 
