@@ -43,12 +43,12 @@ Choose your network installer, download or build, and proceed to the installatio
 <tr>
     <th>Centos</td>
     <td><a href="">Download</a></td>
-    <td><a href="">Install</a></td>
+    <td><a href="Centos/README.md">Install</a></td>
 </tr>
 <tr>
     <th>Debian Jessie</td>
     <td><a href="">Download</a></td>
-    <td><a href="">Install</a></td>
+    <td><a href="Debian/README.md">Install</a></td>
 </tr>
 </table>
 
