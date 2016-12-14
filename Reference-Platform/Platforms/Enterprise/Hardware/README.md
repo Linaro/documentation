@@ -10,3 +10,5 @@ List of approved hardware, ideal for testing the Enterprise Reference Platform.
 - [HP Proliant m400]()
 - [Qualcomm Q2432]()
 - [Cavium Thunder X]()
+
+Proceed to [Installation](../Installation/README.md) page.
