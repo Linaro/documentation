@@ -8,7 +8,7 @@
 </tr>
 </table>
 
-## Pre-Requisites
+## Pre-Requisites and Dependencies
 
 Make sure the build dependencies are available at your host machine.
 
@@ -69,22 +69,6 @@ UEFI Tools (helpers and scripts to make the build process easy):
 ```shell
 git clone git://git.linaro.org/uefi/uefi-tools.git
 ```
-
-## Building UEFI/EDK2 for Juno R0/R1
-
-```shell
-export AARCH64_TOOLCHAIN=GCC49
-export LINARO_EDK2_DIR=${PWD}/edk2
-export UEFI_TOOLS_DIR=${PWD}/uefi-tools
-export ARMTF_DIR=${PWD}/arm-trusted-firmware
-cd ${LINARO_EDK2_DIR}
-${UEFI_TOOLS_DIR}/uefi-build.sh -b DEBUG -a $ARMTF_DIR juno
-```
-
-The output files:
-
-- `Build/ArmJuno/DEBUG_GCC49/FV/bl1.bin`
-- `Build/ArmJuno/DEBUG_GCC49/FV/fip.bin`
 
 ### Proceed to [Installation](Install.md) page
 
