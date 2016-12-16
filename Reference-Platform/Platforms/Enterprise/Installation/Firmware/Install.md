@@ -8,6 +8,10 @@
 </tr>
 </table>
 
+Choose instructions from the approved hardware:
+
+***
+
 ## D02
 
 Flashing D02 requires the board to have a working ethernet connection to the FTP server hosting the firmware (since the recovery UEFI image provides an update path via FTP fetch + flash). Flashing also requires entering the Embedded Boot Loader (EBL). This can be reached by typing 'exit' on the UEFI shell that will bring you to a bios-like menu. Goto 'Boot Manager' to find EBL.
