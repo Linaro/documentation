@@ -58,14 +58,14 @@
 ### D03:
 
 - Only 16 cores enabled (instead of 32) - bug 2635
-- Fails to install/boot Debian/CentOS with the default boot argument - (https://bugs.linaro.org/show_bug.cgi?id=2661 "bug 2661")
-- Earlycon not working (no console output) - (https://bugs.linaro.org/show_bug.cgi?id=2699 "bug 2699")
+- Fails to install/boot Debian/CentOS with the default boot argument - https://bugs.linaro.org/show_bug.cgi?id=2661
+- Earlycon not working (no console output) - https://bugs.linaro.org/show_bug.cgi?id=2699
 
 ### HP-m400 Moonshot:
 
-- Boot medium is not updated after network installer - (https://bugs.linaro.org/show_bug.cgi?id=2703 "bug 2703")
+- Boot medium is not updated after network installer - https://bugs.linaro.org/show_bug.cgi?id=2703
 
 ### Cavium (ThunderX)
 
-- UEFI boot entry not created after Debian installer finished - (https://bugs.linaro.org/show_bug.cgi?id=2736 "bug 2736") 
+- UEFI boot entry not created after Debian installer finished - https://bugs.linaro.org/show_bug.cgi?id=2736
 
