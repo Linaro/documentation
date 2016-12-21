@@ -26,6 +26,7 @@
 - OpenStack
    - Not ready
 - Ceph 10.2.3
+   - Not ready
 - Spark 2.0
 - OpenJDK 8
 - QEMU 2.7
