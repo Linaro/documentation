@@ -7,3 +7,5 @@
 - [D03](http://releases.linaro.org/reference-platform/enterprise/huawei/d03/16.12/centos-installer/)
 - [D05](http://releases.linaro.org/reference-platform/enterprise/huawei/d05/16.12/centos-installer/)
 - [QDF2432](http://releases.linaro.org/reference-platform/enterprise/qualcomm/qdf2432/16.12/centos-installer/)
+
+Proceed to [Install](Install.md)
