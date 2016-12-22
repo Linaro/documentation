@@ -14,4 +14,4 @@
 - [D05](http://releases.linaro.org/reference-platform/enterprise/huawei/d05/16.12/uefi/)
 - [OverDrive](http://releases.linaro.org/reference-platform/enterprise/amd/overdrive/16.12/uefi/)
 
-If you hardware is not listed here, please proceed to [Install](Install.md) page
+If you hardware is not listed here, please proceed back to the [Installation](../README.md) page and begin from **Step 2**
