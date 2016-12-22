@@ -20,4 +20,4 @@
 - QDF2432
 - Thunder X
 
-Proceed back to the [Installation](../Install.md) page
+Proceed back to the [Installation](Install.md) page
