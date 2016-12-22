@@ -10,8 +10,14 @@
 
 ## Choose your Hardware
 
+> Note: If hardware is not linked, [contact distributor](../../Hardware/README.md) for more information on available firmware.
+
 - [D03](http://releases.linaro.org/reference-platform/enterprise/huawei/d03/16.12/uefi/)
 - [D05](http://releases.linaro.org/reference-platform/enterprise/huawei/d05/16.12/uefi/)
 - [OverDrive](http://releases.linaro.org/reference-platform/enterprise/amd/overdrive/16.12/uefi/)
+- X-Gene
+- m400
+- QDF2432
+- Thunder X
 
-If you hardware is not listed here, please proceed back to the [Installation](../README.md) page and begin from **Step 2**
+Proceed back to the [Installation](../README.md) page
