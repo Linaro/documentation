@@ -44,12 +44,12 @@ Choose your network installer, download or build, and proceed to the installatio
 <table>
 <tr>
     <th>Centos</td>
-    <td><a href="http://releases.linaro.org/reference-platform/enterprise/installers/centos/16.06/">Download</a></td>
+    <td><a href="Centos/Download.md">Download</a></td>
     <td><a href="Centos/README.md">Install</a></td>
 </tr>
 <tr>
     <th>Debian Jessie</td>
-    <td><a href="http://releases.linaro.org/reference-platform/enterprise/installers/debian/16.06/">Download</a></td>
+    <td><a href="Debian/Download.md">Download</a></td>
     <td><a href="Debian/README.md">Install</a></td>
 </tr>
 </table>
