@@ -49,15 +49,15 @@
 - Using Docker with XFS and Overlay Storage Driver:
    - Note that XFS file systems must be created with the -n ftype=1 option enabled for use as an overlay. With the rootfs and any file systems created during system installation, set the --mkfsoptions=-n ftype=1 parameters in the Anaconda kickstart. When creating a new file system after the installation, run the # mkfs -t xfs -n ftype=1 /PATH/TO/DEVICE command. To determine whether an existing file system is eligible for use as an overlay, run the # xfs_info /PATH/TO/DEVICE | grep ftype command to see if the ftype=1 option is enabled.
    - https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.2_Release_Notes/technology-preview-file_systems.html
-- Installation via USB fails - bug 2655
+- Installation via USB fails - https://bugs.linaro.org/show_bug.cgi?id=2655
 
 ### QDF2432:
 
-- No support for on-board ethernet (emac) - bug 2603
+- No support for on-board ethernet (emac) - https://bugs.linaro.org/show_bug.cgi?id=2603
 
 ### D03:
 
-- Only 16 cores enabled (instead of 32) - bug 2635
+- Only 16 cores enabled (instead of 32) - https://bugs.linaro.org/show_bug.cgi?id=2635
 - Fails to install/boot Debian/CentOS with the default boot argument - https://bugs.linaro.org/show_bug.cgi?id=2661
 - Earlycon not working (no console output) - https://bugs.linaro.org/show_bug.cgi?id=2699
 
