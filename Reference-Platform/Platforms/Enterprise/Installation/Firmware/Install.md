@@ -12,52 +12,6 @@ Choose instructions from the approved hardware:
 
 ***
 
-## D02
-
-Flashing D02 requires the board to have a working ethernet connection to the FTP server hosting the firmware (since the recovery UEFI image provides an update path via FTP fetch + flash). Flashing also requires entering the Embedded Boot Loader (EBL). This can be reached by typing 'exit' on the UEFI shell that will bring you to a bios-like menu. Goto 'Boot Manager' to find EBL.
-
-### Clean flash
-
-First make sure the built firmware is available in your FTP server ('PV660D02.fd'):
-
-```shell
-cp PV660D02.fd /srv/tftp/
-```
-
-Now follow the steps below in order to fetch and flash the new firmware:
-
-1. Power off the board and unplug the power supply.
-2. Push the dial switch **3. CPU0_SPI_SEL** to **off** (check [http://open-estuary.com/d02-2/](http://open-estuary.com/d02-2/) for the board picture)
-   - The board has two SPI flash chips, and this switch selects which one to boot from.
-3. Power on the device, stop the boot from the serial console, and get into the the 'Embedded Boot Loader (EBL)' shell
-4. Push the dial switch **3. CPU0_SPI_SEL** to **on**
-   - **NOTE:** make sure to run the step above before running 'biosupdate' (as it modifies the flash), or else the backup BIOS will also be modified and there will be no way to unbrick the board (unless sending it back to Huawei).
-5. Download and flash the firmware file from the FTP server:
-'biosupdate <server ip> -u <user> -p <password> -f <UEFI image file name> master' like
-'D02 > biosupdate 10.0.0.10 -u anonymous -p anonymous -f PV660D02.fd master'
-6. Exit the EBL console and reboot the board
-
-### Upgrade Firmware
-
-There are 2 options for updating the firmware, first via network and the second via USB storage.
-
-Network upgrade:
-
-1. Make sure the built firmware is available in your FTP server ('PV660D02.fd')
-2. Stop UEFI boot, select 'Boot Manager' then 'Embedded Boot Loader (EBL)'
-3. Download and flash the firmware file from the FTP server:
-'biosupdate <server ip> -u <user> -p <password> -f <UEFI image file name> master', like
-'D02 > biosupdate 10.0.0.10 -u anonymous -p anonymous -f PV660D02.fd master'
-4. Exit the EBL console and reboot the board
-
-USB storage upgrade:
-- Copy the '.fd' file to a FAT32 partition on USB (UEFI can only recognize FAT32 file system), then run the following command (from **EBL**):
-'newbios fs1:\<file path to .fd file>'
-
-On EBL fs1 is for USB first partition, while fs0 the ramdisk.
-
-***
-
 ## D03
 
 Flashing D03 requires the board to have a working ethernet connection to the FTP server hosting the firmware (since the recovery UEFI image provides an update path via FTP fetch + flash). Flashing also requires entering the Embedded Boot Loader (EBL). This can be reached by typing 'exit' on the UEFI shell that will bring you to a bios-like menu. Goto 'Boot Manager' to find EBL.
@@ -130,7 +84,7 @@ Depending on the size of the firmware image, flashrom might not be able to flash
 Example for the 4.5M based firmware:
 
 ```shell
-dd if=/dev/zero of=FIRMWARE.ROM ibs=512K count=23 obs=1M oflag=append conv=notrunc
+truncate --size=16M FIRMWARE.rom
 ```
 
 Connect the SPI cable, unplug the power cord and flash SPI:
