@@ -24,9 +24,8 @@
 ## Enterprise Components
 - Docker 1.10.3
 - OpenStack
-   - Not ready
+   - Mitaka
 - Ceph 10.2.3
-   - Not ready
 - Spark 2.0
 - OpenJDK 8
 - QEMU 2.7
@@ -34,7 +33,6 @@
 ## Supported Hardware Platforms
 
 - AMD Overdrive
-- LeMaker Cello
 - HiSilicon D03
 - HiSilicon D05
 - APM X-Gene Mustang
