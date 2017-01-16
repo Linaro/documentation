@@ -23,8 +23,7 @@
 
 ## Enterprise Components
 - Docker 1.10.3
-- OpenStack
-   - Mitaka
+- OpenStack Mitaka
 - Ceph 10.2.3
 - Spark 2.0
 - OpenJDK 8
