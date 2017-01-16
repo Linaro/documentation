@@ -67,3 +67,13 @@
 
 - UEFI boot entry not created after Debian installer finished - https://bugs.linaro.org/show_bug.cgi?id=2736
 
+### The SDI (OpenStack) components are released with the following known bugs:
+
+- 2549 "Ethernet hotplug fails on 16.06" - this is a known bug that
+hasn't been fixed for this release.
+- 2805 "dhcp lease is not freed after instance deleted" - this was a
+regression on the kernel that is being fixed. A new validated kernel
+will land next week with this fix in it.
+- 2819 "Volume hot plug not working in 16.12" - This is a known issue
+with this release that hasn't been fixed.
+
