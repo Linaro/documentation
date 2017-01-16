@@ -9,7 +9,7 @@
 
 ## UEFI
 
-- Tianocore EDK II and OpenPlatformPkg containing reference implementations for Huawei D03/D05, AMD Overdrive and LeMaker Cello
+- Tianocore EDK II and OpenPlatformPkg containing reference implementations for Huawei D03/D05 and AMD Overdrive
 
 ## Debian
 
