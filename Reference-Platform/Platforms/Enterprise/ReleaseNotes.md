@@ -61,6 +61,15 @@
 - [2356](https://bugs.linaro.org/show_bug.cgi?id=2356) LTP: open14.c check file permissions failed normal All
 - [2351](https://bugs.linaro.org/show_bug.cgi?id=2351) LTP: openat03 TBROK errno=EINVAL(22) Invalid argument normal All
 
+### Debian:
+
+- [2748](https://bugs.linaro.org/show_bug.cgi?id=2748) LTP: containers sub test case netns_breakns and netns_comm failed
+- [2747](https://bugs.linaro.org/show_bug.cgi?id=2747) LTP test case isofs failed on D03, Thunderx and moonshot running Debian
+- [2745](https://bugs.linaro.org/show_bug.cgi?id=2745) LTP: quota_remount_test01 failed on Debian Running on D03, moonshot and Thunderx platforms.
+- [2744](https://bugs.linaro.org/show_bug.cgi?id=2744) LTP: writev01, writev03, writev04 test cases failed 
+- [2720](https://bugs.linaro.org/show_bug.cgi?id=2720) CentOS/Debian: CONFIG_ARM64_VA_BITS=48 breaks userspace
+- [2351](https://bugs.linaro.org/show_bug.cgi?id=2351) LTP: openat03 TBROK errno=EINVAL(22) Invalid argument
+
 ### QDF2432:
 
 - [2663](https://bugs.linaro.org/show_bug.cgi?id=2663) Debian: 'qemu-sys -  tem-aarch64 -cpu host' causes host reboot
@@ -70,6 +79,7 @@
 ### D05:
 
 - [2788](https://bugs.linaro.org/show_bug.cgi?id=2788) kernel oops during hns_dsaf probe
+- [2786](https://bugs.linaro.org/show_bug.cgi?id=2786) raid0 performance worse on debian comparing to centos
 - [2770](https://bugs.linaro.org/show_bug.cgi?id=2770) UEFI occasionally hangs
 - [2715](https://bugs.linaro.org/show_bug.cgi?id=2715) CentOS: ngingx-apache-bench reports request failures
 - [2712](https://bugs.linaro.org/show_bug.cgi?id=2712) network port is slow when using encrypted connection (SSH)
