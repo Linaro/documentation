@@ -8,6 +8,8 @@ A comprehensive guide to using the Enterprise Reference Platform. This guide is 
    - Learn more about the Enterprise Reference Platform, this is an ideal place to start.
 - [Installation](Installation/README.md)
    - Installation and build instructions for a variety of your Reference Platform components
+- [OpenStack](OpenStack/README.md)
+   - This section provides all the support code required to deploy a "Developer Cloud"
 - [Support](Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
