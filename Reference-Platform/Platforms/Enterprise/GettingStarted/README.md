@@ -23,5 +23,7 @@ The Enterprise Reference Platform is targeted to accelerate the high powered ARM
    - This is a list of all tested and approved Enterprise Reference Platform hardware
 - [Installation](../Installation/README.md)
    - From start to finish, set up your environment and install the Enterprise Reference Platform
+- [OpenStack](../OpenStack/README.md)
+   - This section provides all the support code required to deploy a "Developer Cloud"
 - [Support](../Support/README.md)
    - Bug reports and current issues, forum access and other useful resources. We want to help you find answers
