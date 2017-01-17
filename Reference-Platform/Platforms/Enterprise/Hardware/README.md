@@ -3,7 +3,6 @@
 List of approved hardware, ideal for testing the Enterprise Reference Platform.
 
 - [AMD Overdrive](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/over-drive)
-- [LeMaker Cello](http://www.lenovator.com/product/103.html)
 - [HiSilicon D03](http://open-estuary.org/d03/)
 - [HiSilicon D05](http://open-estuary.org/d05/)
 - [APM X-Gene Mustang](https://www.apm.com/products/data-center/x-gene-family/x-gene/)
