@@ -47,7 +47,6 @@
    - Note that XFS file systems must be created with the -n ftype=1 option enabled for use as an overlay. With the rootfs and any file systems created during system installation, set the --mkfsoptions=-n ftype=1 parameters in the Anaconda kickstart. When creating a new file system after the installation, run the # mkfs -t xfs -n ftype=1 /PATH/TO/DEVICE command. To determine whether an existing file system is eligible for use as an overlay, run the # xfs_info /PATH/TO/DEVICE | grep ftype command to see if the ftype=1 option is enabled.
    - https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.2_Release_Notes/technology-preview-file_systems.html
 
-- [2801](https://bugs.linaro.org/show_bug.cgi?id=2801) sort out qemu/qemu-ev packaging in linaro-overlay for CentOS 7
 - [2778](https://bugs.linaro.org/show_bug.cgi?id=2778) qemu-system-aarch64 doesn't pull ipxe-roms-qemu package
 - [2743](https://bugs.linaro.org/show_bug.cgi?id=2743) LTP: growfiles test cases failed
 - [2728](https://bugs.linaro.org/show_bug.cgi?id=2728) openssl test suite test_req and test_verify failed exit major All
@@ -105,7 +104,6 @@
 - [2773](https://bugs.linaro.org/show_bug.cgi?id=2773) UEFI Runtime regions are not aligned to 64 KB - buggy firmware?
 - [2736](https://bugs.linaro.org/show_bug.cgi?id=2736) UEFI boot entry not created after Debian installer finished
 - [2700](https://bugs.linaro.org/show_bug.cgi?id=2700) LTP test case oom01 restarted serial-getty and NetworkManager.service
-- [2332](https://bugs.linaro.org/show_bug.cgi?id=2332) fork: Resource temporarily unavailable when building linux normal ThunderX
 
 ### The SDI (OpenStack) components are released with the following known bugs:
 
