@@ -10,6 +10,8 @@ A comprehensive guide to using the Enterprise Reference Platform. This guide is 
    - Installation and build instructions for a variety of your Reference Platform components
 - [OpenStack](OpenStack/README.md)
    - This section provides all the support code required to deploy a "Developer Cloud"
+- [BigData](BigData/README.md)
+   - Installation instructions for Big Data Components. i.e., Hadoop, Spark and Hive
 - [Support](Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
