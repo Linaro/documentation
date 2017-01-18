@@ -18,7 +18,7 @@
 
 ## CentOS
 
-- Network Installer based on CentOS 7.2 16.03
+- Network Installer based on CentOS 7.2.1603
 - Unified Reference Platform Kernel based on 4.9
 
 ## Enterprise Components
