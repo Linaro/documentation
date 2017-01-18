@@ -48,7 +48,7 @@ Choose your network installer, download or build, and proceed to the installatio
     <td><a href="Centos/README.md">Install</a></td>
 </tr>
 <tr>
-    <th>Debian Jessie</td>
+    <th>Debian</td>
     <td><a href="http://releases.linaro.org/reference-platform/enterprise/16.12/debian-installer/">Download</a></td>
     <td><a href="Debian/README.md">Install</a></td>
 </tr>
