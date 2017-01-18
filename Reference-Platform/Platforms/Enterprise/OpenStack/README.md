@@ -8,7 +8,7 @@ Cloud".
 The OpenStack packages are built by Linaro and made available in the following
 location:
 
-TBD
+http://repo.linaro.org/rpm/linaro-overlay/centos-7/repo
 
 The build scripts for the packages are available in this repository on the
 `openstack-venvs` folder. These scripts are provided on as is basis, and they
@@ -17,7 +17,9 @@ own risk.
 
 # Reference Architecture
 
-The reference architecture deploys a cloud that uses Ceph as backend for OpenStack.
+The reference architecture deploys a cloud that uses Ceph as backend for OpenStack:
+
+[https://git.linaro.org/leg/sdi/openstack-ref-architecture.git](https://git.linaro.org/leg/sdi/openstack-ref-architecture.git)
 
 See block diagram of how the servers should be connected to the network and how to
 spread the services on the different hosts on a default configuration in the [architecture document](docs/architecture.md).
@@ -25,7 +27,7 @@ spread the services on the different hosts on a default configuration in the [ar
 # Pre-requisites
 
 
-1. All the servers are supposed to have CentOS or Debian installed and they are supposed to
+1. All the servers are supposed to have Linaro ERP 16.12 installed and they are supposed to
 have networking configured in a way that they can see/resolve each other's names.
 
 1. The nodes that will be used as Ceph OSDs need to have at least one extra harddrive for Ceph.
