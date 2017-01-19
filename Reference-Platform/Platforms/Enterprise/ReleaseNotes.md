@@ -36,7 +36,7 @@
 - HiSilicon D05
 - APM X-Gene Mustang
 - HP Proliant m400
-- Qualcomm Q2432
+- Qualcomm QDF2432 Software Development Platform (SDP)
 - Cavium Thunder X
 
 ## Known Issues
@@ -69,7 +69,7 @@
 - [2720](https://bugs.linaro.org/show_bug.cgi?id=2720) CentOS/Debian: CONFIG_ARM64_VA_BITS=48 breaks userspace
 - [2351](https://bugs.linaro.org/show_bug.cgi?id=2351) LTP: openat03 TBROK errno=EINVAL(22) Invalid argument
 
-### QDF2432:
+### Qualcomm QDF2432 Software Development Platform (SDP):
 
 - [2663](https://bugs.linaro.org/show_bug.cgi?id=2663) Debian: 'qemu-sys -  tem-aarch64 -cpu host' causes host reboot
 - [2646](https://bugs.linaro.org/show_bug.cgi?id=2646) LTP: Kernel crashes in syscalls/ipc/msgctl10 test
