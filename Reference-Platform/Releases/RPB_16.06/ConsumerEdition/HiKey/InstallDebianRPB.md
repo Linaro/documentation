@@ -205,7 +205,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
 
-2 - **Boot HiKey into Fastboot mode using J15 header**
+2 - **Boot HiKey into Fastboot mode using J601 (LeMaker) / J15 (CircuitCo) header**
 
 - Link pins 1 and 2
 - Link pins 5 and 6
