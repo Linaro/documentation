@@ -11,7 +11,7 @@ location:
 http://repo.linaro.org/rpm/linaro-overlay/centos-7/repo
 
 The build scripts for the packages are available in this repository on the
-`openstack-venvs` folder. These scripts are provided on as is basis, and they
+[`openstack-venvs`](https://git.linaro.org/leg/sdi/openstack-ref-architecture.git/tree/openstack-venvs) folder. These scripts are provided on as is basis, and they
 are tailored specifically for Linaro's building environment. Use only at your
 own risk.
 
