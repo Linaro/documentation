@@ -12,9 +12,9 @@
 
 > Note: If hardware is not linked, [contact distributor](../../Hardware/README.md) for more information on available firmware.
 
-- [D03](http://releases.linaro.org/reference-platform/enterprise/huawei/d03/16.12/uefi/)
-- [D05](http://releases.linaro.org/reference-platform/enterprise/huawei/d05/16.12/uefi/)
-- [OverDrive](http://releases.linaro.org/reference-platform/enterprise/amd/overdrive/16.12/uefi/)
+- [D03](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d03/)
+- [D05](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
+- [OverDrive](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
 - X-Gene
 - m400
 - QDF2432
