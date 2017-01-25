@@ -4,8 +4,6 @@ A comprehensive guide to using the Enterprise Reference Platform. This guide is 
 
 ## Contents
 
-- [Getting Started](GettingStarted/README.md)
-   - Learn more about the Enterprise Reference Platform, this is an ideal place to start.
 - [Installation](Installation/README.md)
    - Installation and build instructions for a variety of your Reference Platform components
 - [OpenStack](OpenStack/README.md)
