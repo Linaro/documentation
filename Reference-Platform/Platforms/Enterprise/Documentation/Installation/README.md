@@ -2,7 +2,7 @@
 
 This page offers generic installation instructions for the Enterprise Reference Platform on supported hardware. A list of approved hardware can be found in the ["Approved Hardware"](../Hardware/README.md) section of this documentation set.
 
-Be sure to check out the [Release Notes](../ReleaseNotes.md) before installing.
+Be sure to check out the [Release Notes](../../ReleaseNotes.md) before installing.
 
 ***
 
