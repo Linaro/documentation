@@ -13,7 +13,7 @@ The enterprise reference platform is targeted to accelerate the high powered ARM
 
 ***
 
-Before you begin...
+## Before you begin...
 
 1. Check out our list of ["Approved Hardware"](Documentation/Hardware/README.md)
 2. Proceed to the ["Installation page"](Documentation/README.md)
