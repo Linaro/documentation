@@ -12,3 +12,8 @@ The enterprise reference platform is targeted to accelerate the high powered ARM
 - Built for Big Data Workloads
 
 ***
+
+Before you begin...
+
+1. Check out our list of ["Approved Hardware"](Documentation/Hardware/README.md)
+2. Proceed to the ["Installation page"](Documentation/README.md)
