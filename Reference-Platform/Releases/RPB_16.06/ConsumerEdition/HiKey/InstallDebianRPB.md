@@ -19,20 +19,20 @@ This page provides download and installation instructions inteded for those inte
 
 #### Step 1: Read about the SD Card Method
 
-The SD card method allows you to place a microSD card into the HiKey to automatically boot and install the Linux Desktop onto the board. This method is generally simpler and should be used by beginners. 
+The SD card method allows you to place a microSD card into the HiKey to automatically boot and install the Linux Desktop onto the board. This method is generally simpler and should be used by beginners.
 
 This method requires the following hardware:
 - HiKey with power supply
 - Host Linux machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 4GB or more of storage
 - USB Mouse and/or keyboard
-- HDMI Monitor with full size HDMI cable 
+- HDMI Monitor with full size HDMI cable
 
 
 ***
 #### Step 2: Download SD Card Image
 
-**Debian Linux Reference Software Platform - SD Card Image** 
+**Debian Linux Reference Software Platform - SD Card Image**
 
 [SD Card Image - Direct Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
 
@@ -87,7 +87,7 @@ lsblk
 ```shell
 cd <extraction directory>
 
-#Example: 
+#Example:
 #<extraction directory> = /home/YourUserName/Downloads
 #For this example we assume the "Debian SD Card Install Image" is in the Downloads folder.
 cd /home/YourUserName/Downloads
@@ -161,7 +161,7 @@ Before clicking "OK":
 
 #### Step 1: Read about the Fastboot Method
 
-Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution. 
+Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
 
 This method requires the following hardware:
 - HiKey with power supply
@@ -184,9 +184,10 @@ This method requires the following hardware:
 
 ***
 
-#### Step 3: Download Boot image and Root File System
+#### Step 3: Download Boot firmware, image and Root File System
 
-- **Debian Boot** ([**Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz))
+- **Debian Boot firmware** ([**Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin))
+- **Debian Boot image** ([**Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz))
 - **Debian Rootfs** (<a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz" target="_blank">**Download**</a>)
 
 ***
@@ -236,6 +237,7 @@ $ sudo fastboot devices
 ```shell
 $ sudo fastboot flash ptable <ptable_FILE_NAME>.img
 $ sudo fastboot reboot
+$ sudo fastboot flash fastboot fip.bin
 $ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
 $ sudo fastboot flash system hikey-rootfs-debian-jessie-alip-YYYYMMDD-nnn.emmc.img
 ```
