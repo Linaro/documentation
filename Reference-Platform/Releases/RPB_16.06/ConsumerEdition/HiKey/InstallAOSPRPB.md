@@ -10,7 +10,7 @@
 
 #### Step 1: Read about the Fastboot Method
 
-Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution. 
+Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
 
 This method requires the following hardware:
 - HiKey with power supply
@@ -76,7 +76,7 @@ $ sudo fastboot devices
 0123456789abcdef fastboot
 ```
 
->Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/wiki/HiKey-Board-Recovery) and return to this step once your board is ready
+>Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Installation/BoardRecovery.md) and return to this step once your board is ready
 
 3 - **Set HiKey into Recovery Mode using J15 header**
 
@@ -97,6 +97,7 @@ GPIO3-1 | Link 5-6 | open
 ```shell
 $ sudo fastboot flash ptable ptable-aosp-8g.img
 $ sudo fastboot reboot
+$ sudo fastboot flash fastboot fip.bin
 $ sudo fastboot flash boot boot_fat.uefi.img
 $ sudo fastboot flash cache cache.img
 $ sudo fastboot flash system system.img
