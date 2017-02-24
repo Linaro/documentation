@@ -8,7 +8,7 @@
 
 #### Step 1: Read about the Fastboot Method
 
-Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution. 
+Fastboot is supported by the board and can be used for installs.  This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
 
 This method requires the following hardware:
 - HiKey with power supply
@@ -24,7 +24,7 @@ This method requires the following hardware:
 > Note: Some files have 4G and 8G options, download file which best matches your HiKey board.
 
 - All HiKey **CircuitCo boards** will use the **4G files**
-- All HiKey **LeMaker 1G boards** will use the **4G files**
+- All HiKey **LeMaker 1G boards** will use the **8G files**
 - All HiKey **LeMaker 2G boards** will use the **8G files**
 
 **ptable-linux.img** ([**4G Download**](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.03/bootloader/ptable-linux-4g.img) / [**8G Download**](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.03/bootloader/ptable-linux-8g.img))
