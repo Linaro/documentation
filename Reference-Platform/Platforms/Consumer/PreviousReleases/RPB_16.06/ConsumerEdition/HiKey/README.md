@@ -14,14 +14,14 @@
 |:-----------------------------:|
 |   [Install Instructions](InstallDebianRPB.md)    |  
 |  [Build from Source](BFSDebianRPB.md)        | 
-|       [Known issues](../Known-Issues.md)        |  
+|       [Known issues](../../Known-Issues.md)        |  
  
 
 
 |    **CE AOSP**  |
 |:---------------------------:|
 |  [Install Instructions](https://source.android.com/source/devices.html) |
-|      [Known issues](../Known-Issues.md)       |
+|      [Known issues](../../Known-Issues.md)       |
 
 
 
