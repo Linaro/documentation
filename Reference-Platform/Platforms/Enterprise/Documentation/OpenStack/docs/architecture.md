@@ -30,7 +30,7 @@ be assigned as floating IPs to expose VMs to the internet.
 |   |        |  keystone, glance, memcached,   |        | N |  |  router       |
 |   |        |  nova(api etc), neutron-server, |        | E |  |               |
 | 1 |        |  horizon, cinder, ceph-mon      |        | T |  +---------------+
-| 9 |        |                                 |        | W |       |eth1
+| 9 |        |  swift                          |        | W |       |eth1
 | 2 |        +---------------------------------+        | O |       |
 | . |                                                   | R |       |
 | 1 |        +---------------------------------+        | K |       |

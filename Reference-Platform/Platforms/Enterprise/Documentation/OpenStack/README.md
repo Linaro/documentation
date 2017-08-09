@@ -8,11 +8,10 @@ Cloud".
 The OpenStack packages are built by Linaro and made available in the following
 location:
 
-http://repo.linaro.org/rpm/linaro-overlay/centos-7/repo
+http://repo.linaro.org/debian/erp-17.08-stable/
 
 The build scripts for the packages are available in this repository on the
-[`openstack-venvs`](https://git.linaro.org/leg/sdi/openstack-ref-architecture.git/tree/openstack-venvs) folder. These scripts are provided on as is basis, and they
-are tailored specifically for Linaro's building environment. Use only at your
+[`openstack-venvs`](https://git.linaro.org/leg/sdi/openstack-ref-architecture.git/tree/openstack-venvs) folder. These scripts are provided on as is basis, and they are tailored specifically for Linaro's building environment. Use only at your
 own risk.
 
 # Reference Architecture
@@ -105,3 +104,45 @@ match your environment. There are examples to help guide you. Once those files
 are in place, OpenStack can be deployed with:
 
     ansible-playbook -K -v -i secrets/hosts site.yml
+
+### Deploying Swift and Ceph RADOS Gateway
+
+OpenStack Swift is also deployed using Ansible on ONE host only.
+
+1) At least one dedicated partition is required. Partitions can be specified in
+group_vars/all as follows:
+
+```
+swift_partition:
+  - sdX1
+  - sdX2
+  - sdY1
+  - sdY2
+```
+
+If some server has a different configuration, this will be specified in the
+hostvars folder, in a file with the name of your server. For example:
+
+```
+$ cat hostvars/server1
+
+swift_partition:
+  - sdZ1
+```
+
+Please note the deployment scripts won't partition the hard drive. The partitions must
+be created before deployment.
+
+2) Option 'swift_force_prepare' can be used to force resetting of all related
+partitions (note this option WILL DELETE all the data on the swift partition).
+
+    --extra-vars 'swift_force_prepare=true'
+
+3) Object storage can be deployed by using either Swift or Ceph (RADOS gateway).
+This choice is controlled by setting the variable 'use_ceph_rgw' on the
+group_vars/all file. The default value for 'use_ceph_rgw' is false, which means
+deploying Swift is the default option.
+
+Add 'use_ceph_rgw = True' to your deployment-vars file to enable RADOS gateway
+API. On a deployed system, change this option and re-deploy swift will switch
+according endpoints to required API.
