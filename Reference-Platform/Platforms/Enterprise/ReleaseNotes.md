@@ -41,6 +41,7 @@
 ### Qualcomm Amberwing:
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
   This is trivially triggered and prevents any real use of Docker on the platform.
+- [3188](https://bugs.linaro.org/show_bug.cgi?id=3188) [Amberwing] Unable to handle kernel NULL pointer dereference at virtual address 00000020
 ### D05:
 
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
