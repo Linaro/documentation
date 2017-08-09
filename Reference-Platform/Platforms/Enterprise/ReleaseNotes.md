@@ -60,6 +60,8 @@
 
 ### The SDI (OpenStack) components are released with the following known bugs:
 
+- [2819](https://bugs.linaro.org/show_bug.cgi?id=2819) Hotplugging network or storage does not work in VM
+  This is a problem that will likely result on changes in libvirt and/or nova. Upstream conversations ongoing.
 - [3157](https://bugs.linaro.org/show_bug.cgi?id=3157) OpenStack RefStack fail with Ceph rgw
 
 ### DPDK Technical Preview is released with the following known bugs:
@@ -68,7 +70,6 @@
 
 - [3149](https://bugs.linaro.org/show_bug.cgi?id=3149) [DPDK DTS] To fix issues in ip_pipeline (DPDK 17.05)
 - [3150](https://bugs.linaro.org/show_bug.cgi?id=3150) [DPDK DTS] To fix issues in kni (DPDK 17.05)
-- [3152](https://bugs.linaro.org/show_bug.cgi?id=3152) [DPDK DTS] To fix issues in pmdpcap (DPDK 17.05)
 - [3154](https://bugs.linaro.org/show_bug.cgi?id=3154) [DPDK DTS] To fix issues in unit_tests_pmd_perf (DPDK 17.05)
 
 #### DPDK issues
