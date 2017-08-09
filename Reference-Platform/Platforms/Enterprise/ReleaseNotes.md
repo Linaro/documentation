@@ -68,7 +68,6 @@
 
 - [3149](https://bugs.linaro.org/show_bug.cgi?id=3149) [DPDK DTS] To fix issues in ip_pipeline (DPDK 17.05)
 - [3150](https://bugs.linaro.org/show_bug.cgi?id=3150) [DPDK DTS] To fix issues in kni (DPDK 17.05)
-- [3152](https://bugs.linaro.org/show_bug.cgi?id=3152) [DPDK DTS] To fix issues in pmdpcap (DPDK 17.05)
 - [3154](https://bugs.linaro.org/show_bug.cgi?id=3154) [DPDK DTS] To fix issues in unit_tests_pmd_perf (DPDK 17.05)
 
 #### DPDK issues
