@@ -39,15 +39,21 @@
 ### Debian:
 
 ### Qualcomm Amberwing:
-
+- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
+  This is trivially triggered and prevents any real use of Docker on the platform.
 ### D05:
 
+- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
+  This is trivially triggered and prevents any real use of Docker on the platform.
 - [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
 
 ### D03:
+- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
+  This is trivially triggered and prevents any real use of Docker on the platform.
 
 ### Cavium (ThunderX)
-
+- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
+  This is trivially triggered and prevents any real use of Docker on the platform.
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
 - [3172](https://bugs.linaro.org/show_bug.cgi?id=3172) [Inventec Cavium ThunderX] Host CPU stuck when running VM
 - [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
