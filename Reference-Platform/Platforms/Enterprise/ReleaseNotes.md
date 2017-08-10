@@ -21,7 +21,8 @@
 - ERP 17.08 OpenStack Newton
   - New Swift package released
 - Ceph 10.2.7
-- Spark 2.0
+- Bigtop 1.2 stack (Hadoop 2.7.3, Spark 2.1, Hive 1.1.3)
+- ELK 5.4.1
 - OpenJDK 8
 - Libvirt 3.4.0
 - QEMU 2.9
