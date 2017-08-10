@@ -24,10 +24,6 @@ Be sure to check out the [Release Notes](../../ReleaseNotes.md) before installin
 
 <table align="center">
 <tr>
-    <th>Centos</td>
-    <td> https://wiki.centos.org/HowTos/NetworkInstallServer</td>
-</tr>
-<tr>
     <th>Debian</td>
     <td>https://wiki.debian.org/PXEBootInstall</td>
 </tr>
@@ -39,14 +35,9 @@ Be sure to check out the [Release Notes](../../ReleaseNotes.md) before installin
 
 Choose your network installer, download or build, and proceed to the installation instructions
 
-**Network Installers:**
+**Network Installer:**
   
 <table>
-<tr>
-    <th>Centos</td>
-    <td><a href="http://releases.linaro.org/reference-platform/enterprise/16.12/centos-installer/">Download</a></td>
-    <td><a href="Centos/README.md">Install</a></td>
-</tr>
 <tr>
     <th>Debian</td>
     <td><a href="http://releases.linaro.org/reference-platform/enterprise/16.12/debian-installer/">Download</a></td>

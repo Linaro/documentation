@@ -18,12 +18,6 @@ On Debian/Ubuntu:
 sudo apt-get install uuid-dev build-essential aisle
 ```
 
-On RHEL/CentOS/Fedora:
-
-```shell
-sudo yum install uuid-devel libuuid-devel aisle
-```
-
 Also make sure you have the right 'acpica-unix' version at your host system. The current one required by the 16.03/16.06 releases is 20150930, and you can find the packages (debian) at the 'linaro-overlay':
 
 ```shell
