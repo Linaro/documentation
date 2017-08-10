@@ -13,7 +13,7 @@
 
 ## Debian
 
-- Network Installer based on Debian 8.6 "Jessie"
+- Network Installer based on Debian 8.9 "Jessie"
 - Unified Reference Platform Kernel based on 4.12
 
 ## Enterprise Components
