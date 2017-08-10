@@ -31,17 +31,17 @@
 
 - HiSilicon D03
 - HiSilicon D05
-- Qualcomm Amberwing
+- Qualcomm Centriq 2400
 - Cavium Thunder X
 
 ## Known Issues
 
 ### Debian:
 
-### Qualcomm Amberwing:
+### Qualcomm Centriq 2400:
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
   This is trivially triggered and prevents any real use of Docker on the platform.
-- [3188](https://bugs.linaro.org/show_bug.cgi?id=3188) [Amberwing] Unable to handle kernel NULL pointer dereference at virtual address 00000020
+- [3188](https://bugs.linaro.org/show_bug.cgi?id=3188) [Centriq 2400] Unable to handle kernel NULL pointer dereference at virtual address 00000020
 ### D05:
 
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Memory corruption.
