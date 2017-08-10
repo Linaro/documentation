@@ -77,5 +77,5 @@
 
 - [3136](https://bugs.linaro.org/show_bug.cgi?id=3136) dpdk: can't use intel x710 for dpdk testing
 
-### Big Data components are released with the following known bugs:
+
 
