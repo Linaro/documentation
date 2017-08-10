@@ -32,10 +32,11 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Supported Hardware Platforms
 
+- Cavium ThunderX
 - HiSilicon D03
 - HiSilicon D05
+- HP Proliant m400
 - Qualcomm Centriq 2400
-- Cavium Thunder X
 
 ## Known Issues
 
