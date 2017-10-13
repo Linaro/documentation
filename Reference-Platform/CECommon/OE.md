@@ -177,7 +177,7 @@ When running the `setup-environment` script, you were asked to read/accept the Q
 
 If you accepted the EULA, when building an image for DragonBoard 410c all proprietary firmware are installed automatically in `/lib/firmware`, and a copy of the EULA is added as '/etc/license.txt`. 
 
-If you did not accept the EULA, the firmware are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately from [Qualcomm Developer Network](https://developer.qualcomm.com/download/linux-ubuntu-board-support-package-v1.1.zip).
+If you did not accept the EULA, the firmware are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately from [here](http://builds.96boards.org/releases/dragonboard410c/qualcomm/firmware/).
 
 # Build a simple X11 image
 
