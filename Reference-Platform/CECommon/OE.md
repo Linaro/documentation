@@ -38,9 +38,9 @@ The Linux kernel used for these boards is the Reference Platform Kernel (RPK). T
 
 In order to successfully set up your build environment, you will need to install the following package dependencies.
 
-**Step 1**: You will need git installed on your Linux host machine
+**Step 1**: In order to use the repo tool, you will need git and python installed on your Linux host machine
 
-`$ sudo apt-get install git`
+`$ sudo apt-get install git python`
 
 **Step 2**: Visit the OpenEmbedded (Getting Started) wiki to see which distribution specific dependencies you will need
 
