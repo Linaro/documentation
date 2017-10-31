@@ -4,7 +4,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Reference Platform Kernel
 
-- 4.12 based, including under-review topic branches to extend hardware platform support
+- 4.14 based, including under-review topic branches to extend hardware platform support
 - Unified tree, used by both the CentOS and Debian Reference Platforms
 - ACPI and PCIe support
 - Single kernel config and binary (package) for all hardware platforms
@@ -15,20 +15,18 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Debian
 
-- Network Installer based on Debian 8.9 "Jessie"
-- Unified Reference Platform Kernel based on 4.12
+- Network Installer based on Debian 9.2 "Stretch"
+- Unified Reference Platform Kernel based on 4.14
 
 ## Enterprise Components
 - Docker 1.12.6
-- ERP 17.12 OpenStack Newton
-  - New Swift package released
-- Ceph 10.2.7
+- Ceph 12.2
 - Bigtop 1.2 stack (Hadoop 2.7.3, Spark 2.1, Hive 1.1.3)
 - ELK 5.4.1
 - OpenJDK 8
-- Libvirt 3.4.0
-- QEMU 2.9
-- DPDK 17.05
+- Libvirt 3.8.0
+- QEMU 2.10
+- DPDK 17.08
 
 ## Supported Hardware Platforms
 
