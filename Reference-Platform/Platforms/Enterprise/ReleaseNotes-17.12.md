@@ -1,6 +1,6 @@
 # 17.12 Release Notes - Linaro Enterprise Reference Platform
 
-The goal of the Linaro Enterprise Reference Platform is to provide a fully tested, end to end, documented, open source implementation for ARM based Enterprise servers. The Reference Platform includes boot firmware, kernel, a community supported userspace and additional relevant open source projects. The Linaro Enterprise Reference Platform is built and tested on Linaro Enterprise Group members hardware and the Linaro Developer Cloud. It is intended to be a reference example for use as a foundation for members and partners for their products based on open source technologies. The members and partners to include distribution, hyperscaler or OEM/ODM vendors, can leverage the reference for ARM in the datacenter.
+The goal of the Linaro Enterprise Reference Platform is to provide a fully tested, end to end, documented, open source implementation for ARM based Enterprise servers. The Reference Platform includes kernel, a community supported userspace and additional relevant open source projects, and is validated against existing firmware releases. The Linaro Enterprise Reference Platform is built and tested on Linaro Enterprise Group members hardware and the Linaro Developer Cloud. It is intended to be a reference example for use as a foundation for members and partners for their products based on open source technologies. The members and partners to include distribution, hyperscaler or OEM/ODM vendors, can leverage the reference for ARM in the datacenter.
 
 ## Reference Platform Kernel
 
@@ -8,10 +8,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - Unified tree, used by both the CentOS and Debian Reference Platforms
 - ACPI and PCIe support
 - Single kernel config and binary (package) for all hardware platforms
-
-## UEFI
-
-- Tianocore EDK II and OpenPlatformPkg containing reference implementations for Huawei D03/D05
 
 ## Debian
 
