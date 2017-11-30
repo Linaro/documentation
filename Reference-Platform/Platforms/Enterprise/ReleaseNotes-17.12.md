@@ -34,22 +34,33 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Known Issues
 
+### Firmware:
+- [3495](https://bugs.linaro.org/show_bug.cgi?id=3495) Unable to use Device-Tree with GRUB
+
+### RPK:
+- [3451](https://bugs.linaro.org/show_bug.cgi?id=3451) LTP: keyctl03 fails with "Failed to add key"
+- [3469](https://bugs.linaro.org/show_bug.cgi?id=3469) LTP syscalls/madvise09 fails with "Found corrupted page"
+
 ### Debian:
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem. Also present on x86_64.
 
 ### Qualcomm Centriq 2400:
 
 ### D05:
+- [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
 - [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
+- [3206](https://bugs.linaro.org/show_bug.cgi?id=3206) lscpu shows wrong cpu layout on D05
+- [3450](https://bugs.linaro.org/show_bug.cgi?id=3450) Need for HPM File Generation for Firmware 17.10
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
 - [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
+- [3359](https://bugs.linaro.org/show_bug.cgi?id=3399) [ThunderX] ERP Build #503 installs kernel that will not boot to userspace
 
 ### DPDK is released with the following known bugs:
 
 #### DTS issues
-
+- [3471](https://bugs.linaro.org/show_bug.cgi?id=3471) [DPDK-DTS] vf_offload failed with 2 cases
 
 #### DPDK issues
 
