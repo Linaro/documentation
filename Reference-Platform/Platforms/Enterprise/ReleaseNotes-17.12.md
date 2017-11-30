@@ -65,6 +65,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 #### DPDK issues
 
-
+- Only platform specific bugs have been found, please check the platform section above.
 
 
