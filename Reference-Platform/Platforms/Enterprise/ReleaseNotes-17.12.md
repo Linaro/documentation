@@ -4,9 +4,9 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Reference Platform Kernel
 
-- 4.14 based, including under-review topic branches to extend hardware platform support
+- 4.14 based, including backports of already upstreamed patches to fix issues discovered during QA.
 - Unified tree, used by both the CentOS and Debian Reference Platforms
-- ACPI and PCIe support
+- Focused on ACPI and UEFI use-cases.
 - Single kernel config and binary (package) for all hardware platforms
 
 ## Debian
@@ -33,14 +33,12 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Known Issues
 
-### Firmware:
+### Bootloader
 - [3495](https://bugs.linaro.org/show_bug.cgi?id=3495) Unable to use Device-Tree with GRUB
 
 ### RPK:
 - [3451](https://bugs.linaro.org/show_bug.cgi?id=3451) LTP: keyctl03 fails with "Failed to add key"
 - [3469](https://bugs.linaro.org/show_bug.cgi?id=3469) LTP syscalls/madvise09 fails with "Found corrupted page"
-
-### Debian:
 - [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem.
 
 ### Qualcomm Centriq 2400:
