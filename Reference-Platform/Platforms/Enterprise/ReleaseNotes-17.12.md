@@ -16,13 +16,12 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Enterprise Components
 - Docker 1.12.6
-- Ceph 12.2
 - Bigtop 1.2 stack (Hadoop 2.7.3, Spark 2.1, Hive 1.1.3)
 - ELK 5.4.1
 - OpenJDK 8
 - Libvirt 3.8.0
 - QEMU 2.10
-- DPDK 17.08
+- DPDK 17.11
 
 ## Supported Hardware Platforms
 
@@ -49,22 +48,22 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ### D05:
 - [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
-- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
 - [3206](https://bugs.linaro.org/show_bug.cgi?id=3206) lscpu shows wrong cpu layout on D05
 - [3450](https://bugs.linaro.org/show_bug.cgi?id=3450) Need for HPM File Generation for Firmware 17.10
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
-- [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
-- [3359](https://bugs.linaro.org/show_bug.cgi?id=3399) [ThunderX] ERP Build #503 installs kernel that will not boot to userspace
+- [3399](https://bugs.linaro.org/show_bug.cgi?id=3399) [ThunderX] thunderx_zip driver is crashing during boot (workaround applied)
 
 ### HP Moonshot (m400)
-- [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU*: failed to boot: -6
+- [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU\*: failed to boot: -6
 
 ### DPDK is released with the following known bugs:
+- [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
+- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
+- [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
 
-#### DPDK issues
-
-- Only platform specific bugs have been found, please check the platform section above.
-
+#### DPDK notes
+- The DPDK release notes are available at [DPDK site](http://dpdk.org/doc/guides/rel_notes/release_17_11.html)
+- Only platform specific bugs have been found, please check the 'known bugs' section above.
 
