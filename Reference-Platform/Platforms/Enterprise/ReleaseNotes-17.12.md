@@ -42,10 +42,10 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - [3469](https://bugs.linaro.org/show_bug.cgi?id=3469) LTP syscalls/madvise09 fails with "Found corrupted page"
 
 ### Debian:
-- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem. Also present on x86_64.
+- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem.
 
 ### Qualcomm Centriq 2400:
- -[3492](https://bugs.linaro.org/show_bug.cgi?id=3492) QDF2400: DMI information missing
+- [3492](https://bugs.linaro.org/show_bug.cgi?id=3492) QDF2400: DMI information missing
 
 ### D05:
 - [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
