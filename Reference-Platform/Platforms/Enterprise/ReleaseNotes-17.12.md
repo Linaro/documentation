@@ -59,7 +59,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU\*: failed to boot: -6
 
 ### DPDK is released with the following known bugs:
-- [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
 - [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
 - [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
 
