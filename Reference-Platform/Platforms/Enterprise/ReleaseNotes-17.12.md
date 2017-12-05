@@ -48,6 +48,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
 - [3206](https://bugs.linaro.org/show_bug.cgi?id=3206) lscpu shows wrong cpu layout on D05
 - [3450](https://bugs.linaro.org/show_bug.cgi?id=3450) Need for HPM File Generation for Firmware 17.10
+- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) can't enable sr-iov on D05 with Intel 82599. D05 does not support SR-IOV and IOMMU features for this release, which influence DPDK functionality on D05 platform.
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
@@ -57,7 +58,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU\*: failed to boot: -6
 
 ### DPDK is released with the following known bugs:
-- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) DPDK: can't enable sr-iov on D05 with Intel 82599
 - [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
 
 #### DPDK notes
