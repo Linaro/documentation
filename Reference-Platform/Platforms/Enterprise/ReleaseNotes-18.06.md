@@ -19,9 +19,8 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - Bigtop 1.2 stack (Hadoop 2.7.3, Spark 2.1, Hive 1.1.3)
 - ELK 5.4.1
 - OpenJDK 8
-- Libvirt 3.8.0
-- QEMU 2.10
-- DPDK 17.11
+- Libvirt 4.3.0
+- QEMU 2.12
 
 ## Supported Hardware Platforms
 
@@ -38,11 +37,21 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ### RPK:
 
 ### Qualcomm Centriq 2400:
+- [3894](https://bugs.linaro.org/show_bug.cgi?id=3894) [centriq-2400] kdump fails to generate dump file
+- [3759](https://bugs.linaro.org/show_bug.cgi?id=3759) [centriq-2400] lscpu shows unknown cache size
+
 
 ### D05:
+- [3896](https://bugs.linaro.org/show_bug.cgi?id=3896) [d05] kdump doesn't work with lots of memory
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
+- [3891](https://bugs.linaro.org/show_bug.cgi?id=3891) [Thunderx] lscpu shows unknown cache size
+
 
 ### HP Moonshot (m400)
 
+### All
+- [3880](https://bugs.linaro.org/show_bug.cgi?id=3880) kdump fails to load kdump kernel
+- [3876](https://bugs.linaro.org/show_bug.cgi?id=3876) Command exec on kolla_toolbox container fails sporadically
+- [3901](https://bugs.linaro.org/show_bug.cgi?id=3901) OpenStack: cannot login/ping Cirros VM via floating ip (multi-node deployment)
