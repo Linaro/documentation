@@ -19,9 +19,8 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - Bigtop 1.2 stack (Hadoop 2.7.3, Spark 2.1, Hive 1.1.3)
 - ELK 5.4.1
 - OpenJDK 8
-- Libvirt 3.8.0
-- QEMU 2.10
-- DPDK 17.11
+- Libvirt 4.3.0
+- QEMU 2.12
 
 ## Supported Hardware Platforms
 
@@ -34,33 +33,25 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ## Known Issues
 
 ### Bootloader
-- [3495](https://bugs.linaro.org/show_bug.cgi?id=3495) Unable to use Device-Tree with GRUB
 
 ### RPK:
-- [3451](https://bugs.linaro.org/show_bug.cgi?id=3451) LTP: keyctl03 fails with "Failed to add key"
-- [3469](https://bugs.linaro.org/show_bug.cgi?id=3469) LTP syscalls/madvise09 fails with "Found corrupted page"
-- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem.
 
 ### Qualcomm Centriq 2400:
-- [3492](https://bugs.linaro.org/show_bug.cgi?id=3492) QDF2400: DMI information missing
+- [3894](https://bugs.linaro.org/show_bug.cgi?id=3894) [centriq-2400] kdump fails to generate dump file
+- [3759](https://bugs.linaro.org/show_bug.cgi?id=3759) [centriq-2400] lscpu shows unknown cache size
+
 
 ### D05:
-- [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
-- [3206](https://bugs.linaro.org/show_bug.cgi?id=3206) lscpu shows wrong cpu layout on D05
-- [3450](https://bugs.linaro.org/show_bug.cgi?id=3450) Need for HPM File Generation for Firmware 17.10
-- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) can't enable sr-iov on D05 with Intel 82599. D05 does not support SR-IOV and IOMMU features for this release, which influence DPDK functionality on D05 platform.
+- [3896](https://bugs.linaro.org/show_bug.cgi?id=3896) [d05] kdump doesn't work with lots of memory
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
-- [3399](https://bugs.linaro.org/show_bug.cgi?id=3399) [ThunderX] thunderx_zip driver is crashing during boot (workaround applied)
+- [3891](https://bugs.linaro.org/show_bug.cgi?id=3891) [Thunderx] lscpu shows unknown cache size
+
 
 ### HP Moonshot (m400)
-- [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU\*: failed to boot: -6
 
-### DPDK is released with the following known bugs:
-- [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
-
-#### DPDK notes
-- The DPDK release notes are available at [DPDK site](http://dpdk.org/doc/guides/rel_notes/release_17_11.html)
-- Only platform specific bugs have been found, please check the 'known bugs' section above.
-
+### All
+- [3880](https://bugs.linaro.org/show_bug.cgi?id=3880) kdump fails to load kdump kernel
+- [3876](https://bugs.linaro.org/show_bug.cgi?id=3876) Command exec on kolla_toolbox container fails sporadically
+- [3901](https://bugs.linaro.org/show_bug.cgi?id=3901) OpenStack: cannot login/ping Cirros VM via floating ip (multi-node deployment)
