@@ -4,7 +4,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Reference Platform Kernel
 
-- 4.14 based, including backports of already upstreamed patches to fix issues discovered during QA.
+- 4.16 based, including backports of already upstreamed patches to fix issues discovered during QA.
 - Unified tree, used by both the CentOS and Debian Reference Platforms
 - Focused on ACPI and UEFI use-cases.
 - Single kernel config and binary (package) for all hardware platforms
