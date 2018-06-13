@@ -34,33 +34,15 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ## Known Issues
 
 ### Bootloader
-- [3495](https://bugs.linaro.org/show_bug.cgi?id=3495) Unable to use Device-Tree with GRUB
 
 ### RPK:
-- [3451](https://bugs.linaro.org/show_bug.cgi?id=3451) LTP: keyctl03 fails with "Failed to add key"
-- [3469](https://bugs.linaro.org/show_bug.cgi?id=3469) LTP syscalls/madvise09 fails with "Found corrupted page"
-- [3174](https://bugs.linaro.org/show_bug.cgi?id=3174) Docker triggered problem causes crash in tty subsystem.
 
 ### Qualcomm Centriq 2400:
-- [3492](https://bugs.linaro.org/show_bug.cgi?id=3492) QDF2400: DMI information missing
 
 ### D05:
-- [2657](https://bugs.linaro.org/show_bug.cgi?id=2657) [D03] [D05] Confusing Ethernet port sequence
-- [3206](https://bugs.linaro.org/show_bug.cgi?id=3206) lscpu shows wrong cpu layout on D05
-- [3450](https://bugs.linaro.org/show_bug.cgi?id=3450) Need for HPM File Generation for Firmware 17.10
-- [3169](https://bugs.linaro.org/show_bug.cgi?id=3169) can't enable sr-iov on D05 with Intel 82599. D05 does not support SR-IOV and IOMMU features for this release, which influence DPDK functionality on D05 platform.
 
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
-- [3399](https://bugs.linaro.org/show_bug.cgi?id=3399) [ThunderX] thunderx_zip driver is crashing during boot (workaround applied)
 
 ### HP Moonshot (m400)
-- [3499](https://bugs.linaro.org/show_bug.cgi?id=3499) [HP-m400] CPU\*: failed to boot: -6
-
-### DPDK is released with the following known bugs:
-- [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
-
-#### DPDK notes
-- The DPDK release notes are available at [DPDK site](http://dpdk.org/doc/guides/rel_notes/release_17_11.html)
-- Only platform specific bugs have been found, please check the 'known bugs' section above.
 
