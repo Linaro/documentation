@@ -17,16 +17,19 @@ The following components were tested (smoke tests) as part of the ERP release as
 
 We have used upstream of Apache Bigtop and upgraded the versions of the following components:
 
-Component	Version in Bigtop	Version in upstream	Version in ERP18.06
-Hadoop		2.8.1			2.8.4/3.0.2		2.8.4
-Spark		2.2.1			2.3.0			2.2.1
-HBase		1.3.1			1.3.2/1.4.4/2.0.0	1.3.2
-Hive		2.3.2			2.3.3			2.3.3
-Ambari		2.5.2			2.6.2			2.6.1
-Zookeeper	3.4.6			3.4.12/3.5.4		3.4.6
-Elasticsearch	X			5.6.9/6.2.3		5.6.9
-Logstash	X			5.6.9/6.2.4		5.6.9
-Kibana		X			5.6.9/6.2.5		5.6.9
+-----------------------------------------------------------------------------------------------------------------
+| Component 	|	Version in Bigtop 	|	Version in upstream 	|	Version in ERP18.06 	|
+|---------------|-------------------------------|-------------------------------|-------------------------------|
+| Hadoop    	|	2.8.1 			|	2.8.4/3.0.2		|	2.8.4			|
+| Spark     	|	2.2.1 			|	2.3.0			|	2.2.1			|
+| HBase     	|	1.3.1 			|	1.3.2/1.4.4/2.0.0	|	1.3.2			|
+| Hive      	|	2.3.2 			|	2.3.3			|	2.3.3			|
+| Ambari    	|	2.5.2 			|	2.6.2			|	2.6.1			|
+| Zookeeper 	|	3.4.6			|	3.4.12/3.5.4		|	3.4.6			|
+| Elasticsearch |	X			|	5.6.9/6.2.3		|	5.6.9			|
+| Logstash 	|	X			|	5.6.9/6.2.4		|	5.6.9			|
+| Kibana 	|	X			|	5.6.9/6.2.5		|	5.6.9			|
+-----------------------------------------------------------------------------------------------------------------
 
 # About BigTop
 Bigtop is a set of tools and framework for comprehensive packaging, testing, and configuration of the open source big data components including, but not limited to, Hadoop, HBase and Spark. Check out the website http://bigtop.apache.org/
