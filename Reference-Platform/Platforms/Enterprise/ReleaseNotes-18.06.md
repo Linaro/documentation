@@ -8,6 +8,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - Unified tree, used by both the CentOS and Debian Reference Platforms
 - Focused on ACPI and UEFI use-cases.
 - Single kernel config and binary (package) for all hardware platforms
+- kdump partially functional on limited platforms (see bugs below)
 
 ## Debian
 
@@ -52,6 +53,5 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ### HP Moonshot (m400)
 
 ### All
-- [3880](https://bugs.linaro.org/show_bug.cgi?id=3880) kdump fails to load kdump kernel
 - [3876](https://bugs.linaro.org/show_bug.cgi?id=3876) Command exec on kolla_toolbox container fails sporadically
 - [3901](https://bugs.linaro.org/show_bug.cgi?id=3901) OpenStack: cannot login/ping Cirros VM via floating ip (multi-node deployment)
