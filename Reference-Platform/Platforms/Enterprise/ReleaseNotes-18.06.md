@@ -48,6 +48,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ### Cavium (ThunderX)
 - [3049](https://bugs.linaro.org/show_bug.cgi?id=3049) [Thunderx] BMC ignores bootdev
 - [3891](https://bugs.linaro.org/show_bug.cgi?id=3891) [Thunderx] lscpu shows unknown cache size
+- [3778](https://bugs.linaro.org/show_bug.cgi?id=3778) [Thunderx] Libvirt failure on cavium/thunder-nicvf
 
 
 ### HP Moonshot (m400)
