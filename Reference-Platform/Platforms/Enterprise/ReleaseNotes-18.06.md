@@ -16,7 +16,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - Unified Reference Platform Kernel based on 4.14
 
 ## Enterprise Components
-- Docker 1.12.6
 - Apache Bigtop upstream (Hadoop v2.8.4, Zookeeper v3.4.6 Spark v2.2.1, Hive v2.3.3 HBase v1.3.2 Ambari v2.6.1)
 - ElasticStack / ELK upstream v5.6.9
 - OpenJDK 8
@@ -54,5 +53,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ### HP Moonshot (m400)
 
 ### All
+- [3619](https://bugs.linaro.org/show_bug.cgi?id=3619) No support virt_type=kvm and cpu_mode=host-passthrough
 - [3876](https://bugs.linaro.org/show_bug.cgi?id=3876) Command exec on kolla_toolbox container fails sporadically
 - [3901](https://bugs.linaro.org/show_bug.cgi?id=3901) OpenStack: cannot login/ping Cirros VM via floating ip (multi-node deployment)
