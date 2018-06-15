@@ -53,6 +53,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 ### HP Moonshot (m400)
 
 ### All
-- [3619)(https://bugs.linaro.org/show_bug.cgi?id=3619) No support virt_type=kvm and cpu_mode=host-passthrough
+- [3619](https://bugs.linaro.org/show_bug.cgi?id=3619) No support virt_type=kvm and cpu_mode=host-passthrough
 - [3876](https://bugs.linaro.org/show_bug.cgi?id=3876) Command exec on kolla_toolbox container fails sporadically
 - [3901](https://bugs.linaro.org/show_bug.cgi?id=3901) OpenStack: cannot login/ping Cirros VM via floating ip (multi-node deployment)
