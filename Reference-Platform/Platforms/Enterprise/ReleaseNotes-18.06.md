@@ -17,7 +17,7 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 ## Enterprise Components
 - Apache Bigtop upstream (Hadoop v2.8.4, Zookeeper v3.4.6 Spark v2.2.1, Hive v2.3.3 HBase v1.3.2 Ambari v2.6.1)
-- ElasticStack / ELK upstream v5.6.9
+- ElasticStack / ELK v5.6.9 (from upstream)
 - OpenJDK 8
 - Libvirt 4.3.0
 - QEMU 2.12
