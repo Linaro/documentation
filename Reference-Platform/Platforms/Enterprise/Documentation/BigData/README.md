@@ -55,13 +55,17 @@ Bigtop is a set of tools and framework for comprehensive packaging, testing, and
 ## Prerequisites
 
 * Install distro packages
+
 	$ sudo apt-get install unzip openjdk-8-jdk git autoconf curl iputils-ping net-tools build-essential ruby
 
 * Set JAVA_HOME
+
 	$ export JAVA_HOME=`readlink -f /usr/bin/java | sed "s:jre/bin/java::"`
 
 * Install docker CE
+
 	$ sudo apt-get install apt-transport-https ca-certificates gnupg2 software-properties-common
+	
 ## download docker's gpg key
 	$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
  
@@ -74,6 +78,7 @@ Bigtop is a set of tools and framework for comprehensive packaging, testing, and
 	$ sudo apt-key fingerprint 0EBFCD88
  
 ## import docker's repo
+
 	$ echo "deb [arch=arm64] https://download.docker.com/linux/debian \
   		$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
  
@@ -99,14 +104,15 @@ Bigtop is a set of tools and framework for comprehensive packaging, testing, and
 ### Build Components
 -- components to be built: ambari bigtop-groovy bigtop-jsvc bigtop-tomcat bigtop-utils hadoop hbase hive spark zookeeper
 -- docker run -v `pwd`:/ws bigtop/slaves:erp18.06-debian-9-aarch64 bash -l -c 'cd /ws ; ./gradlew <comp>-deb'
+	
 	$ docker run -v `pwd`:/ws bigtop/slaves:erp18.06-debian-9-aarch64 bash -l -c 'cd /ws ; ./gradlew hadoop-deb zookeeper-deb spark-deb hive-deb hbase-deb ambari-deb'
 	
 ### Smoke test dependent packages
 
 To execute smoke tests for target packages, extra big data components are required to install. So these packages need to be built if you want to run bigtop smoke test.
-These packages are: flume, mahout, pig, sqoop, zookeeper. If all components were already built in earlier step, skip this step.
+These packages are: bigtop-groovy, bigtop-jsvc, bigtop-tomcat, bigtop-utils. If all components were already built in earlier step, skip this step.
 
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew flume-deb mahout-deb pig-deb sqoop-deb zookeeper-deb'
+	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew bigtop-groovy-deb bigtop-jsvc-deb bigtop-tomcat-deb bigtop-utils-deb'
 	
 ## Smoke Tests
 ### Generate local repo
@@ -141,7 +147,23 @@ Following is a example configuration yaml for Hive:
 	components: [hdfs, yarn, mapreduce, hive, zookeeper]
 	enable_local_repo: false
 	smoke_test_components: [hive]
-	jdk: "openjdk-8-jdk"
+
+
+### Setup environment
+
+You need to export several environment variables.   For example,
+
+export HADOOP_CONF_DIR=/etc/hadoop/conf/
+export HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce/
+export HIVE_HOME=/usr/lib/hive/
+export PIG_HOME=/usr/lib/pig/
+export FLUME_HOME=/usr/lib/flume/
+export HIVE_CONF_DIR=/etc/hive/conf/
+export JAVA_HOME="/usr/lib/jvm/java-openjdk/"
+export MAHOUT_HOME="/usr/lib/mahout"
+export SPARK_HOME="/usr/lib/spark"
+export TAJO_HOME="/usr/lib/tajo"
+export OOZIE_TAR_HOME="/usr/lib/oozie/doc"
 
 ### Execute test
 It is quite straight forward to execute smoke in bigtop
@@ -172,66 +194,6 @@ For detailed usage, just issue: ./docker-hadoop.sh
       		-s, --smoke-tests                         Run Bigtop smoke tests
       		-h, --help
 
-#### Spark smoke test
-
-To run the Spark smoke tests you need to apply 2 patches https://issues.apache.org/jira/browse/BIGTOP-2860  and https://issues.apache.org/jira/browse/BIGTOP-2866
-
-	$ vim provisioner/docker/config_debian-8-aarch64.yaml
- 	
-Do the below changes
- 	
-	components: [hdfs, yarn, mapreduce, hive, spark]
-	enable_local_repo: true
-	smoke_test_components: [spark]
-	jdk: "openjdk-8-jdk"
- 	
-save and quit.
- 	
-	$ vim provisioner/utils/smoke-tests.sh
- 	
-Add the below lines
- 	
-	export HADOOP_HOME=/usr/lib/hadoop
-	export HADOOP_PREFIX=$HADOOP_HOME
-	export HADOOP_OPTS="-Djava.library.path=$HADOOP_PREFIX/lib/native"
-	export HADOOP_LIBEXEC_DIR=/usr/lib/hadoop/libexec
-	export HADOOP_CONF_DIR=/etc/hadoop/conf
-	export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-	export HADOOP_COMMON_HOME=$HADOOP_HOME
-	export HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce
-	export HADOOP_HDFS_HOME=/usr/lib/hadoop-hdfs
-	export YARN_HOME=/usr/lib/hadoop-yarn
-	export HADOOP_YARN_HOME=/usr/lib/hadoop-yarn/
-	export HADOOP_USER_NAME=hdfs
-	export CLASSPATH=$CLASSPATH:.
-	export CLASSPATH=$CLASSPATH:$HADOOP_HOME/hadoop-common-2.7.2.jar:$HADOOP_HOME/client/hadoop-hdfs-2.7.2.jar:$HADOOP_HOME/hadoop-auth-2.7.2.jar:/usr/lib/hadoop-mapreduce/*:/usr/lib/hive/lib/*:/usr/lib/hadoop/lib/*:
-	export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
-	export PATH=/usr/lib/hadoop/libexec:/etc/hadoop/conf:$HADOOP_HOME/bin/:$PATH
-	export SPARK_HOME=/usr/lib/spark
-	export PATH=$HADOOP_HOME\bin:$PATH
-	export SPARK_DIST_CLASSPATH=$HADOOP_HOME\bin\hadoop:$CLASSPATH:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/lib/*:/usr/lib/hadoop-mapreduce/*:.
-	export CLASSPATH=$CLASSPATH:/usr/lib/hadoop/lib/*:.
-	 
-	export SPARK_HOME=/usr/lib/spark
-	export SPARK_MASTER_IP=<IP Address of your host>
-	export SPARK_MASTER_PORT=7077
-	 
-save and quit.
- 	
-Run the command smoke test commands
- 	
-	$ ./docker-hadoop.sh -C config_debian-8-aarch64.yaml -c 3 -s -d
- 	
-If the smoke test is still failing.  It might be because of you have't set the "SPARK_MASTER_IP" properly.  Another way to do is that remove the $masterMode and add local[*] as below
- 
-	$ vim bigtop-tests/smoke-tests/spark/TestSpark.groovy
- 
-make the below change
- 
-	final String SPARK_SHELL = SPARK_HOME + "/bin/spark-shell --master local[*]"
- 	
-save and quit. Now run the spark smoke-tests again.
-
 
 Generally following properties should be customized for certain smoke test:
 * docker image
@@ -243,50 +205,51 @@ Generally following properties should be customized for certain smoke test:
 
 ### List of Smoke Tests Verified:
 
-- Hadoop-HDFS		
-- TestBlockRecovery	
-- TestChgrp		
-- TestCmdTest		
-- TestCmdText		
-- TestCount		
-- TestCp		
-- TestDFSAdmin		
-- TestDFSCLI		
-- TestDistCpIntra	
-- TestDu		
-- TestFileAppend	
-- TestFsck		
-- TestGet		
-- TestHDFSBalancer	
-- TestHDFSCLI		
-- TestHDFSQuota		
-- TestLs		
-- TestMkdir		
-- TestMv		
-- TestPut		
-- TestStat		
-- TestTextSnappy	
+#### Hadoop-HDFS		
+- TestBlockRecovery
+- TestDistCpIntra
+- TestFileAppend
+- TestFsck
+- TestHDFSQuota
+- TestHDFSCLI
+- TestTextSnappy
+- TestDFSAdmin
+- TestHDFSBalancer
 
-### Hadoop-Yarn
-- TestNode		
-- TestRmAdmin		
-- TestRmAdminRefreshCommands
+#### Hadoop-MapReduce
+- TestHadoopExamples		
 
-### Hadoop-MapReduce
-- TestHadoopExamples	
-- TestMRExample		
+#### Spark
+- testSparkSQL
 
-### Spark
-- TestSparkExample
-- TestSparkPythonExample
-- ShellTest
-- HDFSTest 
-- JobTest 
+#### Hive
+- TestHiveSmoke
+- TestHiveSmokeBulk
 
-### Hive
-- TesttHiveSmoke
+#### HBase
+- TestHBaseBalancer
+- TestHBaseCompression
+- TestHBaseImportExport
+- TestHBasePigSmoke
+- TestHbck
+- TestImportTsv
+- IncrementalPELoad
+- TestCopyTable
+- TestHBaseSmoke
+- TestHFileOutputFormat
+- TestLoadIncrementalHFiles
 
-# ERP 18.06 ElasticStack / ELK (ElasticSearch, LogStash and Kibana) on Aarch64
+#### Zookeeper
+- testZkServerStatus
+
+#### Ambari
+- TestAmbariSmoke
+- testStackNameVersion
+- testBlueprints
+- testHosts
+
+# ERP 18.06 Installing ElasticStack / ELK (ElasticSearch, LogStash and Kibana) on Aarch64
+We are using ElasticStack upstream repo.
 
 ## Sources
 * Upstream: https://github.com/elastic/elasticsearch.git/ 
@@ -294,13 +257,13 @@ Generally following properties should be customized for certain smoke test:
                   https://github.com/elastic/kibana.git
 * We are using upstream version (v5.6.9) of ElasticStack for ERP18.06 
 
-### Install Pre-Requisites
-	$ apt-get install -y openjdk-8-jdk curl unzip wget apt-transport-https ca-certificates wget software-properties-common
+## Add repo
 
-### Add repo
-	$ sudo echo 'deb [arch=amd64] https://artifacts.elastic.co/packages/5.x/apt stable main' >> /etc/apt/sources.list.d/elk.list
-	$ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-	$ apt-get update
+	$ deb [arch=amd64] https://artifacts.elastic.co/packages/5.x/apt stable main (add those two lines into /etc/apt/sources.list.d/elk.list)
+	$ sudo apt-get update -y
+
+This gives ELK 5.x with elasticsearch and logstash from upstream and kibana from ERP.
+"[arch=amd64]" is important - this tells APT to fetch list of packages for amd64 architecture and then it allows us to install 'arch:all' packages from there.
 
 ### Install the components
 	$ sudo apt install elasticsearch logstash kibana
@@ -313,110 +276,3 @@ Generally following properties should be customized for certain smoke test:
 ### Check service status
 	$ sudo service elasticsearch status
 
-## Build Steps
-
-Following scripts are expected to run in a debian-8 container.
-
-#### Building ElasticSearch
-
-##### install prerequisites
-	
-	$ echo "deb http://http.debian.net/debian jessie-backports main" | tee /etc/apt/sources.list.d/backports.list
-	$ sudo apt-get update -y
-	$ sudo apt-get install -y -t jessie-backports openjdk-8-jdk git build-essential automake autoconf libtool curl unzip rpm texinfo locales-all tar wget python-requests
- 	
-	$ wget https://services.gradle.org/distributions/gradle-3.5.1-bin.zip -O /tmp/gradle-3.5.1-bin.zip
-	$ cd ${HOME} && unzip /tmp/gradle-3.5.1-bin.zip && rm /tmp/gradle-3.5.1-bin.zip
-	$ ln -s gradle-3.5.1 gradle
- 	
-##### setup environments
-
-	$ export LANG="en_US.UTF-8"
-	$ export PATH=${HOME}/gradle/bin:$PATH
-	$ export JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF8"
- 
-##### setup JAVA_HOME
-
-	$ cd /usr/lib/jvm/java-8-openjdk-*
-	$ export JAVA_HOME=${PWD}
- 
-##### clone the ElasticSearch v5.4.1
-
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/elasticsearch.git -b v5.4.1 ${WORKSPACE}/elasticsearch
-	$ cd ${WORKSPACE}/elasticsearch
- 
-okay everything is in place
-
-	$ gradle assemble -Dbuild.snapshot=false
-
-
-#### Building Logstash
-
-##### install prerequisites
-
-	$ echo "deb http://http.debian.net/debian jessie-backports main" | tee /etc/apt/sources.list.d/backports.list
-	$ sudo apt-get update -y
-	$ sudo apt-get install -y -t jessie-backports openjdk-8-jdk git build-essential rubygems texinfo locales-all automake autoconf libtool wget unzip curl maven ant tar python-requests
- 
-	$ sudo gem install rake
-	$ sudo gem install bundler
- 	
-##### setup environments
-
-	$ export RELEASE=1
-	$ export LANG="en_US.UTF-8"
-	$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-arm64
- 	
-##### clone the Logstash definitions
-
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/logstash.git -b v5.4.1 ${WORKSPACE}/logstash
-	$ cd ${WORKSPACE}/logstash
- 
-##### okay everything is in place
-
-	$ rake bootstrap
-	$ rake plugin:install-default
- 	
-	$ rake artifact:deb
-	
-#### Building Kibana
-
-##### setup environments
-
-	$ export LANG="en_US.UTF-8"
- 
-##### install prerequisites
-
-	$ sudo apt-get update -y
-	$ sudo apt-get install -y git build-essential automake autoconf libtool libffi-dev ruby-dev rubygems python2.7 curl zip rpm python-requests
- 	
-	$ sudo gem install fpm -v 1.5.0
-	$ sudo gem install pleaserun -v 0.0.24
-	$ sudo ln -s /usr/bin/python2.7 /usr/bin/python
- 	
-	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-	$ source ${HOME}/.bashrc
- 	
-##### clone the Kibana definitions
-
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/kibana.git -b v5.4.1 ${WORKSPACE}/kibana
- 	
-	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-	$ source ${HOME}/.profile
-          	   
-Install the version of node.js listed in the .node-version file (this can be easily automated with tools such as nvm and avn)
-
-	$ nvm install $(cat ${WORKSPACE}/kibana/.node-version)
-
-	$ cd ${WORKSPACE}/kibana
-             
-Install npm dependencies
-
-	$ npm install
-	$ npm rebuild node-sass
-          	   
-	$ npm run build -- --deb --release
- 	
- 	$ mkdir -p out
-	$ cp -a ${WORKSPACE}/kibana/target/kibana-*-arm64.deb* out/
-	
