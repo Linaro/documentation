@@ -1,186 +1,127 @@
 # Big Data
 
-This file provides all the instructions required to Build, Install, Configure and Test following Big Data components
-	Hadoop - YARN, Hadoop - HDFS, Hadoop - MapReduce, Hive, Spark, HBase and ELK Stack (ElasticSearch, LogStash and Kibana)
-
-The following Big data components are built as part of Linaro's Reference Architecture - ERP-17.08.
-These components were built using Apache BigTop v1.2.
-
-* alluxio		v1.0.1
-* Apache ambari		v2.5.0
-* Apache apex		v3.5.0
-* groovy		v2.4.10
-* Apache commons - jsvc	v1.0.15
-* Apache tomcat		v6.0.45
-* bigtop_utils		v1.2.0
-* Apache crunch		v0.14.0
-* Pig UDF datafu	v1.3.0
-* Apache flink		v1.1.3
-* Apache flume		v1.7.0
-* Apache giraph		v1.1.0
-* Greenplum gpdb	v5.0.0-alpha.0
-* Apache hadoop		v2.7.3
-* Apache hama		v0.7.0
-* Apache hbase		v1.1.3
-* Apache hive		v1.2.1
-* Apache hue		v3.11.0
-* Apache ignite		v1.9.0
-* Apache kafka		v0.10.1.1
-* kite			v1.1.0
-* Apache mahout		v0.12.2
-* Apache oozie		v4.3.0
-* Apache phoenix	v4.9.0-HBase-1.1
-* Apache pig		v0.15.0
-* Quantcast qfs		v1.1.4
-* Apache solr		v4.10.4
-* Apache spark 1.1 	v1.6.2
-* Apache spark 2.0	v2.1.1
-* Apache sqoop v1	v1.4.6
-* Apache sqoop v2	v1.99.4
-* Apache tajo		v0.11.1
-* Apache tez		v0.6.2
-* ycsb			v0.4.0
-* Apache zeppelin	v0.7.0
-* Apache zookeeper	v3.4.6
-* ELK 			v5.4.1
-
+This file provides all the instructions required to Build, Install, Configure and Test following Big Data components. 
 The following components were tested (smoke tests) as part of the ERP release as well.
 
 * Hadoop - HDFS
 * Hadoop - YARN
 * Hadoop - MapReduce
-* Hive
+* Zookeeper
 * Spark
+* Hive
+* HBase
+* Ambari
+* ElasticStack - ElasticSearch
+* ElasticStack - Logstash
+* ElasticStack - Kibana
 
-### Note
-It has been decided to skip HBase smoke tests for ERP17.08. For the reason that it needs clean up on the Bigtop upstream
+We have used upstream of Apache Bigtop and upgraded the versions of the following components:
+
+-----------------------------------------------------------------------------------------------------------------
+| Component 	|	Version in Bigtop 	|	Version in upstream 	|	Version in ERP18.06 	|
+|---------------|-------------------------------|-------------------------------|-------------------------------|
+| Hadoop    	|	2.8.1 			|	2.8.4/3.0.2		|	2.8.4			|
+| Spark     	|	2.2.1 			|	2.3.0			|	2.2.1			|
+| HBase     	|	1.3.1 			|	1.3.2/1.4.4/2.0.0	|	1.3.2			|
+| Hive      	|	2.3.2 			|	2.3.3			|	2.3.3			|
+| Ambari    	|	2.5.2 			|	2.6.2			|	2.6.1			|
+| Zookeeper 	|	3.4.6			|	3.4.12/3.5.4		|	3.4.6			|
+| Elasticsearch |	X			|	5.6.9/6.2.3		|	5.6.9			|
+| Logstash 	|	X			|	5.6.9/6.2.4		|	5.6.9			|
+| Kibana 	|	X			|	5.6.9/6.2.5		|	5.6.9			|
+-----------------------------------------------------------------------------------------------------------------
 
 # About BigTop
-Bigtop is a set of tools and framework for comprehensive packaging, testing, and configuration of the open source big data components including, but not limited to, Hadoop, HBase and Spark. Bigtop support many Operating Systems, including Debian, Ubuntu, CentOS, Fedora, openSUSE and many others. Check out the website http://bigtop.apache.org/
+Bigtop is a set of tools and framework for comprehensive packaging, testing, and configuration of the open source big data components including, but not limited to, Hadoop, HBase and Spark. Check out the website http://bigtop.apache.org/
 
 # Sources
-* Upstream: https://git.linaro.org/leg/bigdata/bigtop-trunk.git/ (The branch is erp17.08)
-* Root upstream: https://github.com/apache/bigtop (Release-1.2.0 is used in this Wiki, with specific patches for aarch64)
+* Upstream: https://git.linaro.org/leg/bigdata/bigtop-trunk.git/ (The branch is erp18.06)
+* Root upstream: https://github.com/apache/bigtop 
 
 # Repo
-Docker: http://repo.linaro.org/debian/erp-17.08-stable/pool/main/d/docker.io/
+[TODO: update this] Docker: http://repo.linaro.org/debian/erp-18.06-stable/pool/main/d/docker.io/
 
-# Setup Environment
-* Debian 17.08 ERP release
+# How to Use the repo
+[TODO: Document how to use the repo steps here....]
 
->	$ echo "deb http://repo.linaro.org/debian/erp-17.08-stable/ jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
+# Build steps
+## Setup Environment
+* Debian 18.06 ERP release
+
+[TODO: update this]>	$ echo "deb http://repo.linaro.org/debian/erp-18.06-stable/ jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
 >	
 >	$ apt-get update
 
-# Prerequisites
+## Prerequisites
 
-* JDK-8
-OpenJDK-8 is provided in jessie-backports repo. Issue following cmd to install jessie-backports repo.
+* Install distro packages
 
-	$ echo "deb http://http.debian.net/debian jessie-backports main" | tee /etc/apt/sources.list.d/jessie-backports.list
+	$ sudo apt-get install unzip openjdk-8-jdk git autoconf curl iputils-ping net-tools build-essential ruby
 
-	$ apt-get update
+* Set JAVA_HOME
 
-Then install openjdk-8
+	$ export JAVA_HOME=`readlink -f /usr/bin/java | sed "s:jre/bin/java::"`
 
-	$ apt-get install -y -t jessie-backports openjdk-8-jdk
+* Install docker CE
 
-* Python pip
+	$ sudo apt-get install apt-transport-https ca-certificates gnupg2 software-properties-common
 	
-	$ apt-get install -y python-pip
-    
-* Ruby
+## download docker's gpg key
+	$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+ 
+## verify key
+-- the output should be:
+-- pub   rsa4096 2017-02-22 [SCEA]
+--      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+-- uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+-- sub   rsa4096 2017-02-22 [S]
+	$ sudo apt-key fingerprint 0EBFCD88
+ 
+## import docker's repo
 
-	$ apt-get install -y ruby
+	$ echo "deb [arch=arm64] https://download.docker.com/linux/debian \
+  		$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+ 
+## now update sources
+	$ sudo apt update
+ 
+## now install docker-ce and docker-compose
+	$ sudo apt install -y docker-ce docker-compose
 
-* Docker
-Bigtop uses docker based images as build environment for its components.
-
-	$ apt-get install -y docker.io
-
-* Docker-compose
-Bigtop uses docker-compose to create clusters, deploy packages and run smoke tests.
-
-	$ pip install docker-compose
-
-Check docker-compose installation
-
-	$ docker-compose -v
-
-	#docker-compose version 1.15.0, build e12f3b9
-
-# Dependencies
-
-# Build Steps:
 ## Clone source 
 
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/bigtop-trunk.git/ -b erp17.08
-	$ cd bigtop-trunk
+	$ git clone https://git.linaro.org/leg/bigdata/bigtop-trunk.git -b erp18.06
 	
-## Prepare docker images
-
-Currently, Bigtop community has docker image only for ubuntu-aarch in docker hub. Hence need to create a new image for debian.
-To build and test bigtop packages, two docker images should be ready: bigtop/puppet:erp17.08-debian-8-aarch64 and bigtop/slaves:erp17.08-deb-8-aarch64
-
-* bigtop/puppet:erp17.08-debian-8-aarch64
-
-	$ cd docker/bigtop-puppet/debian-8-aarch64
-	$ ./build.sh
-
-* bigtop/slaves:erp17.08-debian-8-aarch64
-	
+## Build source
+### Build Bigtop dev images
+#### Bigtop-puppet
 	$ cd <BIGTOP_SRC_TOP>
-	$ docker build -t bigtop/slaves:erp17.08-deb-8-aarch64 -f docker/bigtop-slaves/debian-8-aarch64/Dockerfile .
+	$ ./gradlew -POS=debian-9 -Pprefix=erp18.06 bigtop-puppet
+#### Bigtop-slaves
+	$ cd <BIGTOP_SRC_TOP>
+	$ ./gradlew -POS=debian-9 -Pprefix=erp18.06 bigtop-slaves
+
+### Build Components
+-- components to be built: ambari bigtop-groovy bigtop-jsvc bigtop-tomcat bigtop-utils hadoop hbase hive spark zookeeper
+-- docker run -v `pwd`:/ws bigtop/slaves:erp18.06-debian-9-aarch64 bash -l -c 'cd /ws ; ./gradlew <comp>-deb'
 	
-Verify if the docker image is created
-
-	$ docker images
-
-That should list erp17.08-deb-8-aarch64 image
-
-## Build packages
-### Basic packages
-
-Basic packages are required for all big data components. They are: bigtop-groovy, bigtop-utils, bigtop-jsvc and bigtop-tomcat
-To build these basic packages, issue:
-
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew bigtop-groovy-deb bigtop-utils-deb bigtop-jsvc-deb bigtop-tomcat-deb'
-
-### Target packages
-
-To build specific target packages (hadoop, hbase, spark and hive), issue:
-
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew hadoop-deb hbase-deb spark-deb hive-deb'
+	$ docker run -v `pwd`:/ws bigtop/slaves:erp18.06-debian-9-aarch64 bash -l -c 'cd /ws ; ./gradlew hadoop-deb zookeeper-deb spark-deb hive-deb hbase-deb ambari-deb'
 	
-To build all components part of Bigtop, issue:
-
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew deb'
-
 ### Smoke test dependent packages
 
 To execute smoke tests for target packages, extra big data components are required to install. So these packages need to be built if you want to run bigtop smoke test.
-These packages are: flume, mahout, pig, sqoop, zookeeper. If all components were already built in earlier step, skip this step.
+These packages are: bigtop-groovy, bigtop-jsvc, bigtop-tomcat, bigtop-utils. If all components were already built in earlier step, skip this step.
 
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew flume-deb mahout-deb pig-deb sqoop-deb zookeeper-deb'
+	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew bigtop-groovy-deb bigtop-jsvc-deb bigtop-tomcat-deb bigtop-utils-deb'
 	
 ## Smoke Tests
-### Setup repo
+### Generate local repo
+	$ ./gradlew apt
 
-Bigtop release repo doesn't have arm64 support. To execute smoke test it is required to setup local repo with packages we build out.
+### Create test configuration yaml file
+There are several sample smoke test yaml files in <BIGTOP_ROOT>/provisioner/docker/, you may use one as the start point. 
 
-	$ docker run -v `pwd`:/ws bigtop/slaves:erp17.08-deb-8-aarch64 bash -l -c 'cd /ws ; ./gradlew apt'
-	
-### Create test configuration
-Bigtop smoke test uses yaml to configure test repo/environment/components. A typical configuration yaml can be found at <BIGTOP_SRC_TOP>/provisioner/docker/erp17.08-deb-8-aarch64
-
-Generally following properties should be customized for certain smoke test:
-* docker image
-* repo url
-* distro type
-* components to install
-* components to test
-
-Following is configuration yaml for Hive:
+Following is a example configuration yaml for Hive:
 
 	# Licensed to the Apache Software Foundation (ASF) under one or more
 	# contributor license agreements.  See the NOTICE file distributed with
@@ -198,21 +139,40 @@ Following is configuration yaml for Hive:
 	# limitations under the License.
 	
 	docker:
-        	memory_limit: "4g"
-        	image:  "bigtop/puppet:debian-8-aarch64"
+        	memory_limit: "8g"
+        	image: "bigtop/puppet:erp18.06-debian-9-aarch64"
  
-	repo: "http://bigtop-repos.s3.amazonaws.com/releases/1.2.0/debian/8-aarch64/aarch64"
+	repo: "file:///bigtop-home/output/apt"
 	distro: debian
-	components: [hdfs, yarn, mapreduce, hive]
-	enable_local_repo: true
+	components: [hdfs, yarn, mapreduce, hive, zookeeper]
+	enable_local_repo: false
 	smoke_test_components: [hive]
-	jdk: "openjdk-8-jdk"
+
+
+### Setup environment
+
+You need to export several environment variables.   For example,
+
+export HADOOP_CONF_DIR=/etc/hadoop/conf/
+export HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce/
+export HIVE_HOME=/usr/lib/hive/
+export PIG_HOME=/usr/lib/pig/
+export FLUME_HOME=/usr/lib/flume/
+export HIVE_CONF_DIR=/etc/hive/conf/
+export JAVA_HOME="/usr/lib/jvm/java-openjdk/"
+export MAHOUT_HOME="/usr/lib/mahout"
+export SPARK_HOME="/usr/lib/spark"
+export TAJO_HOME="/usr/lib/tajo"
+export OOZIE_TAR_HOME="/usr/lib/oozie/doc"
 
 ### Execute test
 It is quite straight forward to execute smoke in bigtop
 
 	$ cd provisioner/docker
-	$ ./docker-hadoop.sh -C <smoke_test_cfg_yaml> -c <node_count> -s -d
+	# $ ./docker-hadoop.sh -C <smoke_test_cfg_yaml> -c <node_count> -s -d
+	# For detail usage of docker-hadoop.sh, you may just issue "./docker-hadoop.sh", it will show help messages
+
+	$ ./docker-hadoop.sh -C smoke.yaml -c 3 -s -d
 
 Before running smoke test, it is suggested to run environment check first
 
@@ -234,237 +194,85 @@ For detailed usage, just issue: ./docker-hadoop.sh
       		-s, --smoke-tests                         Run Bigtop smoke tests
       		-h, --help
 
-#### Spark smoke test
 
-To run the Spark smoke tests you need to apply 2 patches https://issues.apache.org/jira/browse/BIGTOP-2860  and https://issues.apache.org/jira/browse/BIGTOP-2866
+Generally following properties should be customized for certain smoke test:
+* docker image
+* repo url
+* distro type
+* components to install
+* components to test
 
-	$ vim provisioner/docker/config_debian-8-aarch64.yaml
- 	
-Do the below changes
- 	
-	components: [hdfs, yarn, mapreduce, hive, spark]
-	enable_local_repo: true
-	smoke_test_components: [spark]
-	jdk: "openjdk-8-jdk"
- 	
-save and quit.
- 	
-	$ vim provisioner/utils/smoke-tests.sh
- 	
-Add the below lines
- 	
-	export HADOOP_HOME=/usr/lib/hadoop
-	export HADOOP_PREFIX=$HADOOP_HOME
-	export HADOOP_OPTS="-Djava.library.path=$HADOOP_PREFIX/lib/native"
-	export HADOOP_LIBEXEC_DIR=/usr/lib/hadoop/libexec
-	export HADOOP_CONF_DIR=/etc/hadoop/conf
-	export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-	export HADOOP_COMMON_HOME=$HADOOP_HOME
-	export HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce
-	export HADOOP_HDFS_HOME=/usr/lib/hadoop-hdfs
-	export YARN_HOME=/usr/lib/hadoop-yarn
-	export HADOOP_YARN_HOME=/usr/lib/hadoop-yarn/
-	export HADOOP_USER_NAME=hdfs
-	export CLASSPATH=$CLASSPATH:.
-	export CLASSPATH=$CLASSPATH:$HADOOP_HOME/hadoop-common-2.7.2.jar:$HADOOP_HOME/client/hadoop-hdfs-2.7.2.jar:$HADOOP_HOME/hadoop-auth-2.7.2.jar:/usr/lib/hadoop-mapreduce/*:/usr/lib/hive/lib/*:/usr/lib/hadoop/lib/*:
-	export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
-	export PATH=/usr/lib/hadoop/libexec:/etc/hadoop/conf:$HADOOP_HOME/bin/:$PATH
-	export SPARK_HOME=/usr/lib/spark
-	export PATH=$HADOOP_HOME\bin:$PATH
-	export SPARK_DIST_CLASSPATH=$HADOOP_HOME\bin\hadoop:$CLASSPATH:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/lib/*:/usr/lib/hadoop-mapreduce/*:.
-	export CLASSPATH=$CLASSPATH:/usr/lib/hadoop/lib/*:.
-	 
-	export SPARK_HOME=/usr/lib/spark
-	export SPARK_MASTER_IP=<IP Address of your host>
-	export SPARK_MASTER_PORT=7077
-	 
-save and quit.
- 	
-Run the command smoke test commands
- 	
-	$ ./docker-hadoop.sh -C config_debian-8-aarch64.yaml -c 3 -s -d
- 	
-If the smoke test is still failing.  It might be because of you have't set the "SPARK_MASTER_IP" properly.  Another way to do is that remove the $masterMode and add local[*] as below
- 
-	$ vim bigtop-tests/smoke-tests/spark/TestSpark.groovy
- 
-make the below change
- 
-	final String SPARK_SHELL = SPARK_HOME + "/bin/spark-shell --master local[*]"
- 	
-save and quit. Now run the spark smoke-tests again.
 
 ### List of Smoke Tests Verified:
 
-- Hadoop-HDFS		
-- TestBlockRecovery	
-- TestChgrp		
-- TestCmdTest		
-- TestCmdText		
-- TestCount		
-- TestCp		
-- TestDFSAdmin		
-- TestDFSCLI		
-- TestDistCpIntra	
-- TestDu		
-- TestFileAppend	
-- TestFsck		
-- TestGet		
-- TestHDFSBalancer	
-- TestHDFSCLI		
-- TestHDFSQuota		
-- TestLs		
-- TestMkdir		
-- TestMv		
-- TestPut		
-- TestStat		
-- TestTextSnappy	
+#### Hadoop-HDFS		
+- TestBlockRecovery
+- TestDistCpIntra
+- TestFileAppend
+- TestFsck
+- TestHDFSQuota
+- TestHDFSCLI
+- TestTextSnappy
+- TestDFSAdmin
+- TestHDFSBalancer
 
-### Hadoop-Yarn
-- TestNode		
-- TestRmAdmin		
-- TestRmAdminRefreshCommands
+#### Hadoop-MapReduce
+- TestHadoopExamples		
 
-### Hadoop-MapReduce
-- TestHadoopExamples	
-- TestMRExample		
+#### Spark
+- testSparkSQL
 
-### Spark
-- TestSparkExample
-- TestSparkPythonExample
-- ShellTest
-- HDFSTest 
-- JobTest 
+#### Hive
+- TestHiveSmoke
+- TestHiveSmokeBulk
 
-### Hive
-- TesttHiveSmoke
+#### HBase
+- TestHBaseBalancer
+- TestHBaseCompression
+- TestHBaseImportExport
+- TestHBasePigSmoke
+- TestHbck
+- TestImportTsv
+- IncrementalPELoad
+- TestCopyTable
+- TestHBaseSmoke
+- TestHFileOutputFormat
+- TestLoadIncrementalHFiles
 
-# ERP 17.08 Building ELK (ElasticSearch, LogStash and Kibana) on Aarch64
+#### Zookeeper
+- testZkServerStatus
 
-## Build
+#### Ambari
+- TestAmbariSmoke
+- testStackNameVersion
+- testBlueprints
+- testHosts
 
-### Sources
-* Upstream: https://git.linaro.org/leg/bigdata/elasticsearch.git/ 
-                  https://git.linaro.org/leg/bigdata/logstash.git 
-                  https://git.linaro.org/leg/bigdata/kibana.git
-* The ELK stack version for erp17.08 is v5.4.1
+# ERP 18.06 Installing ElasticStack / ELK (ElasticSearch, LogStash and Kibana) on Aarch64
+We are using ElasticStack upstream repo.
 
-### Environment
-Docker: Debian 8
+## Sources
+* Upstream: https://github.com/elastic/elasticsearch.git/ 
+                  https://github.com/elastic/logstash.git 
+                  https://github.com/elastic/kibana.git
+* We are using upstream version (v5.6.9) of ElasticStack for ERP18.06 
 
-### Pre-Requisites
-Docker, git
+## Add repo
 
-### Dependencies
-#### Install Prerequisites
-
-	# install docker engine
-	$ apt-get install -y docker.io git
-
-### Build Steps
-
-Following scripts are expected to run in a debian-8 container.
-
-#### Building ElasticSearch
-
-##### install prerequisites
-	
-	$ echo "deb http://http.debian.net/debian jessie-backports main" | tee /etc/apt/sources.list.d/backports.list
+	$ deb [arch=amd64] https://artifacts.elastic.co/packages/5.x/apt stable main (add those two lines into /etc/apt/sources.list.d/elk.list)
 	$ sudo apt-get update -y
-	$ sudo apt-get install -y -t jessie-backports openjdk-8-jdk git build-essential automake autoconf libtool curl unzip rpm texinfo locales-all tar wget python-requests
- 	
-	$ wget https://services.gradle.org/distributions/gradle-3.5.1-bin.zip -O /tmp/gradle-3.5.1-bin.zip
-	$ cd ${HOME} && unzip /tmp/gradle-3.5.1-bin.zip && rm /tmp/gradle-3.5.1-bin.zip
-	$ ln -s gradle-3.5.1 gradle
- 	
-##### setup environments
 
-	$ export LANG="en_US.UTF-8"
-	$ export PATH=${HOME}/gradle/bin:$PATH
-	$ export JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF8"
- 
-##### setup JAVA_HOME
+This gives ELK 5.x with elasticsearch and logstash from upstream and kibana from ERP.
+"[arch=amd64]" is important - this tells APT to fetch list of packages for amd64 architecture and then it allows us to install 'arch:all' packages from there.
 
-	$ cd /usr/lib/jvm/java-8-openjdk-*
-	$ export JAVA_HOME=${PWD}
- 
-##### clone the ElasticSearch v5.4.1
+### Install the components
+	$ sudo apt install elasticsearch logstash kibana
 
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/elasticsearch.git -b v5.4.1 ${WORKSPACE}/elasticsearch
-	$ cd ${WORKSPACE}/elasticsearch
- 
-okay everything is in place
-
-	$ gradle assemble -Dbuild.snapshot=false
-
-
-#### Building Logstash
-
-##### install prerequisites
-
-	$ echo "deb http://http.debian.net/debian jessie-backports main" | tee /etc/apt/sources.list.d/backports.list
-	$ sudo apt-get update -y
-	$ sudo apt-get install -y -t jessie-backports openjdk-8-jdk git build-essential rubygems texinfo locales-all automake autoconf libtool wget unzip curl maven ant tar python-requests
- 
-	$ sudo gem install rake
-	$ sudo gem install bundler
- 	
-##### setup environments
-
-	$ export RELEASE=1
-	$ export LANG="en_US.UTF-8"
-	$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-arm64
- 	
-##### clone the Logstash definitions
-
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/logstash.git -b v5.4.1 ${WORKSPACE}/logstash
-	$ cd ${WORKSPACE}/logstash
- 
-##### okay everything is in place
-
-	$ rake bootstrap
-	$ rake plugin:install-default
- 	
-	$ rake artifact:deb
+### Start the services
+	$ sudo service elasticsearch start
+	$ sudo service logstash start
+	$ sudo service kibana start
 	
-#### Building Kibana
+### Check service status
+	$ sudo service elasticsearch status
 
-##### setup environments
-
-	$ export LANG="en_US.UTF-8"
- 
-##### install prerequisites
-
-	$ sudo apt-get update -y
-	$ sudo apt-get install -y git build-essential automake autoconf libtool libffi-dev ruby-dev rubygems python2.7 curl zip rpm python-requests
- 	
-	$ sudo gem install fpm -v 1.5.0
-	$ sudo gem install pleaserun -v 0.0.24
-	$ sudo ln -s /usr/bin/python2.7 /usr/bin/python
- 	
-	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-	$ source ${HOME}/.bashrc
- 	
-##### clone the Kibana definitions
-
-	$ git clone --depth 1 https://git.linaro.org/leg/bigdata/kibana.git -b v5.4.1 ${WORKSPACE}/kibana
- 	
-	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-	$ source ${HOME}/.profile
-          	   
-Install the version of node.js listed in the .node-version file (this can be easily automated with tools such as nvm and avn)
-
-	$ nvm install $(cat ${WORKSPACE}/kibana/.node-version)
-
-	$ cd ${WORKSPACE}/kibana
-             
-Install npm dependencies
-
-	$ npm install
-	$ npm rebuild node-sass
-          	   
-	$ npm run build -- --deb --release
- 	
- 	$ mkdir -p out
-	$ cp -a ${WORKSPACE}/kibana/target/kibana-*-arm64.deb* out/
-	
