@@ -39,18 +39,29 @@ Bigtop is a set of tools and framework for comprehensive packaging, testing, and
 * Root upstream: https://github.com/apache/bigtop 
 
 # Repo
-[TODO: update this] Docker: http://repo.linaro.org/debian/erp-18.06-stable/pool/main/d/docker.io/
+http://releases.linaro.org/reference-platform/enterprise/18.06/bigtop
 
-# How to Use the repo
-[TODO: Document how to use the repo steps here....]
+# Installation steps
 
-# Build steps
-## Setup Environment
-* Debian 18.06 ERP release
-
-[TODO: update this]>	$ echo "deb http://repo.linaro.org/debian/erp-18.06-stable/ jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
+Add to sources.list
+>	deb [trusted=yes]
+http://releases.linaro.org/reference-platform/enterprise/18.06/bigtop
 >	
 >	$ apt-get update
+>	$ apt-get install hadoop hbase hive spark ambari
+>
+>	$ hadoop version
+>	Hadoop 2.8.4
+>	Subversion https://git.linaro.org/leg/bigdata/bigtop-trunk.git -r
+>	b1647088e0044684fb056ea9e43ac4b9e26c4fb2
+>	Compiled by root on 2018-06-26T09:23Z
+>	Compiled with protoc 2.5.0
+>	From source with checksum b02a59bb17646783210e979bea443b0
+>	This command was run using /usr/lib/hadoop/hadoop-common-2.8.4.jar
+
+# Build steps (If you need to build it from scratch).
+## Setup Environment
+* Debian 18.06 ERP release
 
 ## Prerequisites
 
