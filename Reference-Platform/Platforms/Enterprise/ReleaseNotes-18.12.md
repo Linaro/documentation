@@ -22,8 +22,8 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 
 - Cavium ThunderX
 - Cavium ThunderX2
-- HiSilicon D05
-- Hisilicon D06
+- Huawei Kunpeng 916
+- Huawei Kunpeng 920
 - HP Proliant m400
 - Qualcomm Centriq 2400
 
