@@ -15,9 +15,8 @@
 - [Kunpeng 916](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
 - [Kunpeng 920](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d06/)
 - [OverDrive](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
-- X-Gene
 - m400
-- QDF2432
+- QDF2400
 - Thunder X
 - Thunder X2
 
