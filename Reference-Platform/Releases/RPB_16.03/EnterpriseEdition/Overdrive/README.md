@@ -32,7 +32,7 @@ After flashing/updating the firmware, proceed to the network installer instructi
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100), but a board like the [SPI Hook](http://www.tincantools.com/SPI_Hook.html) should also be compatible with it (not yet tested).
+Follow the instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100), but a board like the [SPI Hook](https://www.tincantools.com/spi-hook/) should also be compatible with it (not yet tested).
 
 ### Network Installers
 

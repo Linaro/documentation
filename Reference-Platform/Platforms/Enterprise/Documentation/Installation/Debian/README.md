@@ -11,7 +11,7 @@ Our custom installer changes nothing more than the kernel, and you can also find
 ## Loading debian-installer from the network
 ### Setting up the TFTP server
 
-Back to your dnsmasq server (check [this link](../DHCP-TFTP-Server-UEFI.md) for instructions on how to setup your own TFTP/DCHP server), download the required Debian installer files at your tftp-root directory. In this example, this directory is configured to `/srv/tftp`.
+Back to your dnsmasq server (check [this link](../../EECommon/DHCP-TFTP-Server-UEFI.md) for instructions on how to setup your own TFTP/DCHP server), download the required Debian installer files at your tftp-root directory. In this example, this directory is configured to `/srv/tftp`.
 
 Since the kernel, initrd and GRUB 2 is part of the debian-installer tarball (`netboot.tar.gz`), that is the only file you will need to download and use.
 
@@ -230,7 +230,7 @@ d-i pkgsel/upgrade select safe-upgrade
 d-i finish-install/reboot_in_progress note
 ```
 
-In this example, this content is also available at [http://people.linaro.org/~ricardo.salveti/preseed.cfg](http://people.linaro.org/~ricardo.salveti/preseed.cfg)
+In this example, this content is also available at [http://people.linaro.org/~ricardo.salveti/preseed.cfg]()
 
 #### Setting up grub.cfg
 
@@ -261,7 +261,7 @@ Also make sure to check debian-installer's `/var/log/syslog` (by opening a shell
 
 #### Build kernel package and udebs
 
-Check the Debian [kernel-handbook](http://kernel-handbook.alioth.debian.org/ch-common-tasks.html) for the instructions required to build the debian kernel package from scratch. Since the installer only understands `udeb` packages, it is a good idea to reuse the official kernel packaging instructions and rules.
+Check the Debian [kernel-handbook](https://kernel-team.pages.debian.net/kernel-handbook/ch-common-tasks.html) for the instructions required to build the debian kernel package from scratch. Since the installer only understands `udeb` packages, it is a good idea to reuse the official kernel packaging instructions and rules.
 
 You can also find the custom kernel source package created as part of the EE-RPB effort at [https://builds.96boards.org/snapshots/reference-platform/components/linux/enterprise/latest/](https://builds.96boards.org/snapshots/reference-platform/components/linux/enterprise/latest/)
 

@@ -75,7 +75,7 @@ Then just power cycle the board, and it should boot with the new firmware.
 
 #### SPI Hook
 
-Use [SPI Hook](http://www.tincantools.com/SPI_Hook.html) and _flashrom_ to flash the firmware via SPI, by plugging the programming unit into the Overdrive/Husky/Cello board 2x4 pin header (labeled SCP SPI J5 on Overdrive).
+Use [SPI Hook](https://www.tincantools.com/spi-hook/) and _flashrom_ to flash the firmware via SPI, by plugging the programming unit into the Overdrive/Husky/Cello board 2x4 pin header (labeled SCP SPI J5 on Overdrive).
 
 In order to use SPI Hook, make sure _flashrom_ is recent enough. This utility is used to identify, read, write, verify and erase flash chips. You can find the _flashrom_ package in most Linux distributions, but make sure the version at least v.0.9.8. If older, please just build latest from source, by going to [flashrom Downloads](https://www.flashrom.org/Downloads)
 
