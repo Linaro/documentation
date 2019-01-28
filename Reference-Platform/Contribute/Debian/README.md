@@ -22,7 +22,7 @@
    - https://wiki.debian.org/HowToPackageForDebian 
    - https://wiki.debian.org/Packaging/Intro
 - Open a bug at https://bugs.linaro.org/ (Reference Platform) with the package change that is required
-- [Example](http://packaging.ubuntu.com/html/traditional-packaging.html#creating-a-debdiff)
+- [Example](https://ubuntu-packaging-guide.readthedocs.io/en/latest/ubuntu-packaging-guide/traditional-packaging.html#creating-a-debdiff)
 
 ***
 

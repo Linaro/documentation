@@ -4,5 +4,5 @@
 
 ## Choose your Hardware
 
-- [D02](EnterpriseEdition/D02/README.md)
-- [Overdrive](EnterpriseEdition/Overdrive/README.md)
+- [D02]()EnterpriseEdition/D02/README.md
+- [Overdrive]()EnterpriseEdition/Overdrive/README.md
