@@ -40,7 +40,7 @@ Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md)
 * [CentOS 7](../Install-CentOS-7.md)
 
-Enterprise Test Reports: ([Debian](https://releases.linaro.org/96boards/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.06-TestReport.pdf))
+Enterprise Test Reports: ([Debian](https://releases.linaro.org/96boards/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://releases.linaro.org/96boards/reference-platform/components/centos-installer/16.06/))
 
 #### Other distributions
 

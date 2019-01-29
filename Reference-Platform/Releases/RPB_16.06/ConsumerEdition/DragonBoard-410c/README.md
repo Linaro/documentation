@@ -10,8 +10,8 @@
 |:-----------------------------:|
 |  [Install Instructions](InstallDebianRPB-16.06.md) |
 |   [Build from Source](BFSDebianRPB-16.06.md)       |
-|  [Known issues](../../../Known-Issues.md)           | 
+|  [Known issues](../../../../Extras/Known-Issues.md)           | 
 
 ***
 
-- Access generic **OpenEmbedded** build from source instructions [here](../../../CECommon/OE.md)
+- Access generic **OpenEmbedded** build from source instructions [here](../../../../CECommon/OE.md)

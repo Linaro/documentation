@@ -13,6 +13,6 @@
 - [Overdrive](EnterpriseEdition/Overdrive/README.md)
 - [Cello](EnterpriseEdition/Cello/README.md)
 - [X-Gene Mustang](EnterpriseEdition/X-Gene-Mustang/README.md)
-- [HP ProLiant m400](EnterpriseEdition/HP-Proliant-m400/README.md)
+- [HP ProLiant m400](EnterpriseEdition/HP-ProLiant-m400/README.md)
 
 Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.03-TestReport.pdf))
