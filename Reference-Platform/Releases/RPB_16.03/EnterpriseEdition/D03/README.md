@@ -22,7 +22,9 @@ The Reference Platform kernel will act as an integration point (very similar to 
 
 #### D03 - QuickStart
 
-UEFI/EDK2 is supported by D03 (with build from source instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#building), and since ACPI support is new, please make sure you are using the latest firmware available at [https://builds.96boards.org/snapshots/reference-platform/components/uefi/latest/release/d03/](https://builds.96boards.org/snapshots/reference-platform/components/uefi/latest/release/d03/) before proceeding with kernel testing or installing your favorite distribution (and please make sure to report your firmware version when reporting issues and bugs).
+UEFI/EDK2 is supported by D03 (with build from source instructions available as part of the [UEFI EDK2 Guide](../UEFI-EDK2-Guide-EE.md#building), and since ACPI support is new, please make sure you are using the latest firmware available at [https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/
+](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/
+) before proceeding with kernel testing or installing your favorite distribution (and please make sure to report your firmware version when reporting issues and bugs).
 
 **NOTE:** 16.06 kernel **requires** the 16.06 UEFI/EDK2 firmware release!
 
@@ -38,7 +40,7 @@ Install instructions for the tested/supported distributions:
 * [Debian 8.x 'Jessie'](../Install-Debian-Jessie.md)
 * [CentOS 7](../Install-CentOS-7.md)
 
-Enterprise Test Reports: ([Debian](https://builds.96boards.org/releases/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.06-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.06-TestReport.pdf))
+Enterprise Test Reports: ([Debian](https://releases.linaro.org/96boards/reference-platform/components/debian-installer/16.03/EE-Debian-RPB-16.03-TestReport.pdf) / [CentOS](https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.03/EE-CentOS-RPB-16.06-TestReport.pdf))
 
 #### Other distributions
 

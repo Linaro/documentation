@@ -1,6 +1,6 @@
 # Enterprise Reference Platform
 
-The enterprise reference platform is targeted to accelerate the high powered ARMv8 servers in both datacenter and cloud vertical markets. A unified Linux kernel is provided for all the supported platforms, verified against Industry standard firmware (SBBR and SBSA), simplifying software maintenance and deployment. The high level components such as Openstack, Ceph, Hadoop, and KVM are rigorously validated for each distribution. The enterprise software stack is based on Debian. The goal is to help bridge the gap between older technology present in today’s distributions and the latest ARM server optimizations. For more information and support please visit the [ERP forum](https://discuss.linaro.org/c/erp).
+The enterprise reference platform is targeted to accelerate the high powered ARMv8 servers in both datacenter and cloud vertical markets. A unified Linux kernel is provided for all the supported platforms, verified against Industry standard firmware (SBBR and SBSA), simplifying software maintenance and deployment. The high level components such as Openstack, Ceph, Hadoop, and KVM are rigorously validated for each distribution. The enterprise software stack is based on Debian. The goal is to help bridge the gap between older technology present in today’s distributions and the latest ARM server optimizations. For more information and support please visit the [ERP documentation repo on GitHub](https://github.com/linaro/documentation).
 
 **Features:**
 
