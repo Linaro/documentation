@@ -21,7 +21,7 @@
 
 - *Debian Installer (111):* [mini.iso](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/111/mini.iso) and [netboot.tar.gz](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/111/netboot.tar.gz)
 - *CentOS Installer:* [34](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/34/)
-- *Kernel:* [linux-image-4.4.0-97](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-97-arm64_4.4.0.linaro.97-1.linarojessie.1_arm64.deb)
+- *Kernel:* [linux-image-4.4.0-97](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-97-arm64_4.4.0.linaro.97-1.linarojessie.1_arm64.deb)
 - *UEFI*: [46](https://builds.96boards.org/snapshots/reference-platform/components/uefi/46/)
 - *CE AOSP RPB HiKey*: [65](https://builds.96boards.org/snapshots/reference-platform/aosp/hikey/65/)
 - *CE AOSP RPB Dragonboard410c:* [45](https://builds.96boards.org/snapshots/reference-platform/aosp/db410c/45/)
@@ -32,7 +32,7 @@
 
 - *Debian Installer:* [mini.iso](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/mini.iso) and [netboot.tar.gz](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/netboot.tar.gz)
 - *CentOS Installer:* [33](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/33/)
-- *Kernel:* [linux-image-4.4.0-97](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-97-arm64_4.4.0.linaro.97-1.linarojessie.1_arm64.deb)
+- *Kernel:* [linux-image-4.4.0-97](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-97-arm64_4.4.0.linaro.97-1.linarojessie.1_arm64.deb)
 - *UEFI*: [44](https://builds.96boards.org/snapshots/reference-platform/components/uefi/44/)
 - *CE AOSP RPB HiKey*: [65](https://builds.96boards.org/snapshots/reference-platform/aosp/hikey/65/)
 - *CE AOSP RPB Dragonboard410c:* [45](https://builds.96boards.org/snapshots/reference-platform/aosp/db410c/45/)
@@ -43,7 +43,7 @@
 
 - *Debian Installer:* [mini.iso](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/mini.iso) and [netboot.tar.gz](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/netboot.tar.gz)
 - *CentOS Installer:* [31](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/31/)
-- *Kernel:* [linux-image-4.4.0-93](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-93-arm64_4.4.0.linaro.93-1.linarojessie.1_arm64.deb)
+- *Kernel:* [linux-image-4.4.0-93](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-93-arm64_4.4.0.linaro.93-1.linarojessie.1_arm64.deb)
 - *UEFI*: [44](https://builds.96boards.org/snapshots/reference-platform/components/uefi/44/)
 - - *CE AOSP RPB HiKey*: [65](https://builds.96boards.org/snapshots/reference-platform/aosp/hikey/65/)
 - *CE AOSP RPB Dragonboard410c:* [45](https://builds.96boards.org/snapshots/reference-platform/aosp/db410c/45/)
@@ -54,7 +54,7 @@
 
 - *Debian Installer:* [mini.iso](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/mini.iso) and [netboot.tar.gz](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/netboot.tar.gz)
 - *CentOS Installer:* [30](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/30/)
-- *Kernel:* [linux-image-4.4.0-91](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-91-arm64_4.4.0.linaro.91-1.linarojessie.1_arm64.deb)
+- *Kernel:* [linux-image-4.4.0-91](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-91-arm64_4.4.0.linaro.91-1.linarojessie.1_arm64.deb)
 - *UEFI*: [44](https://builds.96boards.org/snapshots/reference-platform/components/uefi/44/)
 - *CE AOSP RPB HiKey*: [65](https://builds.96boards.org/snapshots/reference-platform/aosp/hikey/65/)
 - *CE AOSP RPB Dragonboard410c:* [45](https://builds.96boards.org/snapshots/reference-platform/aosp/db410c/45/)
@@ -65,7 +65,7 @@
 
 - *Debian Installer:* [mini.iso](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/mini.iso) and [netboot.tar.gz](https://ci.linaro.org/view/96boards/job/96boards-reference-debian-installer-staging/lastSuccessfulBuild/artifact/netboot.tar.gz)
 - *CentOS Installer:* [29](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/29/)
-- *Kernel:* [linux-image-4.4.0-85](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-85-arm64_4.4.0.linaro.85-1.linarojessie.1_arm64.deb)
+- *Kernel:* [linux-image-4.4.0-85](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/linux-image-4.4.0-85-arm64_4.4.0.linaro.85-1.linarojessie.1_arm64.deb)
 - *UEFI*: [43](https://builds.96boards.org/snapshots/reference-platform/components/uefi/43/)
 - *CE AOSP RPB HiKey*: [65](https://builds.96boards.org/snapshots/reference-platform/aosp/hikey/65/)
 - *CE AOSP RPB Dragonboard410c:* [43](https://builds.96boards.org/snapshots/reference-platform/aosp/db410c/43/)

@@ -1,8 +1,8 @@
-[<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/tXXN5bZ.png" data-canonical-src="http://i.imgur.com/tXXN5bZ.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/jl4GG0d.png" data-canonical-src="https://i.imgur.com/jl4GG0d.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/OQGR5yY.png" data-canonical-src="https://i.imgur.com/OQGR5yY.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/tXXN5bZ.png" data-canonical-src="https://i.imgur.com/tXXN5bZ.png" width="125" height="157" />]()
 
 
 ***
@@ -38,7 +38,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 1 - **Make sure fastboot is set up on host computer**
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- Android SDK “Tools only” for Linux can be downloaded <a href="https://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
 - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 

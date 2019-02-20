@@ -11,8 +11,8 @@ Downloading required Grub 2 UEFI files:
 ```shell
 sudo su -
 cd /srv/tftp/
-wget http://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/BOOTAA64.EFI
-wget http://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/grubaa64.efi
+wget https://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/BOOTAA64.EFI
+wget https://mirror.centos.org/altarch/7/os/aarch64/EFI/BOOT/grubaa64.efi
 ```
 
 #### Downloading the CentOS 7 Reference Platform installer (e.g. 16.06 release):
@@ -28,12 +28,12 @@ Creating the Grub 2 config file (`grub.cfg`):
 
 ```shell
 menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform' --class red --class gnu-linux --class gnu --class os {
-    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.repo=http://mirror.centos.org/altarch/7/os/aarch64/ inst.ks=file:/ks.cfg
+    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.repo=https://mirror.centos.org/altarch/7/os/aarch64/ inst.ks=file:/ks.cfg
     initrd (tftp)/centos7/initrd.img
 }
 ```
 
-**Note:** `inst.ks` is required because of the additional linaro-overlay repository (which contains the reference platform kernel rpm package), which is available inside the `initrd.img`. The `inst.ks` contains only one line, which is used by the installer to fetch and install the right kernel package. The content: `repo --name="linaro-overlay" --baseurl=http://repo.linaro.org/rpm/linaro-overlay/centos-7/repo/`.
+**Note:** `inst.ks` is required because of the additional linaro-overlay repository (which contains the reference platform kernel rpm package), which is available inside the `initrd.img`. The `inst.ks` contains only one line, which is used by the installer to fetch and install the right kernel package. The content: `repo --name="linaro-overlay" --baseurl=https://repo.linaro.org/rpm/linaro-overlay/centos-7/repo/`.
 
 Also check the [RHEL 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/chap-anaconda-boot-options.html) and the [anaconda documentation](https://rhinstaller.github.io/anaconda/boot-options.html) for additional boot options. One example is using **ip=eth1:dhcp** if you want to use the second network interface as default.
 
@@ -166,10 +166,10 @@ Kickstart example:
 
 ```shell
 cmdline
-url --url="http://mirror.centos.org/altarch/7/os/aarch64/"
-repo --name="CentOS" --baseurl=http://mirror.centos.org/altarch/7/os/aarch64/
-repo --name="Updates" --baseurl=http://mirror.centos.org/altarch/7/updates/aarch64/
-repo --name="linaro-overlay" --baseurl=http://repo.linaro.org/rpm/linaro-overlay/centos-7/repo/
+url --url="https://mirror.centos.org/altarch/7/os/aarch64/"
+repo --name="CentOS" --baseurl=https://mirror.centos.org/altarch/7/os/aarch64/
+repo --name="Updates" --baseurl=https://mirror.centos.org/altarch/7/updates/aarch64/
+repo --name="linaro-overlay" --baseurl=https://repo.linaro.org/rpm/linaro-overlay/centos-7/repo/
 lang en_US.UTF-8
 keyboard us
 timezone --utc Etc/UTC
@@ -204,7 +204,7 @@ Now back to your tftp server, change the original grub.cfg file adding the locat
 
 ```shell
 menuentry 'Install CentOS 7 ARM 64-bit - Reference Platform' --class red --class gnu-linux --class gnu --class os {
-    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.ks=http://people.linaro.org/~ricardo.salveti/centos-ks.cfg
+    linux (tftp)/centos7/vmlinuz ip=dhcp inst.stage2=https://builds.96boards.org/releases/reference-platform/components/centos-installer/16.06/ inst.ks=https://people.linaro.org/~ricardo.salveti/centos-ks.cfg
     initrd (tftp)/centos7/initrd.img
 }
 ```

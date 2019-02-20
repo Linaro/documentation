@@ -14,7 +14,7 @@ This is the main collaboration point when working on OpenEmbedded projects and i
 
 Submit all patches through the OpenEmbedded Core Mailing list
 
-http://lists.openembedded.org/mailman/listinfo/openembedded-core
+https://lists.openembedded.org/mailman/listinfo/openembedded-core
 
 ***
 
@@ -42,7 +42,7 @@ This layer houses many useful, but sometimes unmaintained recipes. Since the red
 
 Submit all patches through the OpenEmbedded Developer Mailing list
 
-http://lists.openembedded.org/mailman/listinfo/openembedded-devel
+https://lists.openembedded.org/mailman/listinfo/openembedded-devel
 
 ***
 
@@ -56,7 +56,7 @@ This layer holds the recipes for Firefox and Chromium. Both recipes require a lo
 
 Submit all patches through the OpenEmbedded Developer Mailing list
 
-http://lists.openembedded.org/mailman/listinfo/openembedded-devel
+https://lists.openembedded.org/mailman/listinfo/openembedded-devel
 
 ***
 
@@ -70,7 +70,7 @@ This is a cross-platform toolkit.
 
 Submit all patches through the OpenEmbedded Developer Mailing list
 
-http://lists.openembedded.org/mailman/listinfo/openembedded-devel
+https://lists.openembedded.org/mailman/listinfo/openembedded-devel
 
 ***
 

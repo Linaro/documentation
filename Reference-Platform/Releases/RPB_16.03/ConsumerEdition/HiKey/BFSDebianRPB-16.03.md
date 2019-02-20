@@ -31,7 +31,7 @@ defconfig: arch/arm64/configs/distro.config
 
 The kernel image (`Image`) and the kernel modules are installed in the root file system (e.g. `/boot/vmlinuz-4.4.0-104-arm64` and `/lib/modules/4.4.0-104-arm64`). It is possible for a user to rebuild the kernel and run a custom kernel image instead of the released kernel. You can build the kernel using any recent GCC release using the git tree, tag and defconfig mentioned above. This release only supports booting with device tree, as such both the device tree blobs need to be built as well.
 
-The HiKey is an ARMv8 platform, and the kernel is compiled for the Aarch64 target. Even though it is possible to build natively, on the target board, It is recommended to build the Linux kernel on a PC development host. In which case you need to install a cross compiler for the ARM architecture. It is recommended to download the Linaro GCC cross compiler [Aarch64 little-endian](http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz), also available [here](http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/)
+The HiKey is an ARMv8 platform, and the kernel is compiled for the Aarch64 target. Even though it is possible to build natively, on the target board, It is recommended to build the Linux kernel on a PC development host. In which case you need to install a cross compiler for the ARM architecture. It is recommended to download the Linaro GCC cross compiler [Aarch64 little-endian](https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz), also available [here](https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/)
 
 To build the Linux kernel, you can use the following instructions:
 
@@ -58,7 +58,7 @@ $ cd HiKey-16.03
 
 ```shell
 #Download
-$ wget http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz
+$ wget https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz
 #Unzip
 $ tar -Jxvf gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz
 ```
@@ -85,7 +85,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 - Use **96b/releases/2016.03** if you want the same version used by the 16.03 release
 
 ```shell
-$ git clone -b 96b/releases/2016.03 http://github.com/96boards/linux.git
+$ git clone -b 96b/releases/2016.03 https://github.com/96boards/linux.git
 ```
 
 - Cloning the kernel may take a few minutes

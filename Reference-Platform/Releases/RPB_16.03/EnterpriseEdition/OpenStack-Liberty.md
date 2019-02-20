@@ -2,7 +2,7 @@
 
 # Introduction
 
-In general, the instructions in the Liberty install guide should be followed: http://docs.openstack.org/liberty/install-guide-ubuntu/overview.html.  This guide will describe changes to the documented procedures that should be kept in mind while going through the guide.
+In general, the instructions in the Liberty install guide should be followed: https://docs.openstack.org/liberty/install-guide-ubuntu/overview.html.  This guide will describe changes to the documented procedures that should be kept in mind while going through the guide.
 
 Each section below will correspond to a section in the guide.  Guide sections that do not have a corresponding section below may be followed as-is.
 
@@ -41,14 +41,14 @@ Check if they are available by checking `/etc/apt/sources.list` and `/etc/apt/so
 If missing, add the following to `/etc/apt/sources.list.d` directory:
 
 ```shell
-$ echo "deb http://repo.linaro.org/ubuntu/linaro-overlay jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
+$ echo "deb https://repo.linaro.org/ubuntu/linaro-overlay jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E13D88F7E3C1D56C
 ```
 
 If missing, add the following to `/etc/apt/sources.list.d` directory:
 
 ```shell
-$ echo "deb http://httpredir.debian.org/debian jessie-backports main" | sudo tee /etc/apt/sources.list.d/jessie-backports.list
+$ echo "deb https://httpredir.debian.org/debian jessie-backports main" | sudo tee /etc/apt/sources.list.d/jessie-backports.list
 ```
 
 ## Modify repository priorities
@@ -94,7 +94,7 @@ $ sudo sysctl -p
 
 # Following the Openstack guide...
 
-OpenStack guide: http://docs.openstack.org/liberty/install-guide-ubuntu/overview.html
+OpenStack guide: https://docs.openstack.org/liberty/install-guide-ubuntu/overview.html
 
 ## Environment
 
@@ -213,7 +213,7 @@ The CirrOS image to run on aarch64 is the file that ends in `-uec.tar.gz`.  It m
 Download the CirrOS AArch64 UEC tarball and untar it:
 
 ```shell
-$ wget http://download.cirros-cloud.net/daily/20150923/cirros-d150923-aarch64-uec.tar.gz
+$ wget https://download.cirros-cloud.net/daily/20150923/cirros-d150923-aarch64-uec.tar.gz
 $ tar xvf cirros-d150923-aarch64-uec.tar.gz
 ```
 
@@ -262,7 +262,7 @@ Answer the questions asked by debconf:
 * Password for connection to the RabbitMQ server: **guest**
 * Auth server hostname: **\<use default, or localhost, or controller>**
 * Auth server password: **\<enter a password>**
-* Neutron server URL: **http://\<use default, or localhost, or controller>:9696**
+* Neutron server URL: **https://\<use default, or localhost, or controller>:9696**
 * Neutron administrator password: **\<enter a password>**
 * Metadata proxy shared secret: **\<enter a shared secret string>**
 * API to activate: choose **osapi_compute and metadata**

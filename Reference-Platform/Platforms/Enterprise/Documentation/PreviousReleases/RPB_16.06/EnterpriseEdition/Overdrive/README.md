@@ -25,7 +25,7 @@ UEFI/EDK2 is supported by Overdrive Rev B (with build from source instructions a
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](https://www.tincantools.com/spi-hook/).
+Follow the instructions available as part of the [UEFI EDK2 Guide](../../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your AMD Overdrive. The tested flashing process requires [DediProg SF100](https://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](https://www.tincantools.com/spi-hook/).
 
 ### Network Installers
 

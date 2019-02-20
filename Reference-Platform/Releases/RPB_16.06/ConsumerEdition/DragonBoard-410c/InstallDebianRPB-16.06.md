@@ -1,6 +1,6 @@
 # Install Instructions - Reference Software Platform
 
-This page provides download and installation instructions inteded for those interested in flashing the DragonBoard 410c board with pre-built Linaro Reference Software. Two methods are currently available: **SD card method** and **Fastboot method**. If you are already familiar with these methods, you may find all necessary files in the [96Boards RPB 16.06 build folder](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/).
+This page provides download and installation instructions inteded for those interested in flashing the DragonBoard 410c board with pre-built Linaro Reference Software. Two methods are currently available: **SD card method** and **Fastboot method**. If you are already familiar with these methods, you may find all necessary files in the [96Boards RPB 16.06 build folder](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/).
 
 ## Contents
 
@@ -27,7 +27,7 @@ This method requires the following hardware:
 
 #### Step 2: Download SD Card Image
 
-[SD Card Image - Direct Download](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-debian-jessie-alip-sdcard-*.img.gz)
+[SD Card Image - Direct Download](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-debian-jessie-alip-sdcard-*.img.gz)
 
 >Note the location of all downloads, they will be needed once you access your instruction set
 
@@ -146,7 +146,7 @@ $ sudo dd if=db410c_sd_install_debian.img of=/dev/XXX bs=4M oflag=sync status=no
 
 - Make sure DragonBoard™ 410c is unplugged from power
 - Set S6 switch on DragonBoard™ 410c to `0-1-0-0`, "SD Boot switch" should be set to "ON".
-   - Please see "1.1 Board Overview" on page 7 from [DragonBoard™ 410c Hardware Manual](http://linaro.co/96b-hwm-db) if you cannot find S6
+   - Please see "1.1 Board Overview" on page 7 from [DragonBoard™ 410c Hardware Manual](https://linaro.co/96b-hwm-db) if you cannot find S6
 - Connect an HDMI monitor to the DragonBoard™ 410c with an HDMI cable, and power on the monitor
 - Plug a USB keyboard and/or mouse into either of the two USB connectors on the DragonBoard™ 410c
 - Insert the microSD card into the DragonBoard™ 410c
@@ -156,7 +156,7 @@ $ sudo dd if=db410c_sd_install_debian.img of=/dev/XXX bs=4M oflag=sync status=no
 
 #### Step 11: Install RPB Linaro/Debian onto DragonBoard™ 410c
 
-<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+<img src="https://i.imgur.com/F18wlgU.png" data-canonical-src="https://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
 - If **Steps 1 - 8** were followed correctly, the above screen should be visible from your DragonBoard™ 410c
 - Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory
@@ -197,8 +197,8 @@ This method requires the following hardware:
 
 #### Step 3: Download Boot image and Root file system
 
-- Debian Boot ([Direct Download](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-boot-linux-*.img.gz) / <a href="http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
-- Debian Rootfs (Desktop) ([Direct Download](http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="http://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
+- Debian Boot ([Direct Download](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-boot-linux-*.img.gz) / <a href="https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
+- Debian Rootfs (Desktop) ([Direct Download](https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/dragonboard410c-rootfs-debian-jessie-alip-*.emmc.img.gz) / <a href="https://builds.96boards.org/releases/reference-platform/debian/dragonboard410c/16.06/" target="_blank">Build Folder</a> )
 
 >Note the location of all downloads, they will be needed once you access your instruction set
 
@@ -209,7 +209,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 1 - **Make sure fastboot is set up on host computer**
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- Android SDK “Tools only” for Linux can be downloaded <a href="https://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
 - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 

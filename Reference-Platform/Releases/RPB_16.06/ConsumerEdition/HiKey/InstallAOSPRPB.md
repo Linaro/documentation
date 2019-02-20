@@ -1,10 +1,10 @@
 #### Your Build Choice
 
-[<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/7wy1996.png" data-canonical-src="http://i.imgur.com/7wy1996.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
-[<img src="http://i.imgur.com/tXXN5bZ.png" data-canonical-src="http://i.imgur.com/tXXN5bZ.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/jl4GG0d.png" data-canonical-src="https://i.imgur.com/jl4GG0d.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/7wy1996.png" data-canonical-src="https://i.imgur.com/7wy1996.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />]()
+[<img src="https://i.imgur.com/tXXN5bZ.png" data-canonical-src="https://i.imgur.com/tXXN5bZ.png" width="125" height="157" />]()
 
 ***
 
@@ -29,17 +29,17 @@ This method requires the following hardware:
 - All HiKey **LeMaker 1G boards** will use the **8G files**
 - All HiKey **LeMaker 2G boards** will use the **8G files**
 
-Build Folders (<a href="http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/" target="_blank">**Binaries**</a> / <a href="http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/" target="_blank">**Image**</a>)
+Build Folders (<a href="https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/" target="_blank">**Binaries**</a> / <a href="https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/" target="_blank">**Image**</a>)
 
-- **l-loader.bin** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/l-loader.bin))
-- **fip.bin** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/fip.bin))
-- **nvme.img** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/nvme.img))
-- **ptable-aosp.img** ([**4G Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/ptable-aosp-4g.img) / [**8G Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/ptable-aosp-8g.img))
-- **hisi-idt.py** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/hisi-idt.py))
-- **boot_fat.uefi.img** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/boot_fat.uefi.img.tar.xz))
-- **cache.img.tar.xz** ([**Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/cache.img.tar.xz))
-- **userdata.img.xz** ([**4G Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/userdata.img.tar.xz) / [**8G Download**](http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/userdata-8gb.img.tar.xz))
-- **system.img.tar.xz** (<a href="http://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/system.img.tar.xz" target="_blank">**Download**</a>)
+- **l-loader.bin** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/l-loader.bin))
+- **fip.bin** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/fip.bin))
+- **nvme.img** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/nvme.img))
+- **ptable-aosp.img** ([**4G Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/ptable-aosp-4g.img) / [**8G Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/ptable-aosp-8g.img))
+- **hisi-idt.py** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/bootloader/hisi-idt.py))
+- **boot_fat.uefi.img** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/boot_fat.uefi.img.tar.xz))
+- **cache.img.tar.xz** ([**Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/cache.img.tar.xz))
+- **userdata.img.xz** ([**4G Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/userdata.img.tar.xz) / [**8G Download**](https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/userdata-8gb.img.tar.xz))
+- **system.img.tar.xz** (<a href="https://builds.96boards.org/releases/reference-platform/aosp/hikey/16.03/system.img.tar.xz" target="_blank">**Download**</a>)
 
 ***
 
@@ -49,7 +49,7 @@ This section show how to install the AOSP operating system to your HiKey using t
 
 1 - **Make sure fastboot is set up on host computer**
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- Android SDK “Tools only” for Linux can be downloaded <a href="https://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
 - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 

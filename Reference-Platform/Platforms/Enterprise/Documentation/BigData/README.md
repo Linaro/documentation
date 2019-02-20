@@ -32,14 +32,14 @@ We have used upstream of Apache Bigtop and upgraded the versions of the followin
 -----------------------------------------------------------------------------------------------------------------
 
 # About BigTop
-Bigtop is a set of tools and framework for comprehensive packaging, testing, and configuration of the open source big data components including, but not limited to, Hadoop, HBase and Spark. Check out the website http://bigtop.apache.org/
+Bigtop is a set of tools and framework for comprehensive packaging, testing, and configuration of the open source big data components including, but not limited to, Hadoop, HBase and Spark. Check out the website https://bigtop.apache.org/
 
 # Sources
 * Upstream: https://git.linaro.org/leg/bigdata/bigtop-trunk.git/ (The branch is erp18.06)
 * Root upstream: https://github.com/apache/bigtop 
 
 # Repo
-[TODO: update this] Docker: http://repo.linaro.org/debian/erp-18.06-stable/pool/main/d/docker.io/
+[TODO: update this] Docker: https://repo.linaro.org/debian/erp-18.06-stable/pool/main/d/docker.io/
 
 # How to Use the repo
 [TODO: Document how to use the repo steps here....]
@@ -48,7 +48,7 @@ Bigtop is a set of tools and framework for comprehensive packaging, testing, and
 ## Setup Environment
 * Debian 18.06 ERP release
 
-[TODO: update this]>	$ echo "deb http://repo.linaro.org/debian/erp-18.06-stable/ jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
+[TODO: update this]>	$ echo "deb https://repo.linaro.org/debian/erp-18.06-stable/ jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
 >	
 >	$ apt-get update
 
@@ -130,7 +130,7 @@ Following is a example configuration yaml for Hive:
 	# (the "License"); you may not use this file except in compliance with
 	# the License.  You may obtain a copy of the License at
 	#
-	#     http://www.apache.org/licenses/LICENSE-2.0
+	#     https://www.apache.org/licenses/LICENSE-2.0
 	#
 	# Unless required by applicable law or agreed to in writing, software
 	# distributed under the License is distributed on an "AS IS" BASIS,

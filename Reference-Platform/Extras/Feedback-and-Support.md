@@ -16,7 +16,7 @@
 
 ***
 
-- [**Linaro Bug Tracking**](http://bugs.linaro.org/)
+- [**Linaro Bug Tracking**](https://bugs.linaro.org/)
    - For non-official 96Boards development boards bugs related with the Reference Software Platform release, e.g. AMD Overdrive, HiSilicon D02, APM X-Gene, HP m400 and Developer Cloud
    - Report all **Enterprise Edition** Reference Platform bugs here, [**click here**](https://github.com/linaro/documentation/wiki/Reference-Platform-bugs) for help with reporting your first bug
 

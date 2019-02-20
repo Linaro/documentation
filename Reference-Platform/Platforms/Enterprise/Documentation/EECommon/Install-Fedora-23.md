@@ -13,8 +13,8 @@ Downloading required Grub 2 UEFI files:
 ```shell
 sudo su -
 cd /srv/tftp/
-wget http://dl.fedoraproject.org/pub/fedora-secondary/releases/22/Server/aarch64/os/EFI/BOOT/BOOTAA64.EFI
-wget http://dl.fedoraproject.org/pub/fedora-secondary/releases/22/Server/aarch64/os/EFI/BOOT/grubaa64.efi
+wget https://dl.fedoraproject.org/pub/fedora-secondary/releases/22/Server/aarch64/os/EFI/BOOT/BOOTAA64.EFI
+wget https://dl.fedoraproject.org/pub/fedora-secondary/releases/22/Server/aarch64/os/EFI/BOOT/grubaa64.efi
 ```
 
 Downloading upstream Kernel and Initrd
@@ -22,15 +22,15 @@ Downloading upstream Kernel and Initrd
 ```shell
 mkdir /srv/tftp/f23
 cd /srv/tftp/f23
-wget http://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/images/pxeboot/vmlinuz
-wget http://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/images/pxeboot/initrd.img
+wget https://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/images/pxeboot/vmlinuz
+wget https://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/images/pxeboot/initrd.img
 ```
 
 Creating the Grub 2 config file (`grub.cfg`):
 
 ```shell
 menuentry 'Install Fedora 23 ARM 64-bit' --class fedora --class gnu-linux --class gnu --class os {
-    linux (tftp)/f23/vmlinuz ip=dhcp inst.repo=http://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/
+    linux (tftp)/f23/vmlinuz ip=dhcp inst.repo=https://dl.fedoraproject.org/pub/fedora-secondary/releases/23/Server/aarch64/os/
     initrd (tftp)/f23/initrd.img
 }
 ```

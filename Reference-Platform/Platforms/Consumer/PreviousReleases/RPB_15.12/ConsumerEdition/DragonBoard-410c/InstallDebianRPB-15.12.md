@@ -18,7 +18,7 @@ The CE Debian RPB 15.12 - Dragonboard410c build is composed of the following art
 * Debian "Jessie"
 ** ALIP (LXDE based)
 ** Custom 96Boards artworks and default settings
-** Additional packages provided by "linaro-overlay":http://repo.linaro.org/ubuntu/linaro-overlay
+** Additional packages provided by "linaro-overlay":https://repo.linaro.org/ubuntu/linaro-overlay
 
 h4. Closed source binaries
 
@@ -32,7 +32,7 @@ Flashing and booting from the external SD Card is not supported by this release.
 
 *Bootloader files:*
 
-Download the latest bootloader zip from "http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest":http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest (look for dragonboard410c_bootloader_emmc_linux*.zip)
+Download the latest bootloader zip from "https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest":https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest (look for dragonboard410c_bootloader_emmc_linux*.zip)
 
 *CE Debian RPB image:*
 

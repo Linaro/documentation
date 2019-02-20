@@ -11,7 +11,7 @@ The CE AOSP RPB 15.10 - HiKey build is composed of the following artifacts:
 * Bootloader:
 ** ARM Trusted Firmware, EDK2/UEFI and Grub2
 ** For more information about the reference bootloader used by HiKey, please check "Reference-Bootloader-Hikey":https://github.com/96boards/documentation/wiki/Reference-Bootloader-Hikey
-** Pre-built files: "http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader":http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader
+** Pre-built files: "https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader":https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader
 * Linux Kernel:
 ** Derived from Linux 3.18 kernel
 ** Git: "https://github.com/96boards/linux.git":https://github.com/96boards/linux.git
@@ -23,7 +23,7 @@ h4. Closed source binaries
 The following components requires a closed source binary for better hardware support:
 
 * TI wlan firmware (@wl18xx@)
-** Git: "http://git.ti.com/wilink8-wlan/wl18xx_fw":http://git.ti.com/wilink8-wlan/wl18xx_fw
+** Git: "https://git.ti.com/wilink8-wlan/wl18xx_fw":https://git.ti.com/wilink8-wlan/wl18xx_fw
 ** Branch: *R8.5*
 * Extra firmware files available from firmware-linux
 * Mali (requires EULA)
@@ -34,18 +34,18 @@ The build is composed by the traditional Android image files (@boot@, @cache@, @
 
 *Bootloader files:*
 
-bc. wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/l-loader.bin
-wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/fip.bin
-wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/ptable-aosp.img
-wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/hisi-idt.py
+bc. wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/l-loader.bin
+wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/fip.bin
+wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/ptable-aosp.img
+wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/bootloader/hisi-idt.py
 
 *CE AOSP RPB image:*
 
-bc. wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/boot_fat.uefi.img.tar.xz
-wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/cache.img.tar.xz
-wget http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/userdata.img.tar.xz
+bc. wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/boot_fat.uefi.img.tar.xz
+wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/cache.img.tar.xz
+wget https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/userdata.img.tar.xz
 
-Since @system.img@ requires the user to accept an End User License Agreement covering the rights to download and use the proprietary Mali userspace driver, it needs to be manually downloaded via browser. Please go to "http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/system.img.tar.xz":http://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/system.img.tar.xz and follow the instructions to download the file.
+Since @system.img@ requires the user to accept an End User License Agreement covering the rights to download and use the proprietary Mali userspace driver, it needs to be manually downloaded via browser. Please go to "https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/system.img.tar.xz":https://builds.96boards.org/releases/reference-platform/aosp/hikey/15.10/system.img.tar.xz and follow the instructions to download the file.
 
 Uncompress the .tar.xz files using your operating system file manager, or with the following command, for each file:
 

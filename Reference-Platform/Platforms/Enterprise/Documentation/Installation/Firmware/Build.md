@@ -21,15 +21,15 @@ sudo apt-get install uuid-dev build-essential aisle
 Also make sure you have the right 'acpica-unix' version at your host system. The current one required by the 16.03/16.06 releases is 20150930, and you can find the packages (debian) at the 'linaro-overlay':
 
 ```shell
-wget http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/acpica-tools_20150930-1.linarojessie.1_amd64.deb
-wget http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/acpidump_20150930-1.linarojessie.1_all.deb
-wget http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/iasl_20150930-1.linarojessie.1_all.deb
+wget https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/acpica-tools_20150930-1.linarojessie.1_amd64.deb
+wget https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/acpidump_20150930-1.linarojessie.1_all.deb
+wget https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/a/acpica-unix/iasl_20150930-1.linarojessie.1_all.deb
 sudo dpkg -i --force-all *.deb
 ```
 
 If cross compiling, you also need to separately add the required toolchains. Ubuntu has a prebuilt arm-linux-gnueabihf toolchain, but not an aarch64-linux-gnu one.
 
-Download Linaro's GCC 4.9 cross-toolchain for Aarch64, and make it available in your 'PATH'. You can download and use the Linaro GCC binary (Linaro GCC 4.9-2015.02), available at [http://releases.linaro.org/15.02/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu.tar.xz](http://releases.linaro.org/15.02/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu.tar.xz)
+Download Linaro's GCC 4.9 cross-toolchain for Aarch64, and make it available in your 'PATH'. You can download and use the Linaro GCC binary (Linaro GCC 4.9-2015.02), available at [https://releases.linaro.org/15.02/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu.tar.xz](https://releases.linaro.org/15.02/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2015.02-3-x86_64_aarch64-linux-gnu.tar.xz)
 
 ```shell
 mkdir arm-tc arm64-tc
