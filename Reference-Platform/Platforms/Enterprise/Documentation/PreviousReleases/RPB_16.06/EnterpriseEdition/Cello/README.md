@@ -26,7 +26,7 @@ Booting from the network is not yet supported due lack of a binary UEFI driver f
 
 ##### Flashing the firmware
 
-Follow the instructions available as part of the [UEFI EDK2 Guide](../../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your LeMaker Cello. The tested flashing process requires [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](https://www.tincantools.com/spi-hook/).
+Follow the instructions available as part of the [UEFI EDK2 Guide](../../EECommon/UEFI-EDK2-Guide-EE.md#amd-overdrive) in order to flash your LeMaker Cello. The tested flashing process requires [DediProg SF100](https://www.dediprog.com/pd/spi-flash-solution/SF100) or [SPI Hook](https://www.tincantools.com/spi-hook/).
 
 ### Distro Installers
 

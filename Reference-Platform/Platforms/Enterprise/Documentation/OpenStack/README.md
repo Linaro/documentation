@@ -8,7 +8,7 @@ Cloud".
 The OpenStack packages are built by Linaro and made available in the following
 location:
 
-http://repo.linaro.org/debian/erp-17.08-stable/
+https://repo.linaro.org/debian/erp-17.08-stable/
 
 The build scripts for the packages are available in this repository on the
 [`openstack-venvs`](https://git.linaro.org/leg/sdi/openstack-ref-architecture.git/tree/openstack-venvs) folder. These scripts are provided on as is basis, and they are tailored specifically for Linaro's building environment. Use only at your

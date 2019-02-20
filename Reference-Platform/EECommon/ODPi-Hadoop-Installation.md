@@ -8,8 +8,8 @@ This post concentrates on installing ODPi components built using Apache BigTop. 
 
 ODPi deb and rpm packages can be found on Linaro repositories:
 
-* Debian Jessie - http://repo.linaro.org/ubuntu/linaro-overlay/
-* CentOS 7 - http://repo.linaro.org/rpm/linaro-overlay/centos-7/
+* Debian Jessie - https://repo.linaro.org/ubuntu/linaro-overlay/
+* CentOS 7 - https://repo.linaro.org/rpm/linaro-overlay/centos-7/
 
 
 # Installation :
@@ -19,7 +19,7 @@ ODPi deb and rpm packages can be found on Linaro repositories:
 Add to repo source list (**not required if you are using the installer from the Reference Platform**):
 
 ```shell
-echo "deb http://repo.linaro.org/ubuntu/linaro-overlay jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
+echo "deb https://repo.linaro.org/ubuntu/linaro-overlay jessie main" | sudo tee /etc/apt/sources.list.d/linaro-overlay-repo.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E13D88F7E3C1D56C
 ```
 
@@ -40,7 +40,7 @@ sudo apt-get install -ft jessie bigtop-tomcat bigtop-utils hadoop* spark* hue* z
 ### On CentOS:
 
 ```shell
-sudo wget http://repo.linaro.org/rpm/linaro-overlay/centos-7/linaro-overlay.repo -O /etc/yum.repos.d/linaro-overlay.repo
+sudo wget https://repo.linaro.org/rpm/linaro-overlay/centos-7/linaro-overlay.repo -O /etc/yum.repos.d/linaro-overlay.repo
 sudo yum update
 sudo yum -y install openssh-server openssh-clients java-1.7.0-openjdk*
 sudo yum install -y bigtop-tomcat bigtop-utils hadoop* spark* hue* zookeeper* hive* hbase* oozie* pig* mahout*

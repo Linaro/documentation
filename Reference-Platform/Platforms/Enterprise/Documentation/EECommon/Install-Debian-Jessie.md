@@ -230,7 +230,7 @@ d-i pkgsel/upgrade select safe-upgrade
 d-i finish-install/reboot_in_progress note
 ```
 
-In this example, this content is also available at [http://people.linaro.org/~ricardo.salveti/preseed.cfg](http://people.linaro.org/~ricardo.salveti/preseed.cfg)
+In this example, this content is also available at [https://people.linaro.org/~ricardo.salveti/preseed.cfg](https://people.linaro.org/~ricardo.salveti/preseed.cfg)
 
 #### Setting up grub.cfg
 
@@ -242,7 +242,7 @@ $ cat /srv/tftp/debian-installer/arm64/grub/grub.cfg
 set default=0
 set timeout=1
 menuentry 'Install with preseeding' {
-    linux    /debian-installer/arm64/linux auto=true priority=critical url=http://people.linaro.org/~ricardo.salveti/preseed.cfg ---
+    linux    /debian-installer/arm64/linux auto=true priority=critical url=https://people.linaro.org/~ricardo.salveti/preseed.cfg ---
     initrd   /debian-installer/arm64/initrd.gz
 }
 ```
@@ -261,7 +261,7 @@ Also make sure to check debian-installer's `/var/log/syslog` (by opening a shell
 
 #### Build kernel package and udebs
 
-Check the Debian [kernel-handbook](http://kernel-handbook.alioth.debian.org/ch-common-tasks.html) for the instructions required to build the debian kernel package from scratch. Since the installer only understands `udeb` packages, it is a good idea to reuse the official kernel packaging instructions and rules.
+Check the Debian [kernel-handbook](https://kernel-handbook.alioth.debian.org/ch-common-tasks.html) for the instructions required to build the debian kernel package from scratch. Since the installer only understands `udeb` packages, it is a good idea to reuse the official kernel packaging instructions and rules.
 
 You can also find the custom kernel source package created as part of the EE-RPB effort at [https://builds.96boards.org/snapshots/reference-platform/components/linux/enterprise/latest/](https://builds.96boards.org/snapshots/reference-platform/components/linux/enterprise/latest/)
 
@@ -273,7 +273,7 @@ Download the installer (from jessie):
 
 ```shell
 sudo apt-get build-dep debian-installer
-dget http://ftp.us.debian.org/debian/pool/main/d/debian-installer/debian-installer_20150422+deb8u4.dsc
+dget https://ftp.us.debian.org/debian/pool/main/d/debian-installer/debian-installer_20150422+deb8u4.dsc
 ```
 
 Change the kernel abi and set a default local preseed (so it can install your kernel during the install process):
@@ -316,7 +316,7 @@ Set up the local repo, so the installer can locate your udebs (from localudebs):
 ```shell
 cat <<EOF > sources.list.udeb
 deb [trusted=yes] copy:/PATH/TO/your/installer/d-i/debian-installer-20150422/build/ localudebs/
-deb http://httpredir.debian.org/debian jessie main/debian-installer
+deb https://httpredir.debian.org/debian jessie main/debian-installer
 EOF
 ```
 

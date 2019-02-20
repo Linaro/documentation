@@ -6,8 +6,8 @@ The board diversity should be addressed through dedicated BSP layer then MACHINE
 # Introduction
 
 This wiki is not an introduction on OpenEmbedded or Yocto Project. If you are not familiar with OpenEmbedded and the Yocto Project, it is very much recommended to read the appropriate documentation first. For example, you can start with:
-* http://openembedded.org/wiki/Main_Page
-* http://yoctoproject.org/
+* https://openembedded.org/wiki/Main_Page
+* https://yoctoproject.org/
 * https://www.yoctoproject.org/documentation
 
 In this wiki, we assume that the reader is familiar with basic concepts of OpenEmbedded.
@@ -31,7 +31,7 @@ The Linux kernel used for these boards is the Reference Platform Kernel (RPK). T
 | meta-linaro             | This layer is used to get the Linaro toolchain. |
 | meta-linaro-backports   | This is an experimental layer used to get newer versions into the build which were not part of the release. |
 | [meta-96boards BSP layer](https://github.com/96boards/meta-96boards) | This support layer is managed by Linaro and intended for boards that do not have their own board support layer. Currently used for the HiKey Consumer Edition board, and eventually the Bubblegum-96 board. If a vendor does not support their own layer, it can be added to this layer. |
-| [meta-qcom BSP layer](http://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom) | This is the board support layer for Qualcomm boards. Currently supports IFC6410 and the DragonBoard 410c. |
+| [meta-qcom BSP layer](https://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom) | This is the board support layer for Qualcomm boards. Currently supports IFC6410 and the DragonBoard 410c. |
 | [meta-st-cannes2 BSP Layer](https://github.com/cpriouzeau/meta-st-cannes2) | This is the board support layer for ST B2260 board. |
 
 # Package Dependencies
@@ -44,7 +44,7 @@ In order to successfully set up your build environment, you will need to install
 
 **Step 2**: Visit the OpenEmbedded (Getting Started) wiki to see which distribution specific dependencies you will need
 
-http://www.openembedded.org/wiki/Getting_started
+https://www.openembedded.org/wiki/Getting_started
 
 **Step 3**: Install 96Boards specific dependencies (Case specific)
 
@@ -59,7 +59,7 @@ or
 
 **Please Note**: If you are running Ubuntu 16.04 you will need to add the following line to your `/etc/apt/sources.list`
 
-`deb http://archive.ubuntu.com/ubuntu/ xenial universe`
+`deb https://archive.ubuntu.com/ubuntu/ xenial universe`
 
 ```shell
 $ cd /etc/apt/
@@ -110,7 +110,7 @@ where `MACHINE` is `dragonboard-410c` or `hikey`.
 
 # Bootloaders and eMMC partitions
 
-Build artifacts from your OE build will be flashed into the on-board eMMC (in contrast to some other boards which run their images from an SDcard). The OpenEmbedded BSP layer assumes that the _Linux_ Bootloaders and eMMC partition layout are used on the board (not the _Android_ ones; by default DragonBoards come pre-configured with the Android eMMC partition layout). You can download the latest Linux bootloader package for Dragonboard 410c from [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/) to your development host, it will be named something like `dragonboard410c_bootloader_emmc_linux-<version>.zip`.
+Build artifacts from your OE build will be flashed into the on-board eMMC (in contrast to some other boards which run their images from an SDcard). The OpenEmbedded BSP layer assumes that the _Linux_ Bootloaders and eMMC partition layout are used on the board (not the _Android_ ones; by default DragonBoards come pre-configured with the Android eMMC partition layout). You can download the latest Linux bootloader package for Dragonboard 410c from [here](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/) to your development host, it will be named something like `dragonboard410c_bootloader_emmc_linux-<version>.zip`.
 
 Whether your board is using the Android eMMC partition layout or the Linux partition eMMC layout, you will use the Android `fastboot` utility on your development host for managing the board's eMMC partitions. If you are using a relatively recent Linux distribution on your development host, it probably already has a package that includes the `fastboot` utility (it might be named something like `android-tools` or `android-tools-fastboot`) so go ahead and install it on your development host. In order for your development host's fastboot utility to interact with the board, in the case of the DragonBoard 410c, it must be booted into a special `fastboot mode`. The procedure to do so is as follows:
 * remove power from your DragonBoard 410c
@@ -177,7 +177,7 @@ When running the `setup-environment` script, you were asked to read/accept the Q
 
 If you accepted the EULA, when building an image for DragonBoard 410c all proprietary firmware are installed automatically in `/lib/firmware`, and a copy of the EULA is added as '/etc/license.txt`. 
 
-If you did not accept the EULA, the firmware are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately from [here](http://builds.96boards.org/releases/dragonboard410c/qualcomm/firmware/).
+If you did not accept the EULA, the firmware are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately from [here](https://builds.96boards.org/releases/dragonboard410c/qualcomm/firmware/).
 
 # Build a simple X11 image
 
@@ -340,6 +340,6 @@ fastboot flash system rpb-weston-image-hikey.rootfs.img
 
 # Support
 
-For general question or support request, please go to [96boards.org Community forum](http://www.96boards.org/forums/forum/products/).
+For general question or support request, please go to [96boards.org Community forum](https://www.96boards.org/forums/forum/products/).
 
 For any bug related to this release, please submit issues to the [Linaro Bug Tracking System](https://bugs.linaro.org/). To submit a bug, follow this [link](https://bugs.linaro.org/enter_bug.cgi?product=Reference%20Platforms).

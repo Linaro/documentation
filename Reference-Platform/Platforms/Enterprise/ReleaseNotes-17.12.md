@@ -61,6 +61,6 @@ The goal of the Linaro Enterprise Reference Platform is to provide a fully teste
 - [3158](https://bugs.linaro.org/show_bug.cgi?id=3158) [ThunderX] DPDK PMD driver has non complete implementation for VLAN API
 
 #### DPDK notes
-- The DPDK release notes are available at [DPDK site](http://dpdk.org/doc/guides/rel_notes/release_17_11.html)
+- The DPDK release notes are available at [DPDK site](https://dpdk.org/doc/guides/rel_notes/release_17_11.html)
 - Only platform specific bugs have been found, please check the 'known bugs' section above.
 

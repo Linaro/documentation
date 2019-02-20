@@ -30,7 +30,7 @@ enable-tftp
 tftp-root=/srv/tftp
 ```
 
-Check [http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html](http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html) for more information and additional dnsmasq config options.
+Check [https://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html](https://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html) for more information and additional dnsmasq config options.
 
 Now make sure the tftp-root directory is available, and then start/restart the dnsmasq service:
 

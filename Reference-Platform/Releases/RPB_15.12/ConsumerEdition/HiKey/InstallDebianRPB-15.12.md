@@ -11,7 +11,7 @@ The CE Debian RPB 15.12 - HiKey build is composed of the following artifacts:
 * Bootloader:
 ** ARM Trusted Firmware, EDK2/UEFI and Grub2
 ** For more information about the reference bootloader used by HiKey, please check "Reference-Bootloader-Hikey":https://github.com/96boards/documentation/wiki/Reference-Bootloader-Hikey
-** Pre-built files: "http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader":http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader
+** Pre-built files: "https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader":https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader
 * Linux Kernel:
 ** Upstream plus extra changes for a better hardware support
 ** Git: "https://github.com/rsalveti/linux.git":https://github.com/rsalveti/linux.git
@@ -19,7 +19,7 @@ The CE Debian RPB 15.12 - HiKey build is composed of the following artifacts:
 * Debian "Jessie"
 ** ALIP (LXDE based)
 ** Custom 96Boards artworks and default settings
-** Additional packages provided by "linaro-overlay":http://repo.linaro.org/ubuntu/linaro-overlay
+** Additional packages provided by "linaro-overlay":https://repo.linaro.org/ubuntu/linaro-overlay
 ** Kernel and initrd loaded from the rootfs (under /boot)
 
 h4. Closed source binaries
@@ -27,7 +27,7 @@ h4. Closed source binaries
 The following components requires a closed source binary for better hardware support:
 
 * TI wlan firmware (@wl18xx@)
-** Git: "http://git.ti.com/wilink8-wlan/wl18xx_fw":http://git.ti.com/wilink8-wlan/wl18xx_fw
+** Git: "https://git.ti.com/wilink8-wlan/wl18xx_fw":https://git.ti.com/wilink8-wlan/wl18xx_fw
 ** Branch: *R8.6*
 * Extra firmware files available from firmware-linux
 * Mali (not yet included by default)
@@ -40,12 +40,12 @@ Flashing and booting from the external SD Card is not supported by this release.
 
 *Bootloader files:*
 
-bc. wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/l-loader.bin
-wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/nvme.img
-wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/fip.bin
-wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/ptable-linux-4g.img
-wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/ptable-linux-8g.img
-wget http://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/hisi-idt.py
+bc. wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/l-loader.bin
+wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/nvme.img
+wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/fip.bin
+wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/ptable-linux-4g.img
+wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/ptable-linux-8g.img
+wget https://builds.96boards.org/releases/reference-platform/debian/hikey/15.12/bootloader/hisi-idt.py
 
 *CE Debian RPB image:*
 

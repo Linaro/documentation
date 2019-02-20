@@ -10,7 +10,7 @@ Additional AOSP repositories are hosted at:
 
 *Build setup:*
 
-Please setup the host machine by following the instructions here: [http://source.android.com/source/initializing.html](http://source.android.com/source/initializing.html)
+Please setup the host machine by following the instructions here: [https://source.android.com/source/initializing.html](https://source.android.com/source/initializing.html)
 
 Also install make sure to install the following packages:
 
@@ -25,7 +25,7 @@ mkdir android/
 cd android/
 mkdir -p vendor/db410c
 cd vendor/db410c
-wget http://developer.qualcomm.com/download/db410c/firmware-410c-1.2.0.bin
+wget https://developer.qualcomm.com/download/db410c/firmware-410c-1.2.0.bin
 sh firmware-410c-1.2.0.bin
 cd -
 ```

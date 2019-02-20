@@ -10,7 +10,7 @@ defconfig: arch/arm64/defconfig kernel/configs/distro.config
 
 The kernel image (@Image@) is located in the @boot@ image and partition and the kernel modules are installed in the root file system. It is possible for a user to rebuild the kernel and run a custom kernel image instead of the released kernel. You can build the kernel using any recent GCC release using the git tree, tag and defconfig mentioned above. This release only supports booting with device tree, as such both the device tree blobs need to be built as well.
 
-The DragonBoard 410c is an ARMv8 platform, and the kernel is compiled for the Aarch64 target. Even though it is possible to build natively, on the target board, It is recommended to build the Linux kernel on a PC development host. In which case you need to install a cross compiler for the ARM architecture. It is recommended to download the "Linaro GCC cross compiler (Aarch64 little-endian)":http://releases.linaro.org/14.11/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu.tar.xz.
+The DragonBoard 410c is an ARMv8 platform, and the kernel is compiled for the Aarch64 target. Even though it is possible to build natively, on the target board, It is recommended to build the Linux kernel on a PC development host. In which case you need to install a cross compiler for the ARM architecture. It is recommended to download the "Linaro GCC cross compiler (Aarch64 little-endian)":https://releases.linaro.org/14.11/components/toolchain/binaries/aarch64-linux-gnu/gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu.tar.xz.
 
 To build the Linux kernel, you can use the following instructions:
 
@@ -65,13 +65,13 @@ While the first stage bootloader is proprietary and released as firmware blob av
 
 The original LK source code is available on "CodeAurora.org":https://www.codeaurora.org/cgit/quic/la/kernel/lk/, and the source code which is used in this release can be found in the "Linaro Qualcomm Landing Team git repository":https://git.linaro.org/landing-teams/working/qualcomm/lk.git:
 
-bc. git: http://git.linaro.org/landing-teams/working/qualcomm/lk.git
+bc. git: https://git.linaro.org/landing-teams/working/qualcomm/lk.git
 tag: ubuntu-qcom-dragonboard410c-LA.BR.1.2.4-00310-8x16.0-linaro1
 
 To build the LK bootloader, you can use the following instructions:
 
 bc. git clone git://codeaurora.org/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8.git -b LA.BR.1.1.3.c4-01000-8x16.0
-git clone http://git.linaro.org/landing-teams/working/qualcomm/lk.git -b ubuntu-qcom-dragonboard410c-LA.BR.1.2.4-00310-8x16.0-linaro1
+git clone https://git.linaro.org/landing-teams/working/qualcomm/lk.git -b ubuntu-qcom-dragonboard410c-LA.BR.1.2.4-00310-8x16.0-linaro1
 cd lk
 make -j4 msm8916 EMMC_BOOT=1 TOOLCHAIN_PREFIX=<path to arm-eabi-4.8 tree>/bin/arm-eabi-
 

@@ -55,7 +55,7 @@ On EBL fs1 is for USB first partition, while fs0 the ramdisk.
 
 #### DediProg SF100
 
-Use [DediProg SF100](http://www.dediprog.com/pd/spi-flash-solution/sf100) to flash the firmware via SPI, by plugging the programming unit into the Overdrive/Husky/Cello board 2x4 pin header (labeled SCP SPI J5 on Overdrive).
+Use [DediProg SF100](https://www.dediprog.com/pd/spi-flash-solution/sf100) to flash the firmware via SPI, by plugging the programming unit into the Overdrive/Husky/Cello board 2x4 pin header (labeled SCP SPI J5 on Overdrive).
 
 The Dediprog flashing tool is also available for Linux, please check for [https://github.com/DediProgSW/SF100Linux](https://github.com/DediProgSW/SF100Linux) for build and use instructions.
 

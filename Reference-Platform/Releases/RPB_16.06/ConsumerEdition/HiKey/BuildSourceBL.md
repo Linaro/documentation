@@ -12,9 +12,9 @@ Since GRUB2 is currently consumed directly from the Debian package, debian packa
 
 Prerequisites:
 - GCC 5.3 cross-toolchain for Aarch64 available in your PATH
-   - You can download and use the Linaro GCC binary (Linaro GCC 5.3-2016.02), available at [http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz](http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz)
+   - You can download and use the Linaro GCC binary (Linaro GCC 5.3-2016.02), available at [https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz](https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz)
 - GCC 5.3 cross-toolchain for gnueabihf available in your PATH
-   - You can download and use the Linaro GCC binary (Linaro GCC 5.3-2016.02), available at [http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/arm-linux-gnueabihf/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf.tar.xz](http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/arm-linux-gnueabihf/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf.tar.xz)
+   - You can download and use the Linaro GCC binary (Linaro GCC 5.3-2016.02), available at [https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/arm-linux-gnueabihf/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf.tar.xz](https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/arm-linux-gnueabihf/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf.tar.xz)
 - GPT fdisk (gdisk package from your favorite distribution).
 
 #### Installing pre-built toolchain(s)

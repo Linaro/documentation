@@ -8,7 +8,7 @@ Additional AOSP repositories are hosted here:
 
 **Build setup:**
 
-Please setup the host machine by following the instructions here: [http://source.android.com/source/initializing.html](http://source.android.com/source/initializing.html)
+Please setup the host machine by following the instructions here: [https://source.android.com/source/initializing.html](https://source.android.com/source/initializing.html)
 
 ###### Out of date:
 NOTE: The build tries to mount a loop device as fat partition to create the boot-fat.uefi.img filesystem image. Please make sure your user is allowed to run those commands in sudo without password by running "visudo" and appending the following lines (replacing "<USER>" with your username):
@@ -29,7 +29,7 @@ mkdir android/
 cd android/
 ```
 
-Download and extract the Mali vendor binaries in the above directory: http://builds.96boards.org/snapshots/hikey/linaro/binaries/20150706/vendor.tar.bz2
+Download and extract the Mali vendor binaries in the above directory: https://builds.96boards.org/snapshots/hikey/linaro/binaries/20150706/vendor.tar.bz2
 
 **Build the image:**
 

@@ -12,9 +12,9 @@
 
 > Note: If hardware is not linked, [contact distributor](../../Hardware/README.md) for more information on available firmware.
 
-- [D03](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d03/)
-- [D05](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
-- [OverDrive](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
+- [D03](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d03/)
+- [D05](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
+- [OverDrive](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
 - X-Gene
 - m400
 - QDF2432

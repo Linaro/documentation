@@ -1,6 +1,6 @@
 # Install Instructions - Reference Software Platform
 
-This page provides download and installation instructions inteded for those interested in flashing the HiKey board with pre-built Linaro Reference Software. Two methods are currently available: **SD card method** and **Fastboot method**. If you are already familiar with these methods, you may find all necessary files in the [96Boards RPB 16.06 build folder](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/).
+This page provides download and installation instructions inteded for those interested in flashing the HiKey board with pre-built Linaro Reference Software. Two methods are currently available: **SD card method** and **Fastboot method**. If you are already familiar with these methods, you may find all necessary files in the [96Boards RPB 16.06 build folder](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/).
 
 ## Contents
 
@@ -11,11 +11,11 @@ This page provides download and installation instructions inteded for those inte
 
 # SD Card Method
 
-<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />
-<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
-<img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />
-<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
-<img src="http://i.imgur.com/g8N21m1.png" data-canonical-src="http://i.imgur.com/g8N21m1.png" width="125" height="157" />
+<img src="https://i.imgur.com/jl4GG0d.png" data-canonical-src="https://i.imgur.com/jl4GG0d.png" width="125" height="157" />
+<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="https://i.imgur.com/OQGR5yY.png" data-canonical-src="https://i.imgur.com/OQGR5yY.png" width="125" height="157" />
+<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="https://i.imgur.com/g8N21m1.png" data-canonical-src="https://i.imgur.com/g8N21m1.png" width="125" height="157" />
 
 #### Step 1: Read about the SD Card Method
 
@@ -34,7 +34,7 @@ This method requires the following hardware:
 
 **Debian Linux Reference Software Platform - SD Card Image**
 
-[SD Card Image - Direct Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
+[SD Card Image - Direct Download](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz)
 
 ***
 
@@ -131,7 +131,7 @@ sudo dd if=hikey-jessie_alip_2015MMDD-nnn.img of=/dev/XXX bs=4M oflag=sync statu
 
 #### Step 10: Install Linaro/Debian onto HiKey
 
-<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+<img src="https://i.imgur.com/F18wlgU.png" data-canonical-src="https://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
 - If **Steps 1 - 8** were followed correctly, the above screen should be visible from your HiKey
 - Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory
@@ -151,11 +151,11 @@ Before clicking "OK":
 
 # Fastboot Method
 
-<img src="http://i.imgur.com/jl4GG0d.png" data-canonical-src="http://i.imgur.com/jl4GG0d.png" width="125" height="157" />
-<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
-<img src="http://i.imgur.com/OQGR5yY.png" data-canonical-src="http://i.imgur.com/OQGR5yY.png" width="125" height="157" />
-<img src="http://i.imgur.com/yRQKDI6.png" data-canonical-src="http://i.imgur.com/yRQKDI6.png" width="125" height="157" />
-<img src="http://i.imgur.com/tXXN5bZ.png" data-canonical-src="http://i.imgur.com/tXXN5bZ.png" width="125" height="157" />
+<img src="https://i.imgur.com/jl4GG0d.png" data-canonical-src="https://i.imgur.com/jl4GG0d.png" width="125" height="157" />
+<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="https://i.imgur.com/OQGR5yY.png" data-canonical-src="https://i.imgur.com/OQGR5yY.png" width="125" height="157" />
+<img src="https://i.imgur.com/yRQKDI6.png" data-canonical-src="https://i.imgur.com/yRQKDI6.png" width="125" height="157" />
+<img src="https://i.imgur.com/tXXN5bZ.png" data-canonical-src="https://i.imgur.com/tXXN5bZ.png" width="125" height="157" />
 
 ***
 
@@ -180,14 +180,14 @@ This method requires the following hardware:
 - All HiKey **LeMaker 1G boards** will use the **8G files**
 - All HiKey **LeMaker 2G boards** will use the **8G files**
 
-**ptable-linux.img** ([**4G Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) / [**8G Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img))
+**ptable-linux.img** ([**4G Download**](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) / [**8G Download**](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img))
 
 ***
 
 #### Step 3: Download Boot image and Root File System
 
-- **Debian Boot** ([**Download**](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz))
-- **Debian Rootfs** (<a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz" target="_blank">**Download**</a>)
+- **Debian Boot** ([**Download**](https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz))
+- **Debian Rootfs** (<a href="https://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz" target="_blank">**Download**</a>)
 
 ***
 
@@ -199,7 +199,7 @@ This section show how to install the Linaro based Debian operating system to you
 
 1 - **Make sure fastboot is set up on host computer**
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- Android SDK “Tools only” for Linux can be downloaded <a href="https://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
 - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 

@@ -32,7 +32,7 @@
 
 ```
 sudo su -
-echo "deb http://repo.linaro.org/ubuntu/qcom-overlay jessie main" > /etc/apt/sources.list.d/qcom-overlay-repo.list
+echo "deb https://repo.linaro.org/ubuntu/qcom-overlay jessie main" > /etc/apt/sources.list.d/qcom-overlay-repo.list
 apt-get update
 apt-get install libdrm2 libdrm-freedreno1 libegl1-mesa libegl1-mesa-drivers libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libgles1-mesa libgles2-mesa libosmesa6 libwayland-egl1-mesa libxatracker2 xserver-xorg-video-freedreno
 reboot

@@ -25,7 +25,7 @@ Available at [google docs](https://docs.google.com/document/d/1utMREYtMKmC0eRM3d
 
 #### Final Builds
 
-- *Reference Platform Kernel:* [4.4.0-135-arm64_4.4.11.linaro.135](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- *Reference Platform Kernel:* [4.4.0-135-arm64_4.4.11.linaro.135](https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
 - **CentOS Installer:** [54](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/54/)
 - **UEFI/EDK2:** [106](https://builds.96boards.org/snapshots/reference-platform/components/uefi/106/)
 - **Debian Installer:** [259](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/259/)
@@ -37,7 +37,7 @@ Changes compared RC4:
 
 #### Release Candidate 4
 
-- *Reference Platform Kernel:* [4.4.0-133-arm64_4.4.11.linaro.133](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- *Reference Platform Kernel:* [4.4.0-133-arm64_4.4.11.linaro.133](https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
 - **CentOS Installer:** [53](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/53/)
 - **UEFI/EDK2:** [106](https://builds.96boards.org/snapshots/reference-platform/components/uefi/106/)
 - **Debian Installer:** [255](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/255/)
@@ -46,7 +46,7 @@ Changes compared RC4:
 
 #### Release Candidate 3
 
-- *Reference Platform Kernel:* [4.4.0-132-arm64_4.4.11.linaro.132](http://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
+- *Reference Platform Kernel:* [4.4.0-132-arm64_4.4.11.linaro.132](https://repo.linaro.org/ubuntu/linaro-overlay/pool/main/l/linux/)
 - **CentOS Installer:** [46](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer/46/)
 - **UEFI/EDK2:** [102](https://builds.96boards.org/snapshots/reference-platform/components/uefi/102/)
 - **Debian Installer:** [240](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer/240/)
@@ -71,7 +71,7 @@ Changes compared RC4:
 
 #### Release Candidate 2
 
-- *Reference Platform Kernel:* [4.4.0-128-arm64_4.4.11.linaro.128](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
+- *Reference Platform Kernel:* [4.4.0-128-arm64_4.4.11.linaro.128](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
 - **CentOS Installer (staging):** [15](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/15/)
 - **UEFI/EDK2:** [85](https://builds.96boards.org/snapshots/reference-platform/components/uefi/85/)
 - **Debian Installer (staging):** [121](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/121)
@@ -80,7 +80,7 @@ Changes compared RC4:
 
 #### Release Candidate 1
 
-- *Reference Platform Kernel:* [4.4.0-125-arm64_4.4.11.linaro.125](http://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
+- *Reference Platform Kernel:* [4.4.0-125-arm64_4.4.11.linaro.125](https://repo.linaro.org/ubuntu/linaro-staging/pool/main/l/linux/)
 - **CentOS Installer (staging):** [11](https://builds.96boards.org/snapshots/reference-platform/components/centos-installer-staging/11/)
 - **UEFI/EDK2:** [78](https://builds.96boards.org/snapshots/reference-platform/components/uefi/78/)
 - **Debian Installer (staging):** [100](https://builds.96boards.org/snapshots/reference-platform/components/debian-installer-staging/100)

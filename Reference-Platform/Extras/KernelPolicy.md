@@ -8,7 +8,7 @@ See [Responsibilities](#responsibilities) on how to get your patches into RPK.
 
 ## Rules
 1. Patches will not break the single multi-platform kernel that is shipped as part of the RP
-1. Each patch will ensure that it doesn't break the kernel build and booting. e.g. It is not OK for patches 1-3 to break the build and then patch 4 in a series fixing the build. Tools such at [git test-sequence](http://dustin.sallings.org/2010/03/28/git-test-sequence.html) can help automate this testing for a topic branch.
+1. Each patch will ensure that it doesn't break the kernel build and booting. e.g. It is not OK for patches 1-3 to break the build and then patch 4 in a series fixing the build. Tools such at [git test-sequence](https://dustin.sallings.org/2010/03/28/git-test-sequence.html) can help automate this testing for a topic branch.
 1. In general, kernel patches will be accepted in the RP kernel (for staging) only if they’re undergoing review on LKML or other relevant upstream (not @linaro.org) mailing lists first
 1. Patches will be dropped from the RP kernel tree in the following cases:
   * Patch has been rejected upstream and maintainer has outlined a different approach to take
