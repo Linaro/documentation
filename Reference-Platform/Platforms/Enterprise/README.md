@@ -20,6 +20,7 @@ The enterprise reference platform is targeted to accelerate the high powered ARM
 
 ## Releases
 
+- [Enterprise Reference Platform 19.03](ReleaseNotes-19.03.md)
 - [Enterprise Reference Platform 18.12](ReleaseNotes-18.12.md)
 - [Enterprise Reference Platform 18.06](ReleaseNotes-18.06.md)
 - [Enterprise Reference Platform 17.12](ReleaseNotes-17.12.md)
