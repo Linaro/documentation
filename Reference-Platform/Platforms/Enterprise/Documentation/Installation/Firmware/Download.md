@@ -12,12 +12,12 @@
 
 > Note: If hardware is not linked, [contact distributor](../../Hardware/README.md) for more information on available firmware.
 
-- [D03](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d03/)
-- [D05](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
-- [OverDrive](https://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
-- X-Gene
+- [Kunpeng 916](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d05/)
+- [Kunpeng 920](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/d06/)
+- [OverDrive](http://releases.linaro.org/reference-platform/enterprise/latest/uefi/release/overdrive/)
 - m400
-- QDF2432
+- QDF2400
 - Thunder X
+- Thunder X2
 
 Proceed back to the [Installation](Install.md) page
