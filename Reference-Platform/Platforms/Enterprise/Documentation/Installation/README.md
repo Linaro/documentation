@@ -10,7 +10,7 @@ Be sure to check out the [Release Notes](../../ReleaseNotes.md) before installin
 
 <table align="center">
 <tr>
-    <th>UEFI/EDK2</td>
+    <th>UEFI/EDK2</th>
     <td align="center"><a href="Firmware/Download.md">Download</a><br>Get the latest pre-built firmware images</td>
     <td align="center"><a href="Firmware/Build.md">Build</a><br>Instructions for building latest firmware images</td>
     <td align="center"><a href="Firmware/Install.md">Install</a><br>Instructions on how to install firmware</td>
@@ -24,8 +24,8 @@ Be sure to check out the [Release Notes](../../ReleaseNotes.md) before installin
 
 <table align="center">
 <tr>
-    <th>Debian</td>
-    <td>https://wiki.debian.org/PXEBootInstall</td>
+    <th>Debian</th>
+    <td><a href="https://wiki.debian.org/PXEBootInstall">PXE Boot Installation</a></td>
 </tr>
 </table>
 
@@ -39,7 +39,7 @@ Choose your network installer, download or build, and proceed to the installatio
   
 <table>
 <tr>
-    <th>Debian</td>
+    <th>Debian</th>
     <td><a href="https://releases.linaro.org/reference-platform/enterprise/16.12/debian-installer/">Download</a></td>
     <td><a href="Debian/README.md">Install</a></td>
 </tr>
